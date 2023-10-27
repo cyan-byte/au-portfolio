@@ -10,7 +10,7 @@ body {
 }
 
 h3 {
-    font-size: 2.8rem;
+  font-size: 2.8rem;
 }
 
 a {
@@ -155,18 +155,18 @@ a {
 }
 
 .home-project-link {
-    display: flex;
-    justify-content: center;
-    font-size: 1.6rem;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  margin-top: 20px;
 }
 
-.game-link {
-  color: #f5ffb6;
-}
-
-.game-link-talon {
-    color: rgb(7, 72, 191);
+.game-link a {
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-left: 8px;
+  text-decoration: underline;
 }
 
 .home-ux-section {
@@ -204,7 +204,7 @@ a {
 }
 
 .home-artisan-section p {
-  max-width: 764px;
+  max-width: 800px;
 }
 
 .home-artisan-section img {
@@ -222,14 +222,14 @@ a {
 }
 
 .home-artisan-middle-right {
-    margin-top: -48px;
+  margin-top: -48px;
 }
 
 .home-artisan-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 48px;
 }
 
 .home-artisan-bottom p {

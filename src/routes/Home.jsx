@@ -152,7 +152,7 @@ export default function Home() {
         </div>
         <div className="home-project-link">
           Take a look at Talon here:
-          <span className="game-link-talon">
+          <span className="game-link">
             {" "}
             <a
               href="https://modern-e-commerce-store-front-end-1-1.onrender.com/"
