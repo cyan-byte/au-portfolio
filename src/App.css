@@ -1,38 +1,249 @@
-.App {
+html {
+  font-size: 62.5%;
+  font-family: Poppins;
+  background-color: #a48c8a;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+.font-link1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-link2 {
+  font-family: "Libre Baskerville", serif;
+}
+
+/* Navigation */
+.name-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #fcbc41;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 158px;
+  height: 51px;
+  padding: 4px 8px;
+}
+
+.nav-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 24px;
+  padding-left: 32px;
+  padding-right: 96px;
+}
+
+.nav-home ul {
+  display: flex;
+  gap: 32px;
+  font-size: 1.6rem;
+  list-style: none;
+  background-color: #a48c8a;
+  border-radius: 16px;
+  padding: 16px 16px 8px 16px;
+}
+
+.current-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+
+.page-indicator-bar {
+  background-color: #f5ffb6;
+  width: 32px;
+  height: 8px;
+  border-radius: 8px;
+  border: solid #1e1e1e 1px;
+}
+
+/* Home */
+.flex-container {
+  display: flex;
+}
+
+.home-left {
+  width: 344px;
+}
+
+.home-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fill;
+}
+
+.greeting {
+  font-size: 2.4rem;
+}
+
+.intro-paragraph {
+  font-size: 4.4rem;
+}
+
+.projects-bar {
+  font-size: 2.4rem;
+  font-weight: 700;
+  background-color: #ffe2aa;
+  padding: 5px;
+  width: 611px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.scroll-text-and-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.scroll {
+  font-size: 1.4rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* UX Game Home Section */
+
+.home-ux-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fill;
+  height: 100vh;
+  background-color: #be9d93;
+}
+
+.home-ux-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.screenshot-bg img {
+  padding: 8px;
+  width: 473px;
+}
+
+.home-ux-paragraph {
+  max-width: 480px;
+  font-size: 1.6rem;
+}
+
+.home-project-link {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+.game-link {
+  color: #f5ffb6;
+}
+
+.game-link-talon {
+    color: rgb(7, 72, 191);
+}
+
+.home-ux-section {
+  font-size: 2.4rem;
+}
+
+/* ASL Dictionary Section */
+
+.home-asl-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-asl-image {
+  width: 619px;
+}
+
+.home-asl-text {
+  max-width: 618px;
+}
+
+/* Artisan Section */
+
+.home-artisan-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #c7b2b0;
+  height: 100vh;
+  padding-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.home-artisan-section p {
+  max-width: 764px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-artisan-section img {
+  width: 386px;
+}
+
+.home-artisan-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.home-artisan-middle p {
+  max-width: 386px;
+}
+
+.home-artisan-middle-right {
+    margin-top: -48px;
+}
+
+.home-artisan-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.home-artisan-bottom p {
+  max-width: 365px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2af;
+  border: #1e1e1e solid 1px;
+  font-size: 1.6rem;
+  height: 40px;
 }
