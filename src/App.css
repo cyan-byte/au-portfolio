@@ -199,6 +199,11 @@ a {
 }
 
 /* Artisan Section */
+.artisan-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .home-artisan-section {
   display: flex;
