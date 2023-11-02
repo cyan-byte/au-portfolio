@@ -1,9 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+window.addEventListener("scroll", function () {
+  const navBar = document.querySelector(".nav-home");
+  if (window.scrollY > 50) {
+    navBar.classList.add("solid-background");
+  } else {
+    navBar.classList.remove("solid-background");
+  }
+});
+
 export default function NavHome() {
   return (
-    <div className="nav-home">
+    <div className="nav-home solid-background">
       <div className="name-logo">ALISHA</div>
       <div>
         <ul>

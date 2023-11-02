@@ -1,6 +1,7 @@
 import React from "react";
 import NavHome from "../components/NavHome";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -36,13 +37,17 @@ export default function Home() {
         <div className="home-ux-top">
           <div className="home-ux-left">
             <div className="screenshot-bg">
-              <img
-                src="screenshot9.png"
-                alt="ux-game-screenshot"
-                className="img-bg"
-              />
+              <Link to="/uxquiz">
+                <img
+                  src="screenshot9.png"
+                  alt="ux-game-screenshot"
+                  className="img-bg"
+                />
+              </Link>
             </div>
-            <h3 className="font-link1">UX/UI Design Quiz Game</h3>
+            <h3 className="font-link1">
+              <Link to="/uxquiz">Design Quiz Game UX/UI</Link>{" "}
+            </h3>
             <p className="home-ux-paragraph font-link1">
               I’ve been studying UX/UI design and after absorbing categories of
               information, I wondered if there was a game that would help to
@@ -55,14 +60,18 @@ export default function Home() {
           {/* UX Right */}
           <div className="home-ux-right">
             <div className="screenshot-bg">
-              <img
-                src="screenshot10.png"
-                alt="ux-game-screenshot"
-                className="img-bg"
-              />
+              <Link to="/uxquiz">
+                <img
+                  src="screenshot10.png"
+                  alt="ux-game-screenshot"
+                  className="img-bg"
+                />
+              </Link>
             </div>
             <div>
-              <h3 className="font-link1">Take a Peek Inside of Round 1</h3>
+              <h3 className="font-link1">
+                <Link to="/uxquiz">Take a Peek Inside of Round 1</Link>
+              </h3>
               <p className="home-ux-paragraph font-link1">
                 So here’s how the game goes: The computer always answers
                 correctly. Player may only answer 2 questions incorrectly for
@@ -89,13 +98,13 @@ export default function Home() {
         </div>
       </div>
       <div className="home-asl-section">
-        <img
+      <Link to="/asldictionary"><img
           src="screenshot5.png"
           alt="ASL dictionary screenshot"
           className="home-asl-image"
-        />
+        /></Link>
         <div className="home-asl-text">
-          <h3>ASL Dictionary App</h3>
+          <h3><Link to="/asldictionary">ASL Dictionary App</Link></h3>
           <p>
             I wanted to create an ASL (American Sign Language) app that uses the
             GIPHY API to allow users to enter a search term and see a GIF of an
@@ -118,7 +127,7 @@ export default function Home() {
       </div>
       <div className="home-artisan-section">
         <div className="home-artisan-top">
-          <h3>Artisan E-Commerce App</h3>
+          <h3><Link to="/artisanstore">Artisan E-Commerce App</Link></h3>
           <p>
             Introducing Talon. This is the UI of a store made using MERN
             (MongoDB, Express.js, React.js, Node.js). I built an API for it that
@@ -130,20 +139,20 @@ export default function Home() {
         </div>
         <div className="home-artisan-middle">
           <div className="home-artisan-middle-left">
-            <img src="screenshot1.png" alt="artisan store screenshot" />
+          <Link to="/artisanstore"><img src="screenshot1.png" alt="artisan store screenshot" /></Link>
             <p>
               Here’s a shot of the top of the homepage and as you scroll, the
               oversized logo appears normally in the top left corner.
             </p>
           </div>
           <div className="home-artisan-middle-right">
-            <img src="screenshot3.png" alt="artisan store screenshot" />
+          <Link to="/artisanstore"><img src="screenshot3.png" alt="artisan store screenshot" /></Link>
             <p>A little more of what you’ll see as you scroll . . .</p>
           </div>
         </div>
         <div className="home-artisan-bottom">
           <div className="home-artisan-bottom-left">
-            <img src="screenshot4.png" alt="artisan store screenshot" />
+          <Link to="/artisanstore"><img src="screenshot4.png" alt="artisan store screenshot" /></Link>
           </div>
           <p>
             This is a shot of the product page template, which repeats the style
@@ -152,7 +161,7 @@ export default function Home() {
         </div>
         <div className="home-project-link">
           Take a look at Talon here:
-          <span className="game-link">
+          <span className="game-link talon-link">
             {" "}
             <a
               href="https://modern-e-commerce-store-front-end-1-1.onrender.com/"
