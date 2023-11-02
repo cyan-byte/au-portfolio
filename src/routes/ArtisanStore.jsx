@@ -22,6 +22,18 @@ export default function ArtisanStore() {
             className="artisan-page-image-1"
           />
         </p>
+        <p>
+          GitHub Repo for{" "}
+          <a href="https://github.com/cyan-byte/modern-e-commerce-store-front-end/tree/master">
+            Font-End:
+          </a>
+        </p>
+        <p>
+          GitHub Repo for{" "}
+          <a href="https://github.com/cyan-byte/modern-e-commerce-store-back-end">
+            Back-End
+          </a>
+        </p>
       </div>
     </div>
   );
