@@ -133,6 +133,13 @@ a {
 }
 
 /* UX Game Home Section */
+.ux-quiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+}
 
 .home-ux-section {
   display: flex;
@@ -162,6 +169,7 @@ a {
 
 .home-project-link {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 1.6rem;
@@ -181,6 +189,13 @@ a {
 }
 
 /* ASL Dictionary Section */
+.asl-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+}
 
 .home-asl-section {
   display: flex;
@@ -201,8 +216,10 @@ a {
 /* Artisan Section */
 .artisan-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 160px;
 }
 
 .home-artisan-section {
@@ -246,6 +263,10 @@ a {
 
 .home-artisan-bottom p {
   max-width: 365px;
+}
+
+.talon-paragraph1 {
+  max-width: 600px;
 }
 
 /* Artisan Shop Route */
