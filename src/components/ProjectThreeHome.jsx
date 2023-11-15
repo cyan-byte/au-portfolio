@@ -12,6 +12,7 @@ export default function ProjectThreeHome() {
       }}
     >
       <p
+        className="project3-text"
         style={{
           color: "#322F32",
           fontSize: "3.2rem",
