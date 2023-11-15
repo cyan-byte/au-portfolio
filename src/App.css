@@ -170,10 +170,14 @@ nav ul {
 
 /* Project 3 (ASL App) */
 
+.project3-text {
+  padding-left: 200px;
+}
+
 .project-three-home-text {
   display: flex;
   justify-content: end;
-  padding-right: 256px;
+  padding-right: 156px;
 }
 
 .small-caps3 {
