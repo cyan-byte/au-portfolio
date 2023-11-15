@@ -54,6 +54,10 @@ nav ul {
   cursor: pointer;
 }
 
+.email-button-bg {
+  background-color: #dcd7d3;
+}
+
 .sticky-email-button {
   display: flex;
   justify-content: end;
