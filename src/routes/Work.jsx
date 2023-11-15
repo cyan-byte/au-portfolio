@@ -3,7 +3,6 @@ import ProjectOneHome from "../components/ProjectOneHome";
 import WorkGreeting from "../components/WorkGreeting";
 import TalonUI from "../components/TalonUI";
 import ProjectTwoHome from "../components/ProjectTwoHome";
-import SVG2 from "../components/SVG2";
 import ProjectThreeHome from "../components/ProjectThreeHome";
 import ArtGallery from "../components/ArtGallery";
 
@@ -14,7 +13,6 @@ export default function Work() {
       <ProjectOneHome />
       <TalonUI />
       <ProjectTwoHome />
-      <SVG2 />
       <ProjectThreeHome />
       <ArtGallery />
     </div>

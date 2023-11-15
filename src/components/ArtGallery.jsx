@@ -11,10 +11,16 @@ export default function ArtGallery() {
         height: "951px",
       }}
     >
-      <p className="small-caps4">FUN FACT</p>
-      <p>
-        I enjoy drawing by hand <br />
-        in my free time.
+      <div className="art-paragraphs">
+        <p className="small-caps4">FUN FACT</p>
+        <p className="art-sentence">
+          I enjoy drawing by hand <br />
+          in my free time.
+        </p>
+      </div>
+      <p className="last-sentence">
+        I appreciate a good, honest, direct critique. It would be great <br />
+        if you expressed what you thought about this portfolio site.
       </p>
     </div>
   );

@@ -11,21 +11,19 @@ export default function ProjectThreeHome() {
         height: "1100px",
       }}
     >
+      <p
+        style={{
+          color: "#322F32",
+          fontSize: "3.2rem",
+          fontWeight: "400",
+          letterSpacing: "2.56px",
+          paddingTop: "156px",
+          paddingLeft: "156px",
+        }}
+      >
+        PROJECT 3
+      </p>
       <div className="project-three-home-text">
-        <div>
-          <p
-            style={{
-              color: "#322F32",
-              fontSize: "3.2rem",
-              fontWeight: "400",
-              letterSpacing: "2.56px",
-              paddingTop: "156px",
-              paddingLeft: "156px",
-            }}
-          >
-            PROJECT 3
-          </p>
-        </div>
         <div className="project-three-paragraphs">
           <p className="small-caps3">LEARNING</p>
           <h2>Sign Language App</h2>
@@ -35,8 +33,8 @@ export default function ProjectThreeHome() {
           </p>
           <p>
             This app fetches data from the
-            <span className="bold-text"> Giphy API</span>, pulling from one Giphy
-            user's channel (@signwithrobert).
+            <span className="bold-text"> Giphy API</span>, pulling from one
+            Giphy user's channel (@signwithrobert).
           </p>
           <p>
             Try to learn some signs here{" "}

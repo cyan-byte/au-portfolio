@@ -9,7 +9,7 @@ export default function ProjectTwoHome() {
           fontSize: "3.2rem",
           fontWeight: "400",
           letterSpacing: "2.56px",
-          paddingTop: "156px",
+          paddingTop: "96px",
           paddingLeft: "156px",
         }}
       >
