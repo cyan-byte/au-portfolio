@@ -1,7 +1,7 @@
 html {
   font-size: 62.5%;
   font-family: Poppins;
-  background-color: #c7b2b0;
+  background-color: #dcd7d3;
 }
 
 body {
@@ -130,7 +130,7 @@ nav ul {
 
 /* Project 2 (UX Game) */
 .project-two {
-  background-color: #c7b2b0;
+  background-color: #dcd7d3;
   color: #1e1e1e;
 }
 
@@ -169,10 +169,6 @@ nav ul {
 }
 
 /* Project 3 (ASL App) */
-
-.project-three-home {
-  /* margin-top: -208px; */
-}
 
 .project-three-home-text {
   display: flex;
