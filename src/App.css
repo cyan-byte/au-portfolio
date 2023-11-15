@@ -1,20 +1,12 @@
 html {
   font-size: 62.5%;
   font-family: Poppins;
-  background-color: #a48c8a;
+  background-color: #dcd7d3;
 }
 
 body {
   font-size: 1.6rem;
   margin: 0;
-}
-
-img {
-  border-radius: 8px;
-}
-
-h3 {
-  font-size: 2.8rem;
 }
 
 a {
@@ -30,265 +22,192 @@ a {
   font-family: "Libre Baskerville", serif;
 }
 
-/* Navigation */
-.name-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #1e1e1e;
-  font-family: Poppins;
-  font-size: 3rem;
-  font-weight: 600;
-  border-radius: 8px;
-  background: #fcbc41;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 108px;
-  padding: 4px 8px;
-}
+/* navigation */
 
-.nav-home {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 0px 32px 0px 32px;
-  background-color: transparent;
-  transition: background 0.3s ease;
+  padding: 32px 156px 0px 156px;
+  background-color: #dcd7d3;
 }
 
-.nav-home.solid-background {
-  background-color: #a48c8a;
-}
-
-.nav-home ul {
+nav ul {
   display: flex;
   gap: 32px;
-  font-size: 1.6rem;
   list-style: none;
-  background-color: #a48c8a;
-  border-radius: 16px;
-  padding: 16px 16px 8px 16px;
+  padding: 0;
+  margin: 0;
 }
 
-.current-page {
+/* email button */
+
+.email-button {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: 700;
-}
-
-.page-indicator-bar {
-  background-color: #f5ffb6;
-  width: 32px;
-  height: 8px;
-  border-radius: 8px;
-  border: solid #1e1e1e 1px;
-}
-
-/* Home */
-.flex-container {
-  display: flex;
-}
-
-.home-left {
-  width: 344px;
-}
-
-.home-right {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: fill;
+  gap: 8px;
+  padding: 4px 24px;
+  border: solid 1px #1e1e1e;
+  border-radius: 8px;
+  background-color: #69cfd9;
+  cursor: pointer;
+}
+
+.sticky-email-button {
+  display: flex;
+  justify-content: end;
+  padding-right: 156px;
+}
+
+/* Work Component */
+
+.work-greeting {
+  display: flex;
+  padding-left: 156px;
+  gap: 72px;
+  background-color: #dcd7d3;
+  height: 340px;
 }
 
 .greeting {
   font-size: 2.4rem;
+  max-width: 496px;
 }
 
-.intro-paragraph {
-  font-size: 4.4rem;
-}
-
-.projects-bar {
-  font-size: 2.4rem;
+.bold-text {
   font-weight: 700;
-  background-color: #ffe2aa;
-  padding: 5px;
-  width: 611px;
-  text-align: center;
 }
 
-.scroll-text-and-icon {
+/* Project One Home */
+.project-one-home-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-caps1 {
+  color: #69cfd9;
+  letter-spacing: 2.56px;
+}
+
+.project-one-paragraphs {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  max-width: 324px;
+  padding: 272px 156px 0 0;
+  color: #fcf8f3;
 }
 
-.scroll {
-  font-size: 1.4rem;
+.project-one-paragraphs p {
+  margin-bottom: 0;
 }
 
-/* UX Game Home Section */
-.ux-quiz-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 160px;
+.project-one-paragraphs h2 {
+  margin: 0;
 }
 
-.home-ux-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: fill;
-  height: 100vh;
-  background-color: #be9d93;
+.in-progress-text {
+  text-align: right;
 }
 
-.home-ux-top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-}
-
-.screenshot-bg img {
-  padding: 8px;
-  width: 473px;
-}
-
-.home-ux-paragraph {
-  max-width: 480px;
-  font-size: 1.6rem;
-}
-
-.home-project-link {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.6rem;
-  margin-top: 20px;
-}
-
-.game-link a {
+.black-2023 {
+  margin-top: 168px;
   color: #1e1e1e;
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-left: 8px;
-  text-decoration: underline;
 }
 
-.home-ux-section {
-  font-size: 2.4rem;
-}
+/* TalonUI Component */
 
-/* ASL Dictionary Section */
-.asl-container {
+.talonUI {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 160px;
+  background-color: #976d60;
 }
 
-.home-asl-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.home-asl-image {
-  width: 619px;
-}
-
-.home-asl-text {
-  max-width: 618px;
-}
-
-/* Artisan Section */
-.artisan-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 160px;
-}
-
-.home-artisan-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* Project 2 (UX Game) */
+.project-two {
   background-color: #c7b2b0;
-  height: 100vh;
-  padding-bottom: 20px;
+  color: #1e1e1e;
+  margin-top: -36px;
 }
 
-.home-artisan-section p {
-  max-width: 800px;
+.project-two-paragraphs {
+  max-width: 290px;
 }
 
-.home-artisan-section img {
-  width: 386px;
+.small-caps2 {
+  color: #5731c5;
+  letter-spacing: 2.56px;
 }
 
-.home-artisan-middle {
+.project-two-image-and-p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-}
-.home-artisan-middle p {
-  max-width: 386px;
+  gap: 24px;
 }
 
-.home-artisan-middle-right {
-  margin-top: -48px;
+.svg2 {
+  width: 100%;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
-.home-artisan-bottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 48px;
+.svg2 svg {
+  width: calc(120% + 1.3px);
+  height: 188px;
+  transform: rotateY(180deg);
 }
 
-.home-artisan-bottom p {
-  max-width: 365px;
+.svg2 .shape-fill {
+  fill: #c7b2b0;
 }
 
-.talon-paragraph1 {
-  max-width: 600px;
+/* Project 3 (ASL App) */
+
+.project-three-home {
+  margin-top: -208px;
 }
 
-/* Artisan Shop Route */
-.artisan-page-image-1 {
-  width: 300px;
+.small-caps3 {
+  color: #fcf8f3;
+  letter-spacing: 2.56px;
+}
+
+.project-three {
+  background-color: #c7b2b0;
+  color: #1e1e1e;
+}
+
+.project-three-paragraphs {
+  max-width: 290px;
+}
+
+/* Art Gallery */
+
+.art-gallery {
+  margin-top: -20px;
+}
+
+.small-caps4 {
+  color: #48DCB0;
+  letter-spacing: 2.56px;
 }
 
 /* Footer */
 
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background-color: #ffc2af;
-  border: #1e1e1e solid 1px;
-  font-size: 1.6rem;
-  height: 40px;
+  padding: 16px 72px;
+  color: #dcd7d3;
+  background-color: #1e1e1e;
 }
 
-/* Media Queries */
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 1rem;
-  }
+.footer ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
 }
+

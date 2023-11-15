@@ -1,10 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
     <div className="footer">
-      Designed by <Link to="/aboutme"> Alisha Upton</Link>
+      <img
+        src="alishaLogoMini.png"
+        alt="logo"
+        style={{
+          width: "84px",
+          height: "35px",
+        }}
+      />
+      <ul>
+        <li>work</li>
+        <li>resume</li>
+        <li>who am I?</li>
+      </ul>
+      <p>
+        Designed by <span className="small-caps1"> Alisha Upton</span>
+      </p>
     </div>
   );
 }
