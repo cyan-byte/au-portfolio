@@ -32,7 +32,7 @@ export default function ProjectTwoHome() {
             <img src="/next-page-icon-black.png" alt="next page icon" />
           </p>
           <p>
-            The goal is to tie with the omniscient computer player or not answer
+            The goal is to tie with the omniscient computer or not answer
             more than two questions incorrectly.
           </p>
           <p>
