@@ -27,7 +27,14 @@ export default function ProjectThreeHome() {
       <div className="project-three-home-text">
         <div className="project-three-paragraphs">
           <p className="small-caps3">LEARNING</p>
-          <h2>Sign Language App</h2>
+          <h2>
+            <a
+              href="https://cyan-byte.github.io/asl-react-dictionary/"
+              target="_blank"
+            >
+              Sign Language App
+            </a>
+          </h2>
           <p>
             This project is a sign language dictionary that allows users to type
             a word and see its interpretation through a GIF.
@@ -38,12 +45,26 @@ export default function ProjectThreeHome() {
             Giphy user's channel (@signwithrobert).
           </p>
           <p>
-            Try to learn some signs here{" "}
-            <img src="/next-page-icon-black.png" alt="next page icon" />
+            Try to learn some signs{" "}
+            <a
+              className="dark-link"
+              href="https://cyan-byte.github.io/asl-react-dictionary/"
+              target="_blank"
+            >
+              here <img src="/next-page-icon-black.png" alt="next page icon" />
+            </a>
           </p>
+
           <p>
-            GitHub repo{" "}
-            <img src="/next-page-icon-black.png" alt="next page icon" />
+            {" "}
+            <a
+              className="dark-link"
+              href="https://github.com/cyan-byte/asl-react-dictionary"
+              target="_blank"
+            >
+              GitHub repo{" "}
+              <img src="/next-page-icon-black.png" alt="next page icon" />
+            </a>
           </p>
         </div>
       </div>

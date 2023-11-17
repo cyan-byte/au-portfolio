@@ -28,7 +28,7 @@ export default function ProjectOneHome() {
         </div>
         <div className="project-one-paragraphs">
           <p className="small-caps1">WHAT IS IT?</p>
-          <h2>E-Commerce Mock Store</h2>
+          <h2><a className="light-h2" href="https://modern-e-commerce-store-front-end-1-1.onrender.com/" target="_blank">E-Commerce Mock Store</a></h2>
           <p>
             This is a glimpse of the <span className="bold-text">UI</span> for a
             mock e-commerce store designed with
@@ -41,16 +41,22 @@ export default function ProjectOneHome() {
             and stay tuned.
           </p>
           <p>
-            See it in development here{" "}
-            <img src="/next-page-icon-white.png" alt="next page icon" />
+            See it in development{" "}
+            <a
+              href="https://modern-e-commerce-store-front-end-1-1.onrender.com/"
+              target="_blank"
+            >
+              <span className="light-link">here</span>{" "}
+              <img src="/next-page-icon-white.png" alt="next page icon" />
+            </a>
           </p>
 
           <p>
-            Front-end repo{" "}
-            <img src="/next-page-icon-white.png" alt="next page icon" />
+            <a className="light-link" href="https://github.com/cyan-byte/modern-e-commerce-store-front-end/tree/master">Front-end repo{" "}
+            <img src="/next-page-icon-white.png" alt="next page icon" /></a>
             <br />
-            Back-end repo{" "}
-            <img src="/next-page-icon-white.png" alt="next page icon" />
+            <a className="light-link" href="https://github.com/cyan-byte/modern-e-commerce-store-back-end">Back-end repo{" "}
+            <img src="/next-page-icon-white.png" alt="next page icon" /></a>
           </p>
           <p className="in-progress-text">(in progress)</p>
           <p className="black-2023">2023</p>

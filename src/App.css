@@ -202,17 +202,30 @@ nav ul {
 
 .art-sentence {
   color: #dcd7d3;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
 }
 
 .last-sentence {
   color: #dcd7d3;
   margin: 680px 0 0 156px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .small-caps4 {
   color: #48dcb0;
   letter-spacing: 2.56px;
+}
+
+.light-h2 {
+  color: #ffffff;
+}
+
+.light-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.dark-link {
+  text-decoration: underline;
 }
 
 /* Footer */

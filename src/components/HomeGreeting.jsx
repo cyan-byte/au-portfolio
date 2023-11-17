@@ -1,13 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function WorkGreeting() {
   return (
     <div className="work-greeting">
-      <img
-        src="lisha_avatar3.png"
-        alt="avatar"
-        style={{ width: "200px", height: "200px" }}
-      />
+      <Link to="/about">
+        <img
+          src="lisha_avatar3.png"
+          alt="avatar"
+          style={{ width: "200px", height: "200px" }}
+        />
+      </Link>
       <div>
         <p>I'm Alisha Upton</p>
         <p className="greeting">
