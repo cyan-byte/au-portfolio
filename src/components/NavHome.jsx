@@ -7,13 +7,13 @@ export default function NavHome() {
       <img src="./alishaLogo.png" />
       <ul>
         <li>
-          <Link to="/">work</Link>
+          <Link to="/">home</Link>
         </li>
         <li>
-          <Link to="/resume">resume</Link>
+          <Link to="/moreprojects">more projects</Link>
         </li>
         <li>
-          <Link to="/whoami">who am I?</Link></li>
+          <Link to="/about">about</Link></li>
       </ul>
     </nav>
   );

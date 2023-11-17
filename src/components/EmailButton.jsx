@@ -12,7 +12,7 @@ export default function EmailButton() {
 
   return (
       <button className="email-button" onClick={handleClick}>
-        <img src="email-icon.png" alt="mail icon" /> aliau2050@gmail.com
+        <img src="email-icon.png" alt="mail icon" /> email me
       </button>
   );
 }

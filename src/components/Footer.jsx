@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -12,9 +13,15 @@ export default function Footer() {
         }}
       />
       <ul>
-        <li>work</li>
-        <li>resume</li>
-        <li>who am I?</li>
+        <li>
+          <Link to="/">home</Link>
+        </li>
+        <li>
+          <Link to="/moreprojects">more projects</Link>
+        </li>
+        <li>
+          <Link to="/about">about</Link>
+        </li>
       </ul>
       <p>
         Designed by <span className="small-caps1"> Alisha Upton</span>

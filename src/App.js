@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavHome from "./components/NavHome";
-import Work from "./routes/Work";
-import Resume from "./routes/Resume";
-import WhoAmI from "./routes/WhoAmI";
+import Home from "./routes/Home";
+import MoreProjects from "./routes/MoreProjects";
+import About from "./routes/About";
 import EmailButton from "./components/EmailButton";
 import Footer from "./components/Footer";
 
@@ -17,9 +17,9 @@ function App() {
           <EmailButton />
         </div>
         <Routes>
-          <Route path="/" element={<Work />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/whoami" element={<WhoAmI />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/moreprojects" element={<MoreProjects />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
       <Footer />

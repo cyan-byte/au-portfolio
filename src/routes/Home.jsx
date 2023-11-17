@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectOneHome from "../components/ProjectOneHome";
-import WorkGreeting from "../components/WorkGreeting";
+import WorkGreeting from "../components/HomeGreeting";
 import TalonUI from "../components/TalonUI";
 import ProjectTwoHome from "../components/ProjectTwoHome";
 import ProjectThreeHome from "../components/ProjectThreeHome";
