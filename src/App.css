@@ -14,6 +14,20 @@ a {
   color: #1e1e1e;
 }
 
+.active-link {
+  font-weight: 700;
+}
+
+a:active,
+a:focus {
+  font-weight: 700;
+}
+
+a:hover {
+  border-radius: 8px;
+  background-color: #69cfd9;
+}
+
 .font-link1 {
   font-family: "Poppins", sans-serif;
 }
