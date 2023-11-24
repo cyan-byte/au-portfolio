@@ -29,6 +29,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: #70c4f9;
+}
+
 a {
   text-decoration: none;
   color: #1e1e1e;
@@ -46,8 +50,6 @@ a:focus {
 a:hover {
   border-radius: 8px;
   font-weight: 700;
-  /* text-decoration: underline 8px;
-  text-decoration-color: #12d9e7; */
 }
 
 .font-link1 {
