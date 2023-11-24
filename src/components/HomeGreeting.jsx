@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function WorkGreeting() {
+export default function HomeGreeting() {
   return (
-    <div className="work-greeting">
+    <div className="home-greeting">
       <Link to="/about">
         <img
           src="lisha_avatar3.png"

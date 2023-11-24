@@ -1,18 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import EmailButton from "./EmailButton";
 
 export default function Footer() {
   return (
     <div className="footer">
       <Link to="/about">
-        <img
-          src="alishaLogoMini.png"
-          alt="logo"
-          style={{
-            width: "84px",
-            height: "35px",
-          }}
-        />
+        <img src="alishaLogoMini.png" alt="logo" />
       </Link>
       <ul>
         <li>
@@ -27,10 +21,9 @@ export default function Footer() {
       </ul>
       <p>
         Designed by{" "}
-        <Link to="/about">
-          <span className="small-caps1"> Alisha Upton</span>
-        </Link>
+        <Link to="/about">Alisha Upton</Link>
       </p>
+      <EmailButton />
     </div>
   );
 }

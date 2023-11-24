@@ -4,7 +4,6 @@ import NavHome from "./components/NavHome";
 import Home from "./routes/Home";
 import MoreProjects from "./routes/MoreProjects";
 import About from "./routes/About";
-import EmailButton from "./components/EmailButton";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,9 +12,6 @@ function App() {
       <div className="App font-link">
         {" "}
         <NavHome />
-        <div className="sticky-email-button">
-          <EmailButton />
-        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/moreprojects" element={<MoreProjects />} />

@@ -1,3 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 html {
   font-size: 62.5%;
   font-family: Poppins;
@@ -9,14 +15,28 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-size: 3.2rem;
+}
+
+button {
+  width: 200px;
+  height: 44px;
+  border-radius: 24px;
+  background-color: #29bbca;
+  font-size: 2.4rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: #1e1e1e;
 }
 
-.active-link {
+/* .active-link {
   font-weight: 700;
-}
+} */
 
 a:active,
 a:focus {
@@ -25,7 +45,9 @@ a:focus {
 
 a:hover {
   border-radius: 8px;
-  background-color: #69cfd9;
+  font-weight: 700;
+  /* text-decoration: underline 8px;
+  text-decoration-color: #12d9e7; */
 }
 
 .font-link1 {
@@ -63,24 +85,14 @@ nav ul {
   gap: 8px;
   padding: 4px 24px;
   border: solid 1px #1e1e1e;
-  border-radius: 8px;
-  background-color: #69cfd9;
+  border-radius: 24px;
+  background-color: #29bbca;
   cursor: pointer;
 }
 
-.email-button-bg {
-  background-color: #dcd7d3;
-}
+/* Home Component */
 
-.sticky-email-button {
-  display: flex;
-  justify-content: end;
-  padding-right: 156px;
-}
-
-/* Work Component */
-
-.work-greeting {
+.home-greeting {
   display: flex;
   padding-left: 156px;
   gap: 72px;
@@ -98,39 +110,82 @@ nav ul {
 }
 
 /* Project One Home */
-.project-one-home-text {
+.project-one-home {
+  padding: 102px 0px 31px 187px;
+}
+
+.project-one-text {
   display: flex;
   justify-content: space-between;
 }
 
 .small-caps1 {
-  color: #69cfd9;
+  color: #111615;
   letter-spacing: 2.56px;
+  margin-left: 189px;
+  font-size: 2.4rem;
 }
 
-.project-one-paragraphs {
+.small-caps2 {
+  letter-spacing: 2.56px;
+  font-size: 2.4rem;
+}
+
+.text-arrows {
+  padding-top: 597px;
+}
+
+.text-and-next-arrow {
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+}
+
+.text-and-next-arrow2 {
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+}
+
+.text-and-next-arrow div {
+  display: flex;
+  align-items: center;
+}
+
+.e-commerce {
   display: flex;
   flex-direction: column;
-  max-width: 324px;
-  padding: 272px 156px 0 0;
-  color: #fcf8f3;
 }
 
-.project-one-paragraphs p {
-  margin-bottom: 0;
+.e-commerce-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 56px 80px 112px 80px;
 }
 
-.project-one-paragraphs h2 {
-  margin: 0;
+.e-commerce-cards-container button {
+  margin-bottom: 56px;
 }
 
-.in-progress-text {
-  text-align: right;
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.black-2023 {
-  margin-top: 168px;
-  color: #1e1e1e;
+.lets-go-1 {
+  padding-top: 58px;
+}
+
+.e-commerce-card {
+  padding: 25px 108px 25px 108px;
+  width: 632px;
+  background-color: #c7b2b0;
+  border-radius: 24px;
+  max-width: 430px;
+  font-size: 2.4rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* TalonUI Component */
@@ -148,64 +203,69 @@ nav ul {
   color: #1e1e1e;
 }
 
-.project-two-paragraphs {
-  max-width: 290px;
-}
-
-.small-caps2 {
-  color: #5731c5;
-  letter-spacing: 2.56px;
-}
-
-.project-two-image-and-p {
+.ux-cards-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
+  height: 100vh;
 }
 
-/* SVG */
-
-.svg2 {
-  width: 100%;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.svg2 svg {
-  width: calc(120% + 1.3px);
-  height: 188px;
-  transform: rotateY(180deg);
-}
-
-.svg2 .shape-fill {
-  fill: #c7b2b0;
+.ux-card {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 108px 25px 108px;
+  width: 632px;
+  background-color: #c7b2b0;
+  border-radius: 24px;
+  max-width: 425px;
+  font-size: 2.4rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* Project 3 (ASL App) */
 
 .project3-text {
-  padding-left: 200px;
-}
-
-.project-three-home-text {
-  display: flex;
-  justify-content: end;
-  padding-right: 156px;
-}
-
-.small-caps3 {
-  color: #fcf8f3;
+  color: #322f32;
+  font-size: 3.2rem;
+  font-weight: 400;
   letter-spacing: 2.56px;
+  padding-top: 83px;
+  padding-left: 187px;
 }
 
-.project-three {
+.project-three-button {
+  display: flex;
+  justify-content: center;
+}
+
+.project-three-home {
+  display: flex;
   background-color: #c7b2b0;
   color: #1e1e1e;
 }
 
-.project-three-paragraphs {
-  max-width: 290px;
+.asl-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.asl-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.asl-right p {
+  max-width: 530px;
+  font-size: 2.4rem;
+}
+
+.try-it {
+  margin-top: 140px;
 }
 
 /* Art Gallery */
@@ -242,19 +302,42 @@ nav ul {
   text-decoration: underline;
 }
 
+/* More Projects */
+.more-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+/* About */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
 /* Footer */
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 16px 72px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   color: #dcd7d3;
   background-color: #1e1e1e;
+  font-size: 1.4rem;
 }
 
 .footer ul {
   display: flex;
   list-style: none;
   gap: 40px;
+}
+
+.footer a {
+  color: #fcf8f3;
 }
