@@ -3,8 +3,7 @@ import React from "react";
 export default function ProjectTwoHome() {
   return (
     <div className="project-two">
-      <p>PROJECT 2</p>
-      <p className="small-caps1">EDUCATIONAL</p>
+      <p className="project-two-text">PROJECT 2</p>
       <div className="ux-cards-container">
         <div className="ux-card">
           <h2>UX/UI Quiz Game</h2>

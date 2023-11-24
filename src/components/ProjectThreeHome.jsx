@@ -13,15 +13,17 @@ export default function ProjectThreeHome() {
         }}
       >
         <p className="project3-text">PROJECT 3</p>
-        <a
-          href="https://github.com/cyan-byte/asl-react-dictionary"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="project-three-button">
-            <button>GITHUB REPO</button>
-          </div>
-        </a>
+        <div>
+          <a
+            href="https://github.com/cyan-byte/asl-react-dictionary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="project-three-button">
+              <button>GITHUB REPO</button>
+            </div>
+          </a>
+        </div>
       </div>
       <div
         className="asl-right"

@@ -119,6 +119,10 @@ nav ul {
 .project-one-text {
   display: flex;
   justify-content: space-between;
+  color: #322f32;
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: 2.56px;
 }
 
 .small-caps1 {
@@ -205,6 +209,14 @@ nav ul {
   color: #1e1e1e;
 }
 
+.project-two-text {
+  color: #322f32;
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: 2.56px;
+  padding-left: 187px;
+}
+
 .ux-cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -259,6 +271,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .asl-right p {
@@ -267,7 +280,7 @@ nav ul {
 }
 
 .try-it {
-  margin-top: 140px;
+  margin-top: 80px;
 }
 
 /* Art Gallery */

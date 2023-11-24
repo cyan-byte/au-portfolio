@@ -14,12 +14,6 @@ export default function ProjectOneHome() {
         <div>
           <p
             className="project-one-text"
-            style={{
-              color: "#322F32",
-              fontSize: "3.2rem",
-              fontWeight: "400",
-              letterSpacing: "2.56px",
-            }}
           >
             PROJECT 1
           </p>
