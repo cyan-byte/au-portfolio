@@ -20,7 +20,7 @@ export default function ProjectOneHome() {
           <div className="text-arrows">
             <a
               href="https://github.com/cyan-byte/modern-e-commerce-store-front-end/tree/master"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <div className="text-and-next-arrow">
                 Front-end Repo
@@ -36,7 +36,7 @@ export default function ProjectOneHome() {
             </a>
             <a
               href="https://github.com/cyan-byte/modern-e-commerce-store-back-end"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <div className="text-and-next-arrow2">
                 Back-end Repo
