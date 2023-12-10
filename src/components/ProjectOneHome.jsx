@@ -12,17 +12,14 @@ export default function ProjectOneHome() {
     >
       <div className="project-one-home-text">
         <div>
-          <p
-            className="project-one-text"
-          >
-            PROJECT 1
-          </p>
+          <p className="project-one-text">PROJECT 1</p>
           <div className="text-arrows">
-            <a
-              href="https://github.com/cyan-byte/modern-e-commerce-store-front-end/tree/master"
-              target="_blank" rel="noreferrer"
-            >
-              <div className="text-and-next-arrow">
+            <div className="text-and-next-arrow">
+              <a
+                href="https://github.com/cyan-byte/modern-e-commerce-store-front-end/tree/master"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Front-end Repo
                 <img
                   src="next-page-icon-black.png"
@@ -32,13 +29,14 @@ export default function ProjectOneHome() {
                     height: "16px",
                   }}
                 />
-              </div>
-            </a>
-            <a
-              href="https://github.com/cyan-byte/modern-e-commerce-store-back-end"
-              target="_blank" rel="noreferrer"
-            >
-              <div className="text-and-next-arrow2">
+              </a>
+            </div>
+            <div className="text-and-next-arrow2">
+              <a
+                href="https://github.com/cyan-byte/modern-e-commerce-store-back-end"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Back-end Repo
                 <img
                   src="next-page-icon-black.png"
@@ -48,8 +46,8 @@ export default function ProjectOneHome() {
                     height: "16px",
                   }}
                 />
-              </div>{" "}
-            </a>
+              </a>
+            </div>{" "}
           </div>
         </div>
         <div className="small-text">
