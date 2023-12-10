@@ -8,9 +8,16 @@ export default function ProjectTwoHome() {
         <div className="ux-card">
           <h2>UX/UI Quiz Game</h2>
           <img src="ux-menu-pg1.png" alt="UI design on a monitor" />
-          <div className="button-container">
-            <button>GITHUB REPO</button>
-          </div>{" "}
+
+          <a
+            href="https://github.com/cyan-byte/ux-design-game"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="button-container">
+              <button>GITHUB REPO</button>
+            </div>
+          </a>
         </div>
         <section className="ux-card">
           <h2>Test Your Skills</h2>
@@ -23,9 +30,16 @@ export default function ProjectTwoHome() {
             Object: Tie with the omniscient computer or answer no more than two
             questions incorrectly.
           </p>
-          <div className="button-container">
-            <button>PLAY</button>
-          </div>
+
+          <a
+            href="https://cyan-byte.github.io/ux-design-game/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="button-container">
+              <button>PLAY</button>
+            </div>
+          </a>
         </section>
       </div>
     </div>
