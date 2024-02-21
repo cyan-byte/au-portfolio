@@ -8,7 +8,7 @@ export default function HomeGreeting() {
         <img
           src="alisha1.2.png"
           alt="avatar"
-          style={{ width: "200px", height: "200px" }}
+          style={{ width: "200px", height: "200px", borderRadius: "40px" }}
         />
       </Link>
       <div>
