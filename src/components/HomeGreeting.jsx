@@ -6,7 +6,7 @@ export default function HomeGreeting() {
     <div className="home-greeting">
       <Link to="/about">
         <img
-          src="lisha_avatar3.png"
+          src="alisha1.2.png"
           alt="avatar"
           style={{ width: "200px", height: "200px" }}
         />
