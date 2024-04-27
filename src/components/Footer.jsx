@@ -1,16 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
     <div className="footer">
-      <div className="logo font-face-pr">Alisha</div>
+      <div className="footer-logo font-face-pr"><Link to="/">Alisha</Link></div>
       <div className="footer-links">
         <ul>
-          <li>Work</li>
-          <li>About</li>
-          <a href="mailto:aliau2050@gmail.com">
-            <li>Contact</li>
-          </a>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
         </ul>
       </div>
     </div>

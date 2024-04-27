@@ -40,7 +40,7 @@ body {
     rgb(252, 140, 213) 51%,
     rgb(255, 120, 138) 100%
   );
-  transition: all 0.3s ease-in-out;
+  transition: all 1s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 a {
@@ -101,7 +101,6 @@ a {
 .home-container {
   display: flex;
   flex-direction: column;
-  gap: 40px;
 }
 
 .hero {
@@ -109,10 +108,9 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* background-color: #fadcdc; */
   gap: 16px;
   border-bottom: solid 1px #1e1e1e;
-  margin-top: -72px;
+  margin-top: -16px;
 }
 
 .hero-left {
@@ -141,6 +139,7 @@ a {
   justify-content: center;
   gap: 32px;
   border-bottom: #1e1e1e solid 1px;
+  padding-bottom: 40px;
 }
 
 .truly-left {
@@ -178,6 +177,7 @@ a {
   gap: 64px;
   padding-top: 120px;
   padding-bottom: 120px;
+  background-color: #ffead3;
 }
 
 .email-design-left {
@@ -233,7 +233,12 @@ a {
 }
 
 .footer {
+  padding-top: 40px;
   margin-left: 40px;
+}
+
+.footer-logo {
+  font-size: 3.2rem;
 }
 
 .footer-links ul {
@@ -241,6 +246,16 @@ a {
   flex-direction: column;
   gap: 8px;
   list-style: none;
+}
+
+.under-construction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  color: #ffffe6;
+  height: 40px;
+  font-size: 1.4rem;
 }
 
 /* Media Queries */
@@ -283,6 +298,7 @@ a {
 
   .email-design-container {
     flex-direction: column-reverse;
+    background-color: #ffead3;
   }
 
   .email-design-left {
