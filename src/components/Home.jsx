@@ -34,7 +34,6 @@ export default function Home() {
               a Digital Designer who also knows some Frontend Development (HTML,
               CSS, some JavaScript & React).
             </p>
-            <p>Let’s see the full homepage in action:</p>
           </div>
         </div>
       </div>
