@@ -1,24 +1,20 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NavHome from "./components/NavHome";
-import Home from "./routes/Home";
-import MoreProjects from "./routes/MoreProjects";
+import Work from "./routes/Work";
 import About from "./routes/About";
-import Footer from "./components/Footer";
+import Home from "./components/Home";
 
 function App() {
   return (
     <Router>
-      <div className="App font-link">
+      <div className="App">
         {" "}
-        <NavHome />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/moreprojects" element={<MoreProjects />} />
+          <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
-      <Footer />
     </Router>
   );
 }

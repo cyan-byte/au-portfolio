@@ -1,55 +1,51 @@
 .App {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 html {
   font-size: 62.5%;
-  font-family: Poppins;
-  background-color: #dcd7d3;
+  background-color: #fadcdc;
 }
 
 body {
   font-size: 1.6rem;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   margin: 0;
+  color: #1e1e1e;
 }
 
-h2 {
-  font-size: 3.2rem;
+.logo {
+  font-size: 7.2rem;
 }
 
-button {
-  width: 200px;
+.contact-button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
   height: 44px;
+  padding: 4px 24px;
   border-radius: 24px;
-  background-color: #29bbca;
-  font-size: 2.4rem;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.12);
+  background-color: #f4f66d;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  border: #1e1e1e solid 1px;
 }
 
-button:hover {
-  background-color: #70c4f9;
+.contact-button:hover,
+.cta-button:hover {
+  background: linear-gradient(
+    81deg,
+    rgba(255, 247, 117, 1) 0%,
+    rgb(252, 140, 213) 51%,
+    rgb(255, 120, 138) 100%
+  );
+  transition: all 0.3s ease-in-out;
 }
 
 a {
   text-decoration: none;
   color: #1e1e1e;
-}
-
-/* .active-link {
-  font-weight: 700;
-} */
-
-a:active,
-a:focus {
-  font-weight: 700;
-}
-
-a:hover {
-  border-radius: 8px;
-  font-weight: 700;
 }
 
 .font-link1 {
@@ -60,299 +56,249 @@ a:hover {
   font-family: "Libre Baskerville", serif;
 }
 
-/* navigation */
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 32px 156px 0px 156px;
-  background-color: #dcd7d3;
+.font-face-pr {
+  font-family: "Prida02Calt", Georgia, "Times New Roman", Times, serif;
 }
 
-nav ul {
-  display: flex;
-  gap: 32px;
-  list-style: none;
-  padding: 0;
+.introduce {
+  font-size: 9.6rem;
+  font-weight: 900;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
-/* email button */
+/* navigation */
 
-.email-button {
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 0;
+}
+
+.links ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+}
+
+.cta-button {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  padding: 16px 24px;
+  width: 200px;
+  background-color: #f4f66d;
+  border: solid 1px #1e1e1e;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Home */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-  padding: 4px 24px;
-  border: solid 1px #1e1e1e;
-  border-radius: 24px;
-  background-color: #29bbca;
-  cursor: pointer;
+  flex-wrap: wrap;
+  /* background-color: #fadcdc; */
+  gap: 16px;
+  border-bottom: solid 1px #1e1e1e;
+  margin-top: -72px;
 }
 
-/* Home Component */
-
-.home-greeting {
+.hero-left {
   display: flex;
-  padding-left: 156px;
-  gap: 72px;
-  background-color: #dcd7d3;
-  height: 340px;
 }
 
-.greeting {
-  font-size: 2.4rem;
-  max-width: 496px;
+.hero-image {
+  width: 50%;
 }
 
-.bold-text {
+.hero-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.hero-right p {
+  font-size: 2rem;
+}
+
+/* Truly */
+.truly {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  border-bottom: #1e1e1e solid 1px;
+}
+
+.truly-left {
+  width: 953px;
+  margin-top: 40px;
+}
+
+.truly-right {
+  width: 390px;
+}
+
+.truly h2 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.bold-body-text {
   font-weight: 700;
 }
 
-/* Project One Home */
-.project-one-home {
-  padding: 102px 0px 31px 187px;
+/* Email Design */
+.email-design-container h2 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin: 0;
 }
 
-.project-one-text {
+.email-design-container {
   display: flex;
-  justify-content: space-between;
-  color: #322f32;
-  font-size: 3.2rem;
-  font-weight: 400;
-  letter-spacing: 2.56px;
-}
-
-.small-caps1 {
-  color: #111615;
-  letter-spacing: 2.56px;
-  margin-left: 189px;
-  font-size: 2.4rem;
-}
-
-.small-caps2 {
-  letter-spacing: 2.56px;
-  font-size: 2.4rem;
-}
-
-.text-arrows {
-  padding-top: 597px;
-}
-
-.text-and-next-arrow {
-  display: flex;
+  border-bottom: #1e1e1e solid 1px;
+  justify-content: center;
   align-items: center;
-  font-size: 2.4rem;
+  flex-wrap: wrap;
+  gap: 64px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.text-and-next-arrow2 {
-  display: flex;
-  align-items: center;
-  font-size: 2.4rem;
-}
-
-.text-and-next-arrow div {
-  display: flex;
-  align-items: center;
-}
-
-.e-commerce {
-  display: flex;
-  flex-direction: column;
-}
-
-.e-commerce-cards-container {
+.email-design-left {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
-  margin: 56px 80px 112px 80px;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
 }
 
-.e-commerce-cards-container button {
-  margin-bottom: 56px;
+.email-design-right {
+  display: flex;
+  gap: 16px;
 }
 
-.button-container {
+/* Mobile */
+
+.mobile {
+  background-image: url("/public/adrien-olichon-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.lets-go-1 {
-  padding-top: 58px;
-}
-
-.e-commerce-card {
-  padding: 25px 108px 25px 108px;
-  width: 632px;
-  background-color: #c7b2b0;
-  border-radius: 24px;
-  max-width: 430px;
-  font-size: 2.4rem;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-/* TalonUI Component */
-
-.talonUI {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #976d60;
-}
-
-/* Project 2 (UX Game) */
-.project-two {
-  background-color: #dcd7d3;
-  color: #1e1e1e;
-}
-
-.project-two-text {
-  color: #322f32;
-  font-size: 3.2rem;
-  font-weight: 400;
-  letter-spacing: 2.56px;
-  padding-left: 187px;
-}
-
-.ux-cards-container {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  height: 100vh;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-top: -40px;
 }
 
-.ux-card {
+.mobile-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 24px;
+}
+
+.mobile-right {
+  color: #fadcdc;
   display: flex;
   flex-direction: column;
-  padding: 25px 108px 25px 108px;
-  width: 632px;
-  background-color: #c7b2b0;
-  border-radius: 24px;
-  max-width: 425px;
-  font-size: 2.4rem;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-/* Project 3 (ASL App) */
-
-.project3-text {
-  color: #322f32;
-  font-size: 3.2rem;
-  font-weight: 400;
-  letter-spacing: 2.56px;
-  padding-top: 83px;
-  padding-left: 187px;
+.mobile-text {
+  max-width: 334px;
 }
 
-.project-three-button {
-  display: flex;
-  justify-content: center;
+.mobile h2 {
+  font-size: 8rem;
+  margin: 0;
 }
-
-.project-three-home {
-  display: flex;
-  background-color: #c7b2b0;
-  color: #1e1e1e;
-}
-
-.asl-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-bottom: 50px;
-}
-
-.asl-right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.asl-right p {
-  max-width: 530px;
-  font-size: 2.4rem;
-}
-
-.try-it {
-  margin-top: 80px;
-}
-
-/* Art Gallery */
-
-.art-paragraphs {
-  padding: 40px 0 0 156px;
-}
-
-.art-sentence {
-  color: #dcd7d3;
-  font-size: 1.6rem;
-}
-
-.last-sentence {
-  color: #dcd7d3;
-  margin: 680px 0 0 156px;
-  font-size: 1.6rem;
-}
-.small-caps4 {
-  color: #48dcb0;
-  letter-spacing: 2.56px;
-}
-
-.light-h2 {
-  color: #ffffff;
-}
-
-.light-link {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-.dark-link {
-  text-decoration: underline;
-}
-
-/* More Projects */
-.more-projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-}
-
-/* About */
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-}
-
-/* Footer */
 
 .footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  color: #dcd7d3;
-  background-color: #1e1e1e;
-  font-size: 1.4rem;
+  margin-left: 40px;
 }
 
-.footer ul {
+.footer-links ul {
   display: flex;
+  flex-direction: column;
+  gap: 8px;
   list-style: none;
-  gap: 40px;
 }
 
-.footer a {
-  color: #fcf8f3;
+/* Media Queries */
+
+@media screen and (max-width: 960px) {
+  .home-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-right {
+    width: 85%;
+  }
+
+  .truly {
+    flex-direction: column;
+  }
+
+  .truly-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .truly-right {
+    width: 100%;
+  }
+
+  .truly-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+  }
+
+  .email-design-container {
+    flex-direction: column-reverse;
+  }
+
+  .email-design-left {
+    width: 80%;
+  }
+
+  .email-design-container img {
+    width: 50%;
+  }
+
+  .mobile {
+    height: 100%;
+    flex-wrap: wrap;
+  }
+
+  .mobile img {
+    width: 75%;
+  }
 }

@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function MoreProjects() {
+export default function Contact() {
   return (
-    <div className="more-projects">
+    <div className="contact">
       <p>Coming Soon</p>
     </div>
   );
