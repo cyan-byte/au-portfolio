@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import Truly from "./Truly";
+import Truly from "./WebDesign";
 import EmailDesign from "./EmailDesign";
 import Mobile from "./Mobile";
 import Footer from "./Footer";

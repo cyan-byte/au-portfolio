@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Truly() {
+export default function WebDesign() {
   return (
-    <div className="truly">
-      <div className="truly-left">
+    <div className="web-design">
+      <div className="web-design-left">
         <a
           href="https://bit.ly/trulywebdesign"
           target="_blank"
@@ -16,8 +16,8 @@ export default function Truly() {
           />
         </a>
       </div>
-      <div className="truly-right">
-        <div className="truly-text">
+      <div className="web-design-right">
+        <div className="web-design-text">
           <h2>WEB DESIGN</h2>
           <p>This is a full concept design for a handmade pottery shop.</p>
           <p>
@@ -33,10 +33,10 @@ export default function Truly() {
             <span className="bold-body-text">Figma prototype</span> in full
             effect.
           </p>
-          <a href="mailto:aliau2050@gmail.com">
-            <div className="cta-button">Design my site</div>
-          </a>
         </div>
+        <a href="mailto:aliau2050@gmail.com">
+          <div className="cta-button">Design my site</div>
+        </a>
       </div>
     </div>
   );

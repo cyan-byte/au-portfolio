@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="footer">
-      <div className="footer-logo font-face-pr"><Link to="/">Alisha</Link></div>
+      <div className="footer-logo font-face-pr">
+        <Link to="/">
+          <img src="footer-logo.png" alt="logo" />
+        </Link>
+      </div>
       <div className="footer-links">
         <ul>
           <li>

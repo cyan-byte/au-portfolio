@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <div className="nav">
       <div className="logo font-face-pr">
-        <Link to="/">Alisha</Link>
+        <Link to="/"><img src="logo.png"/></Link>
       </div>
       <div className="links">
         <ul>

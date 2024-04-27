@@ -132,8 +132,8 @@ a {
   font-size: 2rem;
 }
 
-/* Truly */
-.truly {
+/* Web Design */
+.web-design {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -143,20 +143,21 @@ a {
   height: 100vh;
 }
 
-.truly-left {
+.web-design-left {
   width: 953px;
   margin-top: 40px;
 }
 
-.truly-right {
+.web-design-right {
   width: 390px;
+  margin-top: 40px;
 }
 
-.truly-text {
+.web-design-text {
   width: 530px;
 }
 
-.truly h2 {
+.web-design h2 {
   font-size: 8rem;
   font-weight: bold;
   margin: 0;
@@ -240,6 +241,7 @@ a {
 .footer {
   padding-top: 40px;
   margin-left: 40px;
+  background-color: #fff3e5;
 }
 
 .footer-logo {
@@ -279,20 +281,20 @@ a {
     width: 85%;
   }
 
-  .truly {
+  .web-design {
     flex-direction: column;
   }
 
-  .truly-left {
+  .web-design-left {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
 
-  .truly-right {
+  /* .web-design-right {
     width: 100%;
-  }
+  } */
 
   .truly-animation {
     display: flex;
