@@ -20,7 +20,7 @@ h1 {
 }
 
 .logo {
-  font-size: 7.2rem;
+  padding-top: 5px;
 }
 
 a {
@@ -376,6 +376,7 @@ a {
   padding: 10px 40px;
   background-color: #ffffff;
   color: #1e1e1e;
+  font-size: 1.6rem;
   font-weight: 700;
   border: #1e1e1e solid 1px;
 }
@@ -442,6 +443,17 @@ a {
 .mobile h2 {
   font-size: 8rem;
   margin: 0;
+}
+
+/* Work */
+.work-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
 }
 
 /* Footer */

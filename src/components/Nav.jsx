@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 export default function Nav() {
   return (
     <div className="nav">
-      <div className="logo">
+      <div>
         <NavLink exact to="/">
-          <img src="au-logo.png" alt="logo" />
+          <img src="au-logo.png" alt="logo"  className="logo" />
         </NavLink>
       </div>
       <div className="links">

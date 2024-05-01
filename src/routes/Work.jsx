@@ -3,9 +3,11 @@ import Nav from "../components/Nav";
 
 export default function Work() {
   return (
-    <div className="work">
-      <Nav/>
-      <p>Coming Soon</p>
+    <div className="work-container">
+      <Nav />
+      <div className="work">
+        <p>Coming Soon</p>
+      </div>
     </div>
   );
 }
