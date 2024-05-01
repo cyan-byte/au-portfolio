@@ -20,7 +20,7 @@ export default function Mobile() {
         </p>
         </div>
         <a href="mailto:aliau2050@gmail.com">
-          <div className="cta-button">Design my app</div>
+          <div className="mobile-button">Design my app</div>
         </a>{" "}
       </div>
     </div>

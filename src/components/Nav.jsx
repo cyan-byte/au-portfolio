@@ -1,23 +1,36 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
     <div className="nav">
-      <div className="logo font-face-pr">
-        <Link to="/"><img src="logo.png"/></Link>
+      <div className="logo">
+        <NavLink exact to="/">
+          <img src="au-logo.png" alt="logo" />
+        </NavLink>
       </div>
       <div className="links">
-        <ul>
+        <ul className="nav">
           <li>
-            <Link to="/">Home</Link>
+            <NavLink exact to="/" activeClassName="active" className="nav-link">
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <NavLink to="/work" activeClassName="active" className="nav-link">
+              Work
+            </NavLink>
           </li>
-          <a href="mailto:aliau2050@gmail.com">
-            <li className="contact-button">Contact</li>
-          </a>
+          <li>
+            <NavLink to="/about" activeClassName="active" className="nav-link">
+              About
+            </NavLink>
+          </li>
+          <li>
+            <a href="mailto:email@gmail.com">
+              <button className="contact-button">Contact</button>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

@@ -1,10 +1,11 @@
 import React from "react";
-import Hero from "../components/Home";
+import Nav from "../components/Nav";
 
 export default function Work() {
   return (
-    <div className="work font-link1">
-      <Hero />
+    <div className="work">
+      <Nav/>
+      <p>Coming Soon</p>
     </div>
   );
 }

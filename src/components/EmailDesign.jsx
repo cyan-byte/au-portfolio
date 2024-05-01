@@ -18,12 +18,12 @@ export default function EmailDesign() {
           </p>
         </div>
         <a href="mailto:aliau2050@gmail.com">
-          <div className="cta-button">Design my emails</div>
+          <button className="email-cta">Design my emails</button>
         </a>{" "}
       </div>
       <div className="email-design-right">
-          <img src="email-design1.png" alt="email marketing design" />
-          <img src="email-design2.png" alt="email marketing design" />
+        <img src="email-design1.png" alt="email marketing design" />
+        <img src="email-design2.png" alt="email marketing design" />
       </div>
     </div>
   );

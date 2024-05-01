@@ -4,20 +4,28 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="footer">
-      <div className="footer-logo font-face-pr">
-        <Link to="/">
-          <img src="footer-logo.png" alt="logo" />
-        </Link>
-      </div>
-      <div className="footer-links">
-        <ul>
+      <ul>
+        <div>
+        <li>
+          <Link to="/">
+            <img src="footer-logo.png" alt="logo" className="footer-logo"/>
+          </Link>
+        </li>
+        </div>
+        <div className="footer-nav-links">
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
           </li>
-        </ul>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </div>
+      </ul>
+      <div className="site-info">
+        <p>Site designed by Alisha Upton</p>
       </div>
     </div>
   );
