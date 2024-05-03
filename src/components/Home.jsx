@@ -166,7 +166,9 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <button>LinkedIn</button>
+          <div>
+            <button>LinkedIn</button>
+          </div>
         </a>
       </div>
       <Footer />
