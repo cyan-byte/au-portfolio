@@ -16,7 +16,7 @@ export default function Home() {
           <a
             href="https://bit.ly/trulywebdesign"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <img
               src="truly-white-bg-gif.gif"
@@ -72,7 +72,7 @@ export default function Home() {
                 <a
                   href="https://bit.ly/trulywebdesign"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <img
                     src="truly-home-zoom.png"
@@ -125,7 +125,7 @@ export default function Home() {
           <img
             src="vertical-hero-design5.png"
             alt="lightbulb gif"
-            style={{borderRadius: "16px" }}
+            style={{ borderRadius: "16px" }}
           />
         </div>
       </div>
@@ -159,6 +159,16 @@ export default function Home() {
 
       <EmailDesign />
       {/* <Mobile /> */}
+      <div className="linkedin-bar">
+        <p>Say hi on: </p>
+        <a
+          href="www.linkedin.com/in/alishaupton"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>LinkedIn</button>
+        </a>
+      </div>
       <Footer />
     </div>
   );

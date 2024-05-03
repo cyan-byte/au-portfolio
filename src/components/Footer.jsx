@@ -20,7 +20,7 @@ export default function Footer() {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <a href="mailto: aliau2050@gmail.com">Contact</a>
           </li>
         </div>
       </ul>
