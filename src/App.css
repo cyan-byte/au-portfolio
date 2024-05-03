@@ -367,7 +367,7 @@ a {
   flex-wrap: wrap;
   border-bottom: #1e1e1e solid 1px;
   gap: 64px;
-  background-color: #ead7b5;
+  background-color: #f2ecc6;
   padding: 80px;
 }
 
@@ -383,6 +383,7 @@ a {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  width: 40%;
 }
 
 .email-text p {
@@ -395,6 +396,7 @@ a {
 .email-design-right {
   display: flex;
   gap: 16px;
+  width: 40%;
 }
 
 /* Mobile */
@@ -471,10 +473,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 47%;
+
 }
 
 .web-design-right {
   padding: 80px;
+  width: 40%;
+
 }
 
 .web-design-right h2 {
@@ -536,6 +542,7 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: #aa8cc2;
   padding: 24px 80px;
 }
 
@@ -554,6 +561,11 @@ a {
 
 .footer-logo {
   width: 72%;
+}
+
+.social-icons {
+  display: flex;
+  gap: 4px;
 }
 
 .site-info {

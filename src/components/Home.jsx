@@ -135,7 +135,7 @@ export default function Home() {
           <img
             src="livee-homepage-short.png"
             alt="lightbulb gif"
-            style={{ width: "", borderRadius: "16px" }}
+            style={{ width: "72%", borderRadius: "16px" }}
           />
         </div>
 
