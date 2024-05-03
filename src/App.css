@@ -220,6 +220,7 @@ a {
 
 .feature-text-top {
   letter-spacing: 0.8rem;
+  padding-left: 8px;
 }
 
 .feature-text h2 {
@@ -365,13 +366,6 @@ a {
   font-weight: 400;
   margin: 0;
   line-height: 94.4%;
-}
-
-.email-design-container button:hover {
-  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-  background-color: #ead7b5;
-  padding: 10px 44px;
-  color: #282828;
 }
 
 .email-design-left {

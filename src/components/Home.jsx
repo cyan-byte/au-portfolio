@@ -60,7 +60,7 @@ export default function Home() {
         <div className="hp-bottom-container">
           <div className="hp-bottom-left">
             <img
-              src="mobile-app-screen-smaller.png"
+              src="mobile-app-screen-smaller2.png"
               alt="mobile app design"
               style={{ width: "306.96px" }}
             />
@@ -97,7 +97,7 @@ export default function Home() {
                 <div className="coming-soon">Coming Soon</div>
                 <p className="coming-soon-caption">Ecommerce Pottery Shop</p>
               </div>
-              
+
               <div>
                 <div className="coming-soon">Coming Soon</div>
                 <p className="coming-soon-caption">Ecommerce Pottery Shop</p>
