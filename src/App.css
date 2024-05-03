@@ -146,6 +146,7 @@ a {
 .hp-bottom-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 80px;
 }
 
@@ -448,6 +449,36 @@ a {
   justify-content: center;
 }
 
+.web-design-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f2ecc6;
+}
+
+.web-design-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.web-design-right {
+  padding: 80px;
+}
+
+.web-design-right h2 {
+  font-size: 9.6rem;
+}
+
+.web-design-right p {
+  font-size: 1.8rem;
+  line-height:  2.4rem;
+}
+
+.web-design-text {
+  max-width: 600px;
+
+}
 /* About */
 
 .about-text {
@@ -459,7 +490,7 @@ a {
 
 .about-text p {
   font-weight: 500;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 /* Footer */
@@ -553,7 +584,18 @@ a {
   .alisha {
     font-size: 4rem;
   }
+
   .feature-text h2 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .home-feature-container img,
+  .web-design-container img {
+    width: 56% !important;
+  }
+
+  .web-design-container h2 {
     font-size: 4rem;
     font-weight: 700;
   }

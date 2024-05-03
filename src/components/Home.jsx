@@ -97,6 +97,7 @@ export default function Home() {
                 <div className="coming-soon">Coming Soon</div>
                 <p className="coming-soon-caption">Ecommerce Pottery Shop</p>
               </div>
+              
               <div>
                 <div className="coming-soon">Coming Soon</div>
                 <p className="coming-soon-caption">Ecommerce Pottery Shop</p>
@@ -128,6 +129,34 @@ export default function Home() {
           />
         </div>
       </div>
+
+      <div className="web-design-container">
+        <div className="web-design-left">
+          <img
+            src="livee-homepage-short.png"
+            alt="lightbulb gif"
+            style={{ width: "", borderRadius: "16px" }}
+          />
+        </div>
+
+        <div className="web-design-right">
+          <div className="web-design-text">
+            <h2 className="web-design-text-heading">WEB DESIGN</h2>
+            <p className="web-design-text">
+              Perfume, anyone? This is a concept design for a perfume shop. The
+              “SCENTS” text is animated and comes together as the user hovers on
+              the component.
+            </p>
+            <p className="web-design-text">
+              It has a modern vibe with vibrant hues and a sense of, well, JOY!
+            </p>
+            <div>
+              <button className="contact-button">Design my site</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <EmailDesign />
       {/* <Mobile /> */}
       <Footer />
