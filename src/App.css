@@ -217,6 +217,10 @@ a {
   border-right: #1e1e1e solid 1px;
 }
 
+.feature-left p {
+  line-height: 2.4rem;
+}
+
 .feature-text {
   display: flex;
   flex-direction: column;
@@ -379,6 +383,10 @@ a {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+}
+
+.email-text p {
+  line-height: 2.4rem;
 }
 
 .email-text {

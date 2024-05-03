@@ -12,7 +12,7 @@ export default function EmailDesign() {
           </p>
           <p>
             I incorporated
-            <strong>email design best practices</strong>
+            <strong> email design best practices </strong>
             for header size, placement of the most important information, using
             text to convey messages, layout, design principles, and more.
           </p>
