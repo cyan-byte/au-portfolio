@@ -28,7 +28,7 @@ export default function Nav() {
           </li>
           <li>
             <div>
-              <a href="mailto:email@gmail.com">
+              <a href="mailto:aliau2050@gmail.com">
                 <button className="contact-button">Contact</button>
               </a>
             </div>

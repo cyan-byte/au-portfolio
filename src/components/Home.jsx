@@ -159,10 +159,11 @@ export default function Home() {
 
       <EmailDesign />
       {/* <Mobile /> */}
+
       <div className="linkedin-bar">
         <p>Say hi on: </p>
         <a
-          href="www.linkedin.com/in/alishaupton"
+          href="https://linkedin.com/in/alishaupton"
           target="_blank"
           rel="noreferrer"
         >
