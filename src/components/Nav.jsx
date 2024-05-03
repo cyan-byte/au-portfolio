@@ -6,11 +6,11 @@ export default function Nav() {
     <div className="nav">
       <div>
         <NavLink exact to="/">
-          <img src="au-logo.png" alt="logo"  className="logo" />
+          <img src="au-logo.png" alt="logo" className="logo" />
         </NavLink>
       </div>
       <div className="links">
-        <ul className="nav">
+        <ul className="nav-links">
           <li>
             <NavLink exact to="/" activeClassName="active" className="nav-link">
               Home
@@ -27,9 +27,11 @@ export default function Nav() {
             </NavLink>
           </li>
           <li>
-            <a href="mailto:email@gmail.com">
-              <button className="contact-button">Contact</button>
-            </a>
+            <div>
+              <a href="mailto:email@gmail.com">
+                <button className="contact-button">Contact</button>
+              </a>
+            </div>
           </li>
         </ul>
       </div>
