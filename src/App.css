@@ -451,6 +451,10 @@ a {
 .work {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .web-design-container {
@@ -497,6 +501,9 @@ a {
 .about-text p {
   font-weight: 500;
   letter-spacing: 0.1rem;
+  line-height: 2.4rem;
+
+
 }
 
 /* Footer */
