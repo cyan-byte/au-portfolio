@@ -125,7 +125,7 @@ export default function Home() {
           <img
             src="vertical-hero-design5.png"
             alt="lightbulb gif"
-            style={{ width: "497px", borderRadius: "16px" }}
+            style={{borderRadius: "16px" }}
           />
         </div>
       </div>

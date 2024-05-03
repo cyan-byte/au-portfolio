@@ -199,15 +199,20 @@ a {
 
 .home-feature-container {
   display: flex;
-  background-color: #aa8cc2;
   flex-wrap: wrap;
-  height: 800px;
+  align-items: center;
+  background-color: #aa8cc2;
+  border-bottom: #1e1e1e solid 1px;
+  height: 100vh;
 }
 
 .feature-left {
   display: flex;
   flex-direction: column;
-  padding: 80px;
+  justify-content: center;
+  padding-left: 80px;
+  width: 40%;
+  height: 100vh;
   gap: 32px;
   border-right: #1e1e1e solid 1px;
 }
@@ -231,7 +236,8 @@ a {
 .feature-right {
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 40%;
+  padding-left: 80px;
 }
 
 .services {
@@ -441,15 +447,18 @@ a {
 
 .web-design-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  height: 100vh;
   background-color: #f2ecc6;
+  border-bottom: #1e1e1e 1px solid;
 }
 
 .web-design-left {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px;
 }
 
 .web-design-right {
