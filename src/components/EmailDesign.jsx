@@ -11,14 +11,14 @@ export default function EmailDesign() {
             a new Certified Organic Collection.
           </p>
           <p>
-            I incorporated{" "}
-            <span className="bold-body-text">email design best practices</span>{" "}
+            I incorporated
+            <strong>email design best practices</strong>
             for header size, placement of the most important information, using
             text to convey messages, layout, design principles, and more.
           </p>
         </div>
         <a href="mailto:aliau2050@gmail.com">
-          <button className="email-cta">Design my emails</button>
+          <button className="contact-button">Design my emails</button>
         </a>{" "}
       </div>
       <div className="email-design-right">
