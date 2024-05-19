@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <li>
             <Link to="/">
-              <img src="footer-logo.png" alt="logo" className="footer-logo" />
+              <p className="footer-logo">AU</p>
             </Link>
           </li>
         </div>

@@ -52,9 +52,9 @@ a {
   gap: 24px;
 }
 
-.portfolio-header p {
+.welcome {
   font-size: 1.6rem;
-  letter-spacing: 1rem;
+  letter-spacing: .8rem;
   text-align: center;
 }
 
@@ -112,17 +112,14 @@ a {
 .home-portfolio {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
   gap: 24px;
-}
-
-.home-portfolio-top {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
+  padding-left: 80px;
 }
 
 .home-portfolio-heading {
+  display: flex;
+  justify-content: start;
   font-size: 6.2rem;
   font-family: "Purple Purse", Arial, Helvetica, sans-serif;
 }
@@ -332,6 +329,7 @@ a {
 
 .footer-logo {
   width: 72%;
+  font-size: 2.4rem;
 }
 
 .social-icons {

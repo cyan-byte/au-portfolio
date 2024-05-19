@@ -17,7 +17,7 @@ export default function Home() {
 
         <div className="hero">
           <div className="hero-top">
-            <p>WELCOME TO MY</p>
+            <p className="welcome">WELCOME TO MY</p>
 
             <div className="portfolio-header">
               <h1>
@@ -53,9 +53,9 @@ export default function Home() {
         }}
       >
         <div className="home-portfolio-heading">
-          <div className="home-portfolio-top">
-            <h1>Portfolio</h1>
-          </div>
+          <h1>Portfolio</h1>
+        </div>
+        <div>
           <div className="home-portfolio-buttons">
             <button>Web Design</button>
             <button>Mobile Design</button>
@@ -89,12 +89,40 @@ export default function Home() {
           </div>
           <div>
             <img
-              src="fancy-ruffle-top.png"
-              alt="email design"
+              src="mobile-design-1.png"
+              alt="mobile screen design"
+              style={{ width: "320px", height: "204px" }}
+              className="thumbnail"
+            />
+            <p>Mobile Design</p>
+          </div>
+          <div>
+            <img
+              src="eye-leaves.png"
+              alt="eye drawing"
               style={{ width: "320px", height: "204px" }}
               className="thumbnail"
             />
             <p>Illustration</p>
+          </div>
+
+          <div>
+            <img
+              src="fancy-ruffle-top.png"
+              alt="elegant illustration"
+              style={{ width: "320px", height: "204px" }}
+              className="thumbnail"
+            />
+            <p>Illustration</p>
+          </div>
+          <div>
+            <img
+              src="man-face1.png"
+              alt="drawing of a man"
+              style={{ width: "320px", height: "204px" }}
+              className="thumbnail"
+            />
+            <p>Portrait Drawing</p>
           </div>
         </div>
       </div>
