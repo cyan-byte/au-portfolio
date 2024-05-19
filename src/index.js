@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-// import "./fonts/prida02calt/Prida02Calt.otf";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
