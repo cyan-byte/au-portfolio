@@ -7,7 +7,7 @@ export default function Nav() {
       <ul className="logo-container">
         <li className="logo">
           <NavLink exact to="/">
-            AU
+            ALISHA
           </NavLink>
         </li>
       </ul>

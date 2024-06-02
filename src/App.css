@@ -5,20 +5,50 @@
 
 html {
   font-size: 62.5%;
-  background-color: #9994a8;
+  background-color: #f6e3dc;
 }
 
 body {
   font-size: 1.6rem;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   margin: 0;
-  color: #1e1e1e;
+  color: #1c1c1c;
+}
+
+h1 {
+  font-weight: 400;
+  color: #170811;
 }
 
 h1,
 h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+h2 {
+  color: #170811;
+  font-weight: 900;
+}
+
 h3 {
+  color: #926579;
+  font-weight: 700;
+}
+
+h4 {
+  color: #926579;
   font-weight: 400;
+}
+
+h2,
+h3,
+h4 {
+  letter-spacing: 0.2px;
+}
+
+p {
   margin: 0;
 }
 
@@ -28,7 +58,28 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #1e1e1e;
+  color: #1c1c1c;
+}
+
+button {
+  background-color: #fefcfd;
+  color: #1c1c1c;
+  font-size: 1.6rem;
+  padding: 10px 32px;
+  border: #1c1c1c solid 0.5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
+    background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+button:hover {
+  background-color: #ffead3;
+  padding: 10px 64px;
+  cursor: pointer;
+}
+
+button:hover::after {
+  width: 100%;
 }
 
 /* .header-hero-container {
@@ -41,8 +92,9 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: #1e1e1e 1px solid;
+  border-bottom: #1c1c1c 1px solid;
   gap: 32px;
+  height: 420px;
 }
 
 .hero-top {
@@ -54,14 +106,16 @@ a {
 
 .welcome {
   font-size: 1.6rem;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.5rem;
   text-align: center;
 }
 
 .hero h1 {
-  font-family: "Purple Purse", Arial, Helvetica, sans-serif;
+  font-family: "Elsie Swash Caps", Arial, Helvetica, sans-serif;
   font-size: 14rem;
-  line-height: 80%;
+  line-height: 88%;
+  font-weight: 900;
+  color: #170811;
 }
 
 .sub-header {
@@ -89,7 +143,7 @@ a {
 .hero-bottom button {
   background-color: #ceffa8;
   padding: 10px 40px;
-  border: #1e1e1e 1px solid;
+  border: #1c1c1c 1px solid;
   font-size: 2rem;
   transition: padding 500ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -100,92 +154,388 @@ a {
   padding: 10px 56px;
 }
 
-.truly-gif {
+.junior {
+  color: #926579;
+}
+
+/* what i do */
+.what-container {
   display: flex;
   justify-content: center;
-  align-items: start;
-  padding-top: 24px;
-  padding-bottom: 56px;
-  background-color: #ffffff;
+  align-items: center;
+  background-color: #252525;
+  height: 100vh;
+}
+.what-i-do {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1c1c1c;
+  padding-top: 48px;
+  gap: 48px;
 }
 
-.home-portfolio {
+.what-i-do h1 {
+  color: #fefcfd;
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
+  font-size: 8.8rem;
+  max-width: 234px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 88%;
+}
+
+.what-i-do-small-text {
   display: flex;
   flex-direction: column;
-
-  gap: 24px;
-  padding-left: 80px;
+  align-items: center;
+  gap: 4px;
 }
 
-.home-portfolio-heading {
-  display: flex;
-  justify-content: start;
-  font-size: 6.2rem;
-  font-family: "Purple Purse", Arial, Helvetica, sans-serif;
-}
-
-.home-portfolio-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.home-portfolio-buttons button {
-  background-color: #ffead3;
-  color: #1e1e1e;
+.what-i-do h2 {
+  color: #ffbe98;
   font-size: 1.6rem;
-  padding: 10px 32px;
-  border: #1e1e1e solid 1.5px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
-    background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-weight: 500;
 }
 
-.home-portfolio-buttons button:hover {
-  background-color: #9994a8;
-  padding: 10px 48px;
+.what-i-do p {
+  color: #fefcfd;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 140%;
 }
 
-.home-portfolio-buttons button:hover::after {
-  width: 100%;
+.web-design-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fefcfd;
+  padding: 120px;
 }
 
-.thumbnail img {
-  color: #1e1e1e;
-  font-size: 1.6rem;
-  padding: 10px 32px;
-  transition: padding 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-.thumbnail:hover {
-  background-color: #9994a8;
-  border-radius: 48%;
-}
-
-.portfolio-thumbnails {
+.buttons-container {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
 }
 
-/* Section bar */
-.section-bar {
-  display: flex;
-  justify-content: center;
-  padding: 8px 0 8px 0;
-  font-weight: 700;
-  background-color: #fff;
+.primary-button {
+  background-color: #ffa0c2;
 }
 
+.wdc-left-right {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.wdc-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 80vh;
+  max-width: 500px;
+  gap: 40px;
+}
+
+.wdc-left-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wdc-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wdc-top h1 {
+  font-size: 7.2rem;
+  font-weight: 500;
+  line-height: 80%;
+}
+
+.wdc-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 80vh;
+  gap: 8px;
+}
+
+.web-design-container .made-in {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-size: 1.4rem;
+  color: #926579;
+}
+
+.h2-h3-container h3 {
+  color: #926579;
+  font-weight: 400;
+}
+
+.mobile-ux-container {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  padding: 120px;
+  gap: 80px;
+  height: 100vh;
+}
+
+.mobile-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mobile-top h1 {
+  font-size: 7.2rem;
+  font-weight: 500;
+  line-height: 80%;
+}
+
+.mobile-top .made-in {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  color: #926579;
+}
+
+.mobile-left-right {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+
+.mobile-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 24px;
+}
+
+.mobile-right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  max-width: 263px;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.see-more {
+  font-weight: 700;
+}
+
+.mobile-gif {
+  background-color: #e0e0e0;
+}
+
+.email-design-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 64px;
+  background-color: #fefcfd;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.email-design-container h1 {
+  font-size: 7.2rem;
+}
+
+.email-mid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.email-mockup-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+  text-align: center;
+}
+
+.graphic-design-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fefcfd;
+  padding-left: "120px";
+  padding-right: "120px";
+  height: 100vh;
+  gap: 16px;
+}
+
+.graphic-bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.graphic-right h1 {
+  font-size: 4.8rem;
+}
+
+.graphic-right h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #926579;
+}
+
+.smaller-booklet-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.pink {
+  color: #e144a2;
+}
+
+.art-design {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.hero-designs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fefcfd;
+  gap: 72px;
+  height: 100vh;
+}
+
+.hero-designs-container button {
+  align-self: center;
+}
+
+.hero-designs-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-designs-left .h1-and-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-designs-left h1 {
+  font-size: 8rem;
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  color: #fefcfd;
+}
+
+.hero-designs-left p {
+  max-width: 331px;
+  text-align: center;
+}
+
+.who-am-i-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #252525;
+  height: 100vh;
+}
+
+.who-am-i {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.who-am-i h1 {
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
+  font-size: 8rem;
+  font-weight: 900;
+  color: #fefcfd;
+  max-width: 256px;
+  line-height: 88%;
+}
+
+.about-me-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  max-width: 536px;
+  width: 50%;
+}
+
+.about-me-left h1 {
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times;
+  font-weight: 900;
+  max-width: 326px;
+  font-size: 8.8rem;
+  line-height: 85%;
+}
+
+.about-services {
+  display: flex;
+}
+
+.about-me-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
 /* navigation */
 
 .nav {
   display: flex;
   justify-content: space-between;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
   margin-top: 0;
-  height: 88px;
+  height: 72px;
+  background: #f6e3dc;
 }
 
 .nav-links-container {
@@ -228,23 +578,23 @@ a {
   width: 100%; /* Ensure border stays at full width on active links */
 }
 
-.cta-button {
-  background-color: #ffbc5f;
-  color: #1e1e1e;
+.primary-button {
+  background-color: #ffa0c2;
+  color: #1c1c1c;
   font-size: 1.6rem;
   padding: 10px 40px;
-  border: #1e1e1e solid 1.5px;
+  border: #1c1c1c solid 1.5px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.cta-button:hover {
+.primary-button:hover {
   background-color: #ffead3;
   padding: 10px 64px;
 }
 
-.cta-button:hover::after {
+.primary-button:hover::after {
   width: 100%;
 }
 
@@ -271,11 +621,6 @@ a {
   line-height: 2.4rem;
 }
 
-.bw-images {
-  display: flex;
-  justify-content: center;
-}
-
 .the-designer {
   width: 98vw;
 }
@@ -285,18 +630,18 @@ a {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  background-color: #ffffff;
+  background-color: #fefcfd;
   font-size: 2.4rem;
   padding-top: 8px;
   padding-bottom: 8px;
   height: 44px;
-  border-bottom: #1e1e1e 1px solid;
+  border-bottom: #1c1c1c 1px solid;
 }
 
 .linkedin-bar button {
-  background-color: #ffbc5f;
+  background-color: #e5bfd6;
   padding: 10px 40px;
-  border: #1e1e1e 1px solid;
+  border: #1c1c1c 1px solid;
   font-size: 1.6rem;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -311,37 +656,34 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  background-color: #9994a8;
-  padding: 24px 80px;
-}
-
-.footer ul {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  list-style: none;
+  background-color: #f6e3dc;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .footer-nav-links {
   display: flex;
   flex-direction: column;
+}
+.footer-right {
+  display: flex;
+  align-items: end;
+  gap: 16px;
+}
+
+.footer ul {
+  display: flex;
   gap: 8px;
+  list-style: none;
 }
 
 .footer-logo {
-  width: 72%;
   font-size: 2.4rem;
 }
 
 .social-icons {
   display: flex;
   gap: 4px;
-}
-
-.site-info {
-  display: flex;
-  align-items: end;
-  font-size: 1.4rem;
 }
 
 .under-construction {
@@ -353,17 +695,12 @@ a {
   font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 0.2rem;
-  border-bottom: #1e1e1e solid 0.5px;
+  border-bottom: #1c1c1c solid 0.5px;
 }
 
 /* Media Queries */
 
 @media screen and (max-width: 960px) {
-  .home-container {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
   .hero {
     display: flex;
     justify-content: center;
@@ -372,18 +709,5 @@ a {
 
   .hero img {
     width: 540px !important;
-  }
-
-  .truly-gif img {
-    width: 90% !important;
-    height: 90% !important;
-  }
-
-  .bw-images img {
-    width: 90vw;
-  }
-
-  .footer {
-    width: 100vw;
   }
 }
