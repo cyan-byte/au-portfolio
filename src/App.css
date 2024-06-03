@@ -482,6 +482,7 @@ button:hover::after {
 .the-artist-left-content {
   display: flex;
   flex-direction: column;
+  gap: 32px;
 }
 
 .the-artist-left-content h1 {
@@ -639,7 +640,6 @@ button:hover::after {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  gap: 40px;
 }
 
 .about-me-left {
@@ -648,7 +648,7 @@ button:hover::after {
   justify-content: space-around;
   height: 100vh;
   max-width: 508px;
-  width: 100%;
+  width: 50%;
   background-color: #fefcfd;
   border-right: #170811 0.5px solid;
 }

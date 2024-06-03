@@ -5,62 +5,86 @@ import Footer from "../components/Footer";
 export default function () {
   return (
     <div className="about-container">
-      <div className="under-construction">
-        This page is currently under construction.
-      </div>
       <Nav />
-      <div className="about-text">
+      <div className="who-am-i-container">
+        <div
+          className="who-am-i"
+          style={{
+            background: `url('${process.env.PUBLIC_URL}/who-am-i-bg.png')`,
+            backgroundRepeat: "no-repeat",
+            width: "480px",
+            height: "478px",
+          }}
+        >
+          <h1>WHO AM I?</h1>
+        </div>
+        <img src="about-me-lottie.gif" alt="about me animation" />
+      </div>
+
+      <div className="about-me-container">
+        <div className="about-me-left">
+          <h1>I'M ALISHA</h1>
+          <div>
+            <p>
+              A <span className="bold-text">digital designer</span> with
+              knowledge of{" "}
+              <span className="bold-text">front-end development</span>. I enjoy
+              the world of design; the principles help me to dive into
+              creativity, but with a structure that just makes sense.
+            </p>{" "}
+            <p>
+              {" "}
+              With interest in design and some development, I completed an
+              intensive software engineering bootcamp where I learned more{" "}
+              <span>HTML</span>, <span className="bold-text">CSS</span>, and
+              some <span className="bold-text">React</span> too.{" "}
+            </p>
+            <p>
+              This has helped me to turn my own{" "}
+              <span className="bold-text">Figma</span> designs into actual code
+              and because it’s all front-end, I get to stay on the creative side
+              of things when going into development.
+            </p>
+          </div>
+        </div>
+        <div className="about-me-right">
+          <img src="about-me-image.png" alt="designer image" />
+          <div>
+            <button className="primary-button">More about me</button>
+          </div>
+        </div>
+      </div>
+
+      <div className="art-and-design-container">
+        <div className="ad-left">
+          <h1>Oh, The Multi-Faceted World Of Art & Design</h1>
+        </div>
+        <div className="ad-right">
+          <p>
+            Being a <span className="bold-text pink">digital designer</span>{" "}
+            gives me the opportunity to create projects in multiple areas:
+            layout design, branding, web design, etcetera. If you’re one who
+            works on multiple projects . . .
+          </p>
+          <p className="i-know-that-world">I know that world.</p>
+          <div>
+            <h2 className=" art-design pink">ART & DESIGN</h2>
+            <p>
+              Whether it&apos;s digital design, jewelry-making, or portrait
+              drawing, I enjoy them professionally and personally.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="branding-home-container">
         <p>
-          I’m Alisha . . . a Digital Designer with some knowledge of Frontend
-          Development (that’s a bonus). This means that I can design an entire
-          UI and communicate with developers about feasibility.
-        </p>
-        <h2>Want to See How I Think?</h2>
-        <p>
-          I first start with an idea or a brief, rather. Then I move onto
-          creating a sitemap. From that comes a wireframe, which gets translated
-          into a visually appealing interface using one of my favorites: Figma.
-        </p>
-        <p>
-          I work from a design system, creating text style guides and color
-          systems for consistency. Don’t forget the ever-useful components! If
-          necessary, why not throw in a little micro-interaction too?
-        </p>{" "}
-        <p>
-          Now I come from the closed captioning world, so I have an ability to
-          independently manage projects with minimal supervision.
-        </p>{" "}
-        <p>
-          Let’s not forget about collaboration, though. I also come from the
-          retail warehouse industry where I learned the beauty of working on
-          teams in a professional setting. I was a member of a 5-person
-          Inventory Control team. We all worked on the same body of inventory
-          whole managing our own assigned zones, so naturally, our work would
-          intertwine.
-        </p>{" "}
-        <p>
-          I was also part of a 6-person Cycle Count team. We’d count the
-          inventory of 2 neighboring warehouses together and pick up the pieces
-          if anyone fell short.
-        </p>{" "}
-        <p>They were all some really nice people.</p>{" "}
-        <p>
-          I’m familiar with remote work. I recently completed a software
-          engineering bootcamp with over 20 people via Zoom. We met for 15 weeks
-          straight from 9am -4pm, Monday through Friday. I made some new friends
-          and connections there too.
-        </p>{" "}
-        <p>
-          Back to UI Design Take a look around the site and if you’d like to
-          talk about work, feel free to click the “Contact” button. Enjoy your
-          day!
-        </p>{" "}
-        <p>- Alisha</p>{" "}
-        <p>
-          P.S. I’d appreciate feedback on this portfolio site design. What do
-          you think? Good or bad, email me about it.
+          While working with a design agency owner, I developed an interest in{" "}
+          <span className="bold-text pink">branding</span>; it is fun to go
+          through the process and see each puzzle piece as a whole.
         </p>
       </div>
+
       <Footer />
     </div>
   );
