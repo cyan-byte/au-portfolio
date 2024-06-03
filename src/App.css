@@ -465,10 +465,6 @@ button:hover::after {
   line-height: 160%;
 }
 
-/* .hero-designs-right {
-  width: 50%;
-} */
-
 .the-artist-container {
   height: 100vh;
   padding: 80px 120px 80px 120px;
@@ -483,19 +479,12 @@ button:hover::after {
   justify-content: space-between;
 }
 
-.the-artist-left {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  width: 50%;
-}
-
 .the-artist-left-content {
   display: flex;
   flex-direction: column;
 }
 
-.the-artist-left h1 {
+.the-artist-left-content h1 {
   font-size: 7.2rem;
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times;
   font-weight: 900;
@@ -505,6 +494,7 @@ button:hover::after {
 
 .the-artist-right {
   display: flex;
+  justify-content: space-between;
   width: 50%;
   height: 90vh;
 }

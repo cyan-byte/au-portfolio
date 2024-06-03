@@ -288,8 +288,8 @@ export default function Home() {
             <div className="the-artist-left">
               <div className="the-artist-left-content">
                 <h1>The Artist.</h1>
-              </div>{" "}
-              <button className="primary-button">See more</button>
+                <button className="primary-button">See more</button>
+              </div>
             </div>
             <div className="the-artist-right">
               <div className="the-artist-right-a">
