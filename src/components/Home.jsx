@@ -7,12 +7,7 @@ export default function Home() {
 
   return (
     <div className="home-container">
-      <div
-        className="header-hero-container"
-        // style={{
-        //   background: `url('${process.env.PUBLIC_URL}/pale-navy-sky-clouds.jpg')`,
-        // }}
-      >
+      <div className="header-hero-container">
         <Nav />
 
         <div className="hero">
@@ -30,6 +25,11 @@ export default function Home() {
               <p className="digital-designer">DIGITAL DESIGNER</p>
               <p className="junior"> & JUNIOR FRONT-END DEVELOPER</p>
             </div>
+            <a href="mailto:aliau2050@gmail.com" className="nav-link">
+              <div>
+                <button className="primary-button">Contact me</button>
+              </div>
+            </a>
           </div>
           {/* <div className="hero-bottom">
             <button className="portfolio-button">Let's see what I do</button>
@@ -50,7 +50,7 @@ export default function Home() {
           >
             <h1>What I Do</h1>
             <div className="what-i-do-small-text">
-              <h2>CONTENTS</h2>
+              {/* <h2>CONTENTS</h2> */}
               <div className="contents-list">
                 <p>
                   Web Design
@@ -245,52 +245,145 @@ export default function Home() {
             <img src="print-design-booklet-3.png" alt="booklet design" />
           </div>
           <div className="graphic-right-bottom">
-            <div className="graphic-bottom-left">
-              <div>
-                <h1>GRAPHIC DESIGN</h1>
-                <h2>A FULL BOOKLET DESIGN</h2>
-              </div>
-              <button>See the entire layout</button>
+            <div className="graphic-headers">
+              <h1>GRAPHIC DESIGN</h1>
+              <h2>A FULL BOOKLET DESIGN</h2>
             </div>
-            <div className="graphic-bottom-right">
-              <p>
-                <span className="bold-text">Layout</span> Design
-              </p>
-              <p>
-                <span className="bold-text">Type</span>setting
-              </p>
-              <p>
-                <span className="bold-text">Color</span> Theory
-              </p>
-              <p>
-                <span className="bold-text">Book</span> Design
-              </p>
-            </div>
+            <div></div>
+            <button className="primary-button">See the entire layout</button>
           </div>
         </div>
       </div>
 
       <div
+        className="hero-designs-container"
         style={{
           background: `url('${process.env.PUBLIC_URL}/hero-layouts-bg.png')`,
-          backgroundRepeat: "no-repeat",
+          backgroundRepeat: "repeat",
         }}
       >
-        <div className="hero-designs-container">
-          <div className="hero-designs-left">
-            <div className="h1-and-p">
-              <h1>Hero Layouts</h1>
-              <p>
-                These are <span>6 variations</span> of a single design. Which
-                would you choose?
-              </p>{" "}
-            </div>
-            <div>
-              <button className="primary-button">See them up close</button>
-            </div>{" "}
+        <div className="hero-designs-left">
+          <div className="h1-and-p">
+            <h1>Hero Layouts</h1>
+            <p>
+              These are <span className="bold-text">6 variations</span> of a
+              single design. Which would you choose?
+            </p>{" "}
           </div>
-          <div className="hero-designs-right">
-            <img src="hero-designs-gif.gif" alt="web design gif" />
+          <div>
+            <button className="primary-button">See them up close</button>
+          </div>{" "}
+        </div>
+        <div className="hero-designs-right">
+          <img src="hero-designs-gif.gif" alt="web design gif" />
+        </div>
+      </div>
+
+      <div>
+        <div className="the-artist-container">
+          <div className="made-in">
+            <p>MADE ON PAPER</p>
+          </div>
+          <div className="the-artist-content">
+            <div className="the-artist-left">
+              <div className="the-artist-left-content">
+                <h1>The Artist.</h1>
+              </div>{" "}
+              <button className="primary-button">See more</button>
+            </div>
+            <div className="the-artist-right">
+              <div className="the-artist-right-a">
+                <img
+                  src="eye-drawing-3.png"
+                  alt="eye drawing"
+                  style={{
+                    width: "274px",
+                    height: "393px",
+                  }}
+                />
+                <h2>Analog Drawing.</h2>
+              </div>
+              <div className="the-artist-right-b">
+                <img
+                  src="eye-leaves-4.png"
+                  alt="eye drawing"
+                  style={{
+                    width: "245px",
+                    height: "348px",
+                  }}
+                />
+              </div>
+            </div>
+          </div>{" "}
+        </div>
+      </div>
+
+      <div className="digital-illu-container">
+        <p>MADE IN ADOBE ILLUSTRATOR</p>
+        <div className="digital-illu-content">
+          <div className="home-illu-left">
+            <div>
+              <img
+                src="hands-pink-art-1.png"
+                style={{
+                  width: "305px",
+                  height: "419px",
+                }}
+              />
+            </div>
+            <div className="digital-illu-right-imgs">
+              <img
+                src="fancy-sketch-bw.png"
+                style={{
+                  width: "275px",
+                  height: "195px",
+                }}
+              />
+              <img
+                src="fancy-sketch-color.png"
+                style={{
+                  width: "275px",
+                  height: "195px",
+                }}
+              />
+            </div>
+          </div>
+          <div className="digital-illu-right">
+            <div className="digital-illu-right-content">
+              <h1>Digital Illustrator</h1>
+              <button className="primary-button">See more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="portait-artist-container">
+        <div className="pa-content">
+          <div>
+            <p className="made-in">MADE ON PAPER</p>
+          </div>
+          <div className="pa-bottom">
+            <div className="pa-left-content">
+              <div className="pa-h1-p">
+                <h1>Portrait Artist</h1>
+                <p>
+                  Here is one that I enjoyed drawing, although it is quite
+                  emotional. I followed Ruben Belloso Adorna’s work and wanted
+                  to make my own version of his.
+                </p>
+              </div>
+              <button>See this portrait up close</button>
+            </div>
+            <div className="pa-right">
+              <img
+                src="man-face-gallery-2.png"
+                alt="portrait drawing process"
+                style={{
+                  width: "528px",
+                  height: "458px",
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -305,8 +398,7 @@ export default function Home() {
             height: "478px",
           }}
         >
-          {" "}
-          <h1>WHO AM I?</h1>{" "}
+          <h1>WHO AM I?</h1>
         </div>
         <img src="about-me-lottie.gif" alt="about me animation" />
       </div>
@@ -335,23 +427,19 @@ export default function Home() {
               and because it’s all front-end, I get to stay on the creative side
               of things when going into development.
             </p>
-            <div className="about-services">
-              <p>DIGITAL DESIGN</p>
-              <p>WEB DESIGN</p>
-              <p>ANALOG DRAWING</p>
-              <p>DIGITAL ILLUSTRATION</p>
-            </div>
           </div>
         </div>
         <div className="about-me-right">
           <img src="about-me-image.png" alt="designer image" />
-          <button>More about me</button>
+          <div>
+            <button className="primary-button">More about me</button>
+          </div>
         </div>
       </div>
 
       <div className="art-and-design-container">
         <div className="ad-left">
-          <h1>Oh, The Multi-faceted World Of Art & Design</h1>
+          <h1>Oh, The Multi-Faceted World Of Art & Design</h1>
         </div>
         <div className="ad-right">
           <p>
@@ -379,109 +467,21 @@ export default function Home() {
         </p>
       </div>
 
-      <div>
-        <div className="the-artist-container">
-          <p>MADE ON PAPER</p>
-          <div>
-            <p>The Artist.</p>
-            <button>See more</button>
-          </div>
-          <div>
-            <div>
-              <img
-                src="eye-drawing-3.png"
-                alt="eye drawing"
-                style={{
-                  width: "274px",
-                  height: "393px",
-                }}
-              />
-              <h2>Analog Drawing.</h2>
-            </div>
-            <div>
-              <img
-                src="eye-leaves-4.png"
-                alt="eye drawing"
-                style={{
-                  width: "245px",
-                  height: "348px",
-                }}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="digital-illu-container">
-        <p>MADE IN ADOBE ILLUSTRATOR</p>
-        <div className="home-illu-left">
-          <div>
-            <img
-              src="hands-pink-art-1.png"
-              style={{
-                width: "305px",
-                height: "419px",
-              }}
-            />
-          </div>
-          <div>
-            <img
-              src="fancy-sketch-bw.png"
-              style={{
-                width: "275px",
-                height: "195px",
-              }}
-            />
-            <img
-              src="fancy-sketch-color.png"
-              style={{
-                width: "275px",
-                height: "195px",
-              }}
-            />
-          </div>
-          <div className="home-illu-right">
-            <h1>Digital Illustrator</h1>
-            <button>See more</button>
-          </div>
-        </div>
-      </div>
-
-      <div className="portait-artist-container">
-        <div className="pa-left">
-          <div>
-            <h1>Portrait Artist</h1>
-            <p>
-              Here is one that I enjoyed drawing, although it is quite
-              emotional. I followed Ruben Belloso Adorna’s work and wanted to
-              make my own version of his.
-            </p>
-          </div>
-          <button>See this portrait up close</button>
-        </div>
-        <div>
-          <img
-            src="man-face-gallery-2.png"
-            alt="portrait drawing process"
-            style={{
-              width: "528px",
-              height: "458px",
-            }}
-          />
-        </div>
-      </div>
-
       <div className="thank-you-container">
         <div className="ty-left">
-          <h1>Want to work on a project?</h1>
-          <a href="mailto:aliau2050@gmail.com" className="nav-link">
-            <div>
-              <button>Contact me</button>
-            </div>
-          </a>
+          <div className="ty-left-top">
+            <h1>Want to work on a project?</h1>
+          </div>
+          <div className="ty-left-bottom">
+            <a href="mailto:aliau2050@gmail.com" className="nav-link">
+              <div>
+                <button className="primary-button">Contact me</button>
+              </div>
+            </a>
+          </div>
         </div>
         <div className="ty-right">
-          <p>Thanks for viewing my portfolio</p>
+          <p>Thanks for viewing my portfolio.</p>
         </div>
       </div>
 

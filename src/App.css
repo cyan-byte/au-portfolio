@@ -95,6 +95,7 @@ button:hover::after {
   border-bottom: #1c1c1c 1px solid;
   gap: 32px;
   height: 420px;
+  padding-bottom: 72px;
 }
 
 .hero-top {
@@ -172,7 +173,7 @@ button:hover::after {
   flex-direction: column;
   background-color: #1c1c1c;
   padding-top: 48px;
-  gap: 48px;
+  gap: 72px;
 }
 
 .what-i-do h1 {
@@ -278,10 +279,8 @@ button:hover::after {
 .mobile-ux-container {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   padding: 120px;
-  gap: 80px;
-  height: 100vh;
 }
 
 .mobile-top {
@@ -382,6 +381,7 @@ button:hover::after {
 .graphic-design-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   background-color: #fefcfd;
   padding-left: "120px";
@@ -390,10 +390,8 @@ button:hover::after {
   gap: 16px;
 }
 
-.graphic-bottom-left {
-  display: flex;
-  flex-direction: column;
-  gap: 66px;
+.graphic-design-container img {
+  border: #1c1c1c 0.2px solid;
 }
 
 .graphic-right h1 {
@@ -431,8 +429,7 @@ button:hover::after {
   align-items: center;
   flex-wrap: wrap;
   color: #fefcfd;
-  gap: 72px;
-  height: 100vh;
+  height: 112vh;
 }
 
 .hero-designs-container button {
@@ -443,7 +440,8 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
+  width: 50%;
 }
 
 .hero-designs-left .h1-and-p {
@@ -451,6 +449,7 @@ button:hover::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 4px;
 }
 
 .hero-designs-left h1 {
@@ -463,6 +462,159 @@ button:hover::after {
 .hero-designs-left p {
   max-width: 331px;
   text-align: center;
+  line-height: 160%;
+}
+
+/* .hero-designs-right {
+  width: 50%;
+} */
+
+.the-artist-container {
+  height: 100vh;
+  padding: 80px 120px 80px 120px;
+}
+
+.the-artist-container .made-in {
+  text-align: right;
+}
+
+.the-artist-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.the-artist-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 50%;
+}
+
+.the-artist-left-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.the-artist-left h1 {
+  font-size: 7.2rem;
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times;
+  font-weight: 900;
+  max-width: 214px;
+  line-height: 85%;
+}
+
+.the-artist-right {
+  display: flex;
+  width: 50%;
+  height: 90vh;
+}
+
+.the-artist-right-a {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 216px;
+}
+
+.the-artist-right-b {
+  display: flex;
+  align-self: end;
+}
+
+.the-artist-right h2 {
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 85%;
+}
+
+.digital-illu-container {
+  padding: 80px 120px;
+  height: 80vh;
+  background-color: #fefcfd;
+}
+
+.digital-illu-content {
+  display: flex;
+  justify-content: space-between;
+}
+.home-illu-left {
+  display: flex;
+  gap: 32px;
+}
+
+.digital-illu-container p {
+  text-align: right;
+}
+
+.digital-illu-container h1 {
+  font-size: 8rem;
+  font-weight: 900;
+  line-height: 85%;
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
+  max-width: 412px;
+}
+
+.digital-illu-right-content h1 {
+  padding-bottom: 32px;
+}
+
+.digital-illu-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 24px;
+}
+
+.digital-illu-right-imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+
+.portrait-artist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pa-content .made-in {
+  text-align: right;
+}
+
+.pa-content {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 120px;
+  height: 90vh;
+  gap: 32px;
+}
+
+.pa-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pa-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.pa-h1-p {
+  display: flex;
+  flex-direction: column;
+}
+
+.pa-h1-p h1 {
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
+  font-size: 8rem;
+  font-weight: 900;
+  line-height: 85%;
+}
+
+.pa-left-content {
+  max-width: 420px;
 }
 
 .who-am-i-container {
@@ -471,7 +623,8 @@ button:hover::after {
   justify-content: center;
   align-items: center;
   background-color: #252525;
-  height: 100vh;
+  height: 112vh;
+  padding-top: 48px;
 }
 
 .who-am-i {
@@ -486,7 +639,7 @@ button:hover::after {
   font-size: 8rem;
   font-weight: 900;
   color: #fefcfd;
-  max-width: 256px;
+  max-width: 216px;
   line-height: 88%;
 }
 
@@ -496,6 +649,7 @@ button:hover::after {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 
 .about-me-left {
@@ -503,8 +657,10 @@ button:hover::after {
   flex-direction: column;
   justify-content: space-around;
   height: 100vh;
-  max-width: 536px;
-  width: 50%;
+  max-width: 508px;
+  width: 100%;
+  background-color: #fefcfd;
+  border-right: #170811 0.5px solid;
 }
 
 .about-me-left h1 {
@@ -515,17 +671,91 @@ button:hover::after {
   line-height: 85%;
 }
 
-.about-services {
-  display: flex;
-}
-
 .about-me-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 40px;
+  width: 50%;
+  height: 100vh;
+  padding-right: 0;
+  /* background-color: #F6E3DC; */
+}
+
+.art-and-design-container {
+  display: flex;
+  padding: 120px;
+  height: 100vh;
+}
+
+.ad-left {
   width: 50%;
 }
+
+.ad-left h1 {
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
+  font-size: 8.8rem;
+  font-weight: 900;
+  max-width: 500px;
+  line-height: 85%;
+}
+
+.ad-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /*^ This one aligned it vertically!  */
+  gap: 24px;
+  width: 50%;
+  max-width: 542px;
+}
+
+.i-know-that-world {
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.branding-home-container {
+  margin-left: 120px;
+  max-width: 350px;
+  height: 200px;
+}
+
+.thank-you-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px;
+  height: 80vh;
+  background-color: #fefcfd;
+  border-top: #1c1c1c 0.5px solid;
+}
+
+.ty-left {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.ty-left h1 {
+  font-size: 7.2rem;
+  max-width: 487px;
+  line-height: 85%;
+}
+
+.ty-right {
+  display: flex;
+  align-items: end;
+}
+
+.ty-right p {
+  font-size: 4.8rem;
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
+  max-width: 401px;
+  line-height: 85%;
+}
+
 /* navigation */
 
 .nav {
@@ -635,6 +865,8 @@ button:hover::after {
   padding-top: 8px;
   padding-bottom: 8px;
   height: 44px;
+  border-top: #1c1c1c 1px solid;
+
   border-bottom: #1c1c1c 1px solid;
 }
 
@@ -657,8 +889,7 @@ button:hover::after {
   display: flex;
   justify-content: space-between;
   background-color: #f6e3dc;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding: 64px 120px 64px 80px;
 }
 
 .footer-nav-links {
