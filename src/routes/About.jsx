@@ -24,7 +24,7 @@ export default function () {
       <div className="about-me-container">
         <div className="about-me-left">
           <h1>I'M ALISHA</h1>
-          <div>
+          <div className="about-paragraphs">
             <p>
               A <span className="bold-text">digital designer</span> with
               knowledge of{" "}
@@ -49,9 +49,6 @@ export default function () {
         </div>
         <div className="about-me-right">
           <img src="about-me-image.png" alt="designer image" />
-          <div>
-            <button className="primary-button">More about me</button>
-          </div>
         </div>
       </div>
 
@@ -85,6 +82,36 @@ export default function () {
         </p>
       </div>
 
+      <div className="thank-you-container">
+        <div className="ty-left">
+          <div className="ty-left-top">
+            <h1>Want to work on a project?</h1>
+          </div>
+          <div className="ty-left-bottom">
+            <a href="mailto:aliau2050@gmail.com" className="nav-link">
+              <div>
+                <button className="primary-button">Contact me</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="ty-right">
+          <p>Thanks for viewing my portfolio.</p>
+        </div>
+      </div>
+
+      <div className="linkedin-bar">
+        <p>Say hi on: </p>
+        <a
+          href="https://linkedin.com/in/alishaupton"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div>
+            <button>LinkedIn</button>
+          </div>
+        </a>
+      </div>
       <Footer />
     </div>
   );

@@ -18,11 +18,6 @@ export default function Nav() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/work" activeClassName="active" className="nav-link">
-            Work
-          </NavLink>
-        </li>
-        <li>
           <NavLink to="/about" activeClassName="active" className="nav-link">
             About
           </NavLink>

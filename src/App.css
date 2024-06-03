@@ -636,10 +636,12 @@ button:hover::after {
 
 .about-me-container {
   display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
+  flex-wrap: wrap-reverse;
+  height: 100%;
   justify-content: center;
   align-items: center;
+  background-color: #f6e3dc;
+  border-bottom: #170811 solid 0.5px;
 }
 
 .about-me-left {
@@ -651,6 +653,15 @@ button:hover::after {
   width: 50%;
   background-color: #fefcfd;
   border-right: #170811 0.5px solid;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.about-paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 140%;
 }
 
 .about-me-left h1 {
@@ -675,6 +686,7 @@ button:hover::after {
 
 .art-and-design-container {
   display: flex;
+  flex-wrap: wrap;
   padding: 120px;
   height: 100vh;
 }
@@ -907,7 +919,7 @@ button:hover::after {
   gap: 4px;
 }
 
-.under-construction {
+/* .under-construction {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -917,7 +929,7 @@ button:hover::after {
   font-weight: 500;
   letter-spacing: 0.2rem;
   border-bottom: #1c1c1c solid 0.5px;
-}
+} */
 
 /* Media Queries */
 
