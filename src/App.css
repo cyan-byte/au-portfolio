@@ -211,6 +211,7 @@ button:hover::after {
   flex-direction: column;
   background-color: #fefcfd;
   padding: 120px;
+  border-bottom: #170811 0.5px solid;
 }
 
 .buttons-container {
@@ -281,6 +282,7 @@ button:hover::after {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 120px;
+  border-bottom: #170811 0.5px solid;
 }
 
 .mobile-top {
@@ -468,6 +470,7 @@ button:hover::after {
 .the-artist-container {
   height: 100vh;
   padding: 80px 120px 80px 120px;
+  border-bottom: #170811 0.5px solid;
 }
 
 .the-artist-container .made-in {
@@ -522,6 +525,7 @@ button:hover::after {
   padding: 80px 120px;
   height: 80vh;
   background-color: #fefcfd;
+  border-bottom: #170811 0.5px solid;
 }
 
 .digital-illu-content {
@@ -566,6 +570,7 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: #170811 0.5px solid;
 }
 
 .pa-content .made-in {
