@@ -133,78 +133,67 @@ export default function Home() {
           <h1>MOBILE UI/UX</h1>
         </div>
         <div className="mobile-bottom">
-          <div className="mobile-left-right">
-            <div className="mobile-left">
-              <div className="h2-h3-container">
-                <h2>CLEANUP APP</h2>
-                <h3>SIGN-UP SCREEN</h3>
-              </div>
-              <div className="mobile-button">
-                <div>
-                  <button className="primary-button">See the case study</button>
-                </div>
+          <div className="card column-1">
+            <div className="h2-h3-container">
+              <h2>CLEANUP APP</h2>
+              <h3>SIGN-UP SCREEN</h3>
+            </div>
+            <div className="mobile-button">
+              <div>
+                <button className="primary-button">See the case study</button>
               </div>
             </div>
-            <div className="mobile-right">
-              <div className="cards">
-                <div className="card">
-                  <div>
-                    <h3>SIGN-UP SCREEN</h3>
-                    <h4>CONCEPTUAL</h4>
-                  </div>{" "}
-                  <img src="mobile-mockup-thumbnail.png" />
-                  <div className="card-bottom">
-                    <p>
-                      This sign-up screen allows users to search for and sign up
-                      for local volunteering events.
-                    </p>
-                    <p className="see-more">See More {`>`}</p>
-                  </div>
-                </div>
-                <div className="card">
-                  <div>
-                    <h3>WIREFRAMING</h3>
-                    <h4>DETAILED SKETCH</h4>
-                  </div>{" "}
-                  <div
-                    className="mobile-gif"
-                    style={{
-                      width: "263px",
-                      height: "193px",
-                      background: `url('${process.env.PUBLIC_URL}/mobile-sketch-gif.gif')`,
-                      backgroundRepeat: "no-repeat",
-                      backgroundPosition: "center",
-                      backgroundSize: "112px",
-                      // paddingTop: "16px",
-                      border: ".5px solid #41423C",
-                      backgroundColor: "#E0E0E0",
-                    }}
-                  >
-                    {/* <img src="mobile-sketch-gif.gif" alt="mobile ui design" /> */}
-                  </div>
-                  <div className="card-bottom">
-                    <p>
-                      After watching a user interview for insight on what
-                      features to add, I sketched a few designs.
-                    </p>
-                    <p className="see-more">See More {`>`}</p>
-                  </div>
-                </div>
-                <div className="card">
-                  <div>
-                    <h3>HIGH-FIDELITY</h3>
-                    <h4>DESIGNER</h4>
-                  </div>{" "}
-                  <img src="mobile-app-final-scroll.png" />
-                  <div className="card-bottom">
-                    <p>
-                      The final scroll of the screen. What would I change? The
-                      hierarchy and non-fixed RSVP.
-                    </p>
-                    <p className="see-more">See More {`>`}</p>
-                  </div>
-                </div>
-              </div>
+          </div>
+          <div className="card column-2">
+            <div>
+              <h3>SIGN-UP SCREEN</h3>
+              <h4>CONCEPTUAL</h4>
+            </div>{" "}
+            <img src="mobile-mockup-thumbnail.png" />
+            <div className="card-bottom">
+              <p>
+                This sign-up screen allows users to search for and sign up for
+                local volunteering events.
+              </p>
+            </div>
+          </div>
+          <div className="card column-3">
+            <div>
+              <h3>WIREFRAMING</h3>
+              <h4>DETAILED SKETCH</h4>
+            </div>{" "}
+            <div
+              className="mobile-gif"
+              style={{
+                width: "263px",
+                height: "193px",
+                background: `url('${process.env.PUBLIC_URL}/mobile-sketch-gif.gif')`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "112px",
+                // paddingTop: "16px",
+                border: ".5px solid #41423C",
+                backgroundColor: "#E0E0E0",
+              }}
+            ></div>
+            <div className="card-bottom">
+              <p>
+                After watching a user interview for insight on what features to
+                add, I sketched a few designs.
+              </p>
+            </div>
+          </div>
+          <div className="card column-4">
+            <div>
+              <h3>HIGH-FIDELITY</h3>
+              <h4>DESIGNER</h4>
+            </div>{" "}
+            <img src="mobile-app-final-scroll.png" />
+            <div className="card-bottom">
+              <p>
+                The final scroll of the screen. What would I change? The
+                hierarchy and non-fixed RSVP.
+              </p>
             </div>
           </div>
         </div>
