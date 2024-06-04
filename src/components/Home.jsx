@@ -133,7 +133,7 @@ export default function Home() {
           <h1>MOBILE UI/UX</h1>
         </div>
         <div className="mobile-bottom">
-          <div className="card column-1">
+          <div className="column-1">
             <div className="h2-h3-container">
               <h2>CLEANUP APP</h2>
               <h3>SIGN-UP SCREEN</h3>
@@ -143,57 +143,59 @@ export default function Home() {
                 <button className="primary-button">See the case study</button>
               </div>
             </div>
-          </div>
-          <div className="card column-2">
-            <div>
-              <h3>SIGN-UP SCREEN</h3>
-              <h4>CONCEPTUAL</h4>
-            </div>{" "}
-            <img src="mobile-mockup-thumbnail.png" />
-            <div className="card-bottom">
-              <p>
-                This sign-up screen allows users to search for and sign up for
-                local volunteering events.
-              </p>
+          </div>{" "}
+          <div className="cards">
+            <div className="card column-2">
+              <div>
+                <h3>SIGN-UP SCREEN</h3>
+                <h4>CONCEPTUAL</h4>
+              </div>{" "}
+              <img src="mobile-mockup-thumbnail.png" />
+              <div className="card-bottom">
+                <p>
+                  This sign-up screen allows users to search for and sign up for
+                  local volunteering events.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="card column-3">
-            <div>
-              <h3>WIREFRAMING</h3>
-              <h4>DETAILED SKETCH</h4>
-            </div>{" "}
-            <div
-              className="mobile-gif"
-              style={{
-                width: "263px",
-                height: "193px",
-                background: `url('${process.env.PUBLIC_URL}/mobile-sketch-gif.gif')`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
-                backgroundSize: "112px",
-                // paddingTop: "16px",
-                border: ".5px solid #41423C",
-                backgroundColor: "#E0E0E0",
-              }}
-            ></div>
-            <div className="card-bottom">
-              <p>
-                After watching a user interview for insight on what features to
-                add, I sketched a few designs.
-              </p>
+            <div className="card column-3">
+              <div>
+                <h3>WIREFRAMING</h3>
+                <h4>DETAILED SKETCH</h4>
+              </div>{" "}
+              <div
+                className="mobile-gif"
+                style={{
+                  width: "263px",
+                  height: "193px",
+                  background: `url('${process.env.PUBLIC_URL}/mobile-sketch-gif.gif')`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  backgroundSize: "112px",
+                  // paddingTop: "16px",
+                  border: ".5px solid #41423C",
+                  backgroundColor: "#E0E0E0",
+                }}
+              ></div>
+              <div className="card-bottom">
+                <p>
+                  After watching a user interview for insight on what features
+                  to add, I sketched a few designs.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="card column-4">
-            <div>
-              <h3>HIGH-FIDELITY</h3>
-              <h4>DESIGNER</h4>
-            </div>{" "}
-            <img src="mobile-app-final-scroll.png" />
-            <div className="card-bottom">
-              <p>
-                The final scroll of the screen. What would I change? The
-                hierarchy and non-fixed RSVP.
-              </p>
+            <div className="card column-4">
+              <div>
+                <h3>HIGH-FIDELITY</h3>
+                <h4>DESIGNER</h4>
+              </div>{" "}
+              <img src="mobile-app-final-scroll.png" />
+              <div className="card-bottom">
+                <p>
+                  The final scroll of the screen. What would I change? The
+                  hierarchy and non-fixed RSVP.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -225,21 +227,46 @@ export default function Home() {
       </div>
 
       <div className="graphic-design-container">
-        <div className="graphic-left">
-          <img src="print-design-booklet-1.png" alt="booklet design" />
-        </div>
-        <div className="graphic-right">
-          <div className="smaller-booklet-images">
-            <img src="print-design-booklet-2.png" alt="booklet design" />
-            <img src="print-design-booklet-3.png" alt="booklet design" />
-          </div>
-          <div className="graphic-right-bottom">
-            <div className="graphic-headers">
-              <h1>GRAPHIC DESIGN</h1>
-              <h2>A FULL BOOKLET DESIGN</h2>
+        <div className="graphic-design-rows">
+          <div className="graphic-design-row-1">
+            <div className="graphic-top-left">
+              <p>graphic</p>
             </div>
-            <div></div>
-            <button className="primary-button">See the entire layout</button>
+            <div className="graphic-top-mid">
+              <div>
+                <p className="graphic-plus">
+                  <span className="bold-text">+</span>
+                </p>
+                <p>
+                  <span className="bold-text">layout</span> + design
+                </p>
+                <p>
+                  <span className="bold-text">book</span> + design
+                </p>
+                <p>
+                  <span className="bold-text">color</span> + theory
+                </p>
+                <p>
+                  <span className="bold-text">type</span>setting
+                </p>
+              </div>
+            </div>
+            <div className="graphic-top-right">
+              <p>design</p>
+            </div>
+          </div>
+          <div>
+            <div className="graphic-design-row-2">
+              <img src="print-design-booklet-1a.png" />
+              <img src="print-design-booklet-2.png" />
+              <img src="print-design-booklet-3.png" />
+            </div>
+            <div className="graphic-design-row-3">
+              <h3>A FULL BOOKLET DESIGN</h3>
+              <div>
+                <button className="primary-button">See the full layout</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

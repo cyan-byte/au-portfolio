@@ -281,7 +281,6 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: end;
   gap: 144px;
   padding: 120px;
   border-bottom: #170811 0.5px solid;
@@ -314,7 +313,7 @@ button:hover::after {
 
 .mobile-bottom {
   display: flex;
-  gap: 32px;
+  justify-content: space-between;
 }
 
 .cards {
@@ -368,34 +367,60 @@ button:hover::after {
 
 .graphic-design-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #fefcfd;
-  padding-left: "120px";
-  padding-right: "120px";
-  height: 100vh;
+  flex-direction: column;
   gap: 16px;
+  padding: 120px;
+  background-color: #252525;
 }
 
-.graphic-design-container img {
-  border: #1c1c1c 0.2px solid;
+.graphic-design-rows {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 64px;
+  background-color: #fefcfd;
+
 }
 
-.graphic-right h1 {
+.graphic-design-row-1 {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  padding: 64px 16px;
+}
+
+.graphic-top-left,
+.graphic-top-right {
+  font-size: 12rem;
+  font-weight: 700;
+}
+
+.graphic-top-mid {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.graphic-plus {
   font-size: 4.8rem;
 }
 
-.graphic-right h2 {
-  font-size: 1.8rem;
-  font-weight: 400;
-  color: #926579;
+.graphic-design-row-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
-.smaller-booklet-images {
+
+.graphic-design-row-3 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 16px;
+}
+
+.graphic-design-row-3 h3 {
+  font-weight: 400;
 }
 
 .bold-text {
@@ -438,6 +463,7 @@ button:hover::after {
   justify-content: center;
   align-items: center;
   gap: 4px;
+  text-align: center;
 }
 
 .hero-designs-left h1 {
@@ -445,6 +471,7 @@ button:hover::after {
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
   font-weight: 900;
   color: #fefcfd;
+  line-height: 85%;
 }
 
 .hero-designs-left p {
@@ -454,6 +481,8 @@ button:hover::after {
 }
 
 .the-artist-container {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   padding: 80px 120px 80px 120px;
   border-bottom: #170811 0.5px solid;
@@ -466,6 +495,7 @@ button:hover::after {
 .the-artist-content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .the-artist-left-content {
@@ -485,6 +515,7 @@ button:hover::after {
 .the-artist-right {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 50%;
   height: 90vh;
 }
@@ -508,6 +539,8 @@ button:hover::after {
 }
 
 .digital-illu-container {
+  display: flex;
+  flex-direction: column;
   padding: 80px 120px;
   height: 80vh;
   background-color: #fefcfd;
@@ -517,6 +550,7 @@ button:hover::after {
 .digital-illu-content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .home-illu-left {
   display: flex;
