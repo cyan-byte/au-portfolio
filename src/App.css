@@ -282,8 +282,9 @@ button:hover::after {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 144px;
-  padding: 120px;
+  padding: 120px 120px 0px 120px;
   border-bottom: #170811 0.5px solid;
+  height: 100vh;
 }
 
 .mobile-top {
@@ -348,6 +349,7 @@ button:hover::after {
 
 .email-design-container h1 {
   font-size: 7.2rem;
+  text-align: center;
 }
 
 .email-mid {
@@ -379,7 +381,6 @@ button:hover::after {
   flex-wrap: wrap;
   padding: 64px;
   background-color: #fefcfd;
-
 }
 
 .graphic-design-row-1 {
@@ -412,7 +413,6 @@ button:hover::after {
   flex-wrap: wrap;
 }
 
-
 .graphic-design-row-3 {
   display: flex;
   flex-direction: column;
@@ -421,6 +421,67 @@ button:hover::after {
 
 .graphic-design-row-3 h3 {
   font-weight: 400;
+}
+
+.ui-design-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-design-top {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  background-color: #fefcfd;
+  padding: 120px 120px 40px 120px;
+}
+
+.ui-design-top h1 {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.ui-design-top-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ui-design-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 120px 36px 120px;
+}
+
+.ui-bottom-h2-p {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 40px;
+}
+
+.ui-bottom-h2-p h2 {
+  padding-bottom: 8px;
+  color: #170811;
+}
+
+.ui-bottom-h2-p p {
+  color: #252525;
+}
+
+.ui-bottom-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.ui-bottom-right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 541px;
 }
 
 .bold-text {
@@ -541,6 +602,7 @@ button:hover::after {
 .digital-illu-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 80px 120px;
   height: 80vh;
   background-color: #fefcfd;
@@ -550,6 +612,7 @@ button:hover::after {
 .digital-illu-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 .home-illu-left {
@@ -592,8 +655,7 @@ button:hover::after {
   align-items: center;
   border-bottom: #170811 0.5px solid;
 }
-
-.pa-content .made-in {
+.pa-top {
   text-align: right;
 }
 
@@ -602,7 +664,6 @@ button:hover::after {
   flex-direction: column;
   padding: 80px 120px;
   height: 90vh;
-  gap: 32px;
 }
 
 .pa-bottom {

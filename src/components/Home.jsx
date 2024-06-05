@@ -201,6 +201,44 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="ui-design-container">
+        <div className="ui-design-top">
+          <h1>UI DESIGN</h1>
+          <div className="ui-design-top-bottom">
+            <div>
+              <h3>PRODUCT</h3>
+              <p className="email-app-text">Email App</p>
+            </div>
+            <div>
+              <h3>TASK</h3>
+              <p className="email-app-text">UI Design</p>
+            </div>
+          </div>
+        </div>
+        <div className="ui-design-bottom">
+          <div className="ui-bottom-left">
+            <img src="email-inbox-mockup.png" />
+            <img src="email-open-mockup.png" />
+          </div>
+          <div className="ui-bottom-right">
+            <div className="ui-bottom-h2-p">
+              <div>
+                <h2>THE DETAILS</h2>
+                <p>
+                  <span className="bold-text">
+                    I designed the icons and created the inbox layout
+                  </span>{" "}
+                  based directly off a sketch that was provided.
+                </p>
+              </div>
+            </div>
+            <div>
+              <button className="primary-button">See more details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="email-design-container">
         <div className="email-top">
           <h1>EMAIL + DESIGN</h1>
@@ -270,6 +308,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      
 
       <div
         className="hero-designs-container"
@@ -375,7 +415,7 @@ export default function Home() {
 
       <div className="portait-artist-container">
         <div className="pa-content">
-          <div>
+          <div className="pa-top">
             <p className="made-in">MADE ON PAPER</p>
           </div>
           <div className="pa-bottom">
