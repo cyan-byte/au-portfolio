@@ -428,7 +428,6 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   border-bottom: #170811 0.5px solid;
-
 }
 
 .ui-design-top {
@@ -666,6 +665,7 @@ button:hover::after {
 .portrait-artist-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   border-bottom: #170811 0.5px solid;
 }
@@ -695,6 +695,7 @@ button:hover::after {
 .pa-h1-p {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
 .pa-h1-p h1 {
@@ -705,6 +706,9 @@ button:hover::after {
 }
 
 .pa-left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
   max-width: 420px;
 }
 

@@ -345,7 +345,7 @@ export default function Home() {
             <div className="the-artist-left">
               <div className="the-artist-left-content">
                 <h1>The Artist.</h1>
-                <button className="primary-button">See more</button>
+                <div><button className="primary-button">See more</button></div>
               </div>
             </div>
             <div className="the-artist-right">
@@ -416,30 +416,36 @@ export default function Home() {
 
       <div className="portait-artist-container">
         <div className="pa-content">
-          <div className="pa-top">
-            <p className="made-in">MADE ON PAPER</p>
-          </div>
-          <div className="pa-bottom">
-            <div className="pa-left-content">
-              <div className="pa-h1-p">
-                <h1>Portrait Artist</h1>
-                <p>
-                  Here is one that I enjoyed drawing, although it is quite
-                  emotional. I followed Ruben Belloso Adorna’s work and wanted
-                  to make my own version of his.
-                </p>
-              </div>
-              <button>See this portrait up close</button>
+          <div className="pa-top-bottom">
+            <div className="pa-top">
+              <p className="made-in">MADE ON PAPER</p>
             </div>
-            <div className="pa-right">
-              <img
-                src="man-face-gallery-2.png"
-                alt="portrait drawing process"
-                style={{
-                  width: "528px",
-                  height: "458px",
-                }}
-              />
+            <div className="pa-bottom">
+              <div className="pa-left-content">
+                <div className="pa-h1-p">
+                  <h1>Portrait Artist</h1>
+                  <p>
+                    Here is one that I enjoyed drawing, although it is quite
+                    emotional. I followed Ruben Belloso Adorna’s work and wanted
+                    to make my own version of his.
+                  </p>
+                </div>
+                <div>
+                  <button className="primary-button">
+                    See this portrait up close
+                  </button>
+                </div>
+              </div>
+              <div className="pa-right">
+                <img
+                  src="man-face-gallery-2.png"
+                  alt="portrait drawing process"
+                  style={{
+                    width: "528px",
+                    height: "458px",
+                  }}
+                />
+              </div>
             </div>
           </div>
         </div>
