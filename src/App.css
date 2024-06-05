@@ -281,10 +281,10 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 144px;
-  padding: 120px 120px 0px 120px;
+  justify-content: space-between;
+  padding: 120px 120px 64px 120px;
   border-bottom: #170811 0.5px solid;
-  height: 100vh;
+  height: 90vh;
 }
 
 .mobile-top {
@@ -315,6 +315,7 @@ button:hover::after {
 .mobile-bottom {
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
 
 .cards {
@@ -426,6 +427,8 @@ button:hover::after {
 .ui-design-container {
   display: flex;
   flex-direction: column;
+  border-bottom: #170811 0.5px solid;
+
 }
 
 .ui-design-top {
@@ -438,8 +441,19 @@ button:hover::after {
 }
 
 .ui-design-top h1 {
-  font-size: 6rem;
-  font-weight: 600;
+  font-size: 7.2rem;
+  font-weight: 500;
+  line-height: 80%;
+  padding-bottom: 48px;
+}
+
+.ui-header-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ui-header-row P {
+  text-align: right;
 }
 
 .ui-design-top-bottom {

@@ -124,6 +124,30 @@ export default function Home() {
         </div>
       </div>
 
+      <div
+        className="hero-designs-container"
+        style={{
+          background: `url('${process.env.PUBLIC_URL}/hero-layouts-bg.png')`,
+          backgroundRepeat: "repeat",
+        }}
+      >
+        <div className="hero-designs-left">
+          <div className="h1-and-p">
+            <h1>Hero Layouts</h1>
+            <p>
+              These are <span className="bold-text">6 variations</span> of a
+              single design. Which would you choose?
+            </p>{" "}
+          </div>
+          <div>
+            <button className="primary-button">See them up close</button>
+          </div>{" "}
+        </div>
+        <div className="hero-designs-right">
+          <img src="hero-designs-gif.gif" alt="web design gif" />
+        </div>
+      </div>
+
       <div className="mobile-ux-container">
         <div className="mobile-top">
           <div className="made-in">
@@ -203,7 +227,10 @@ export default function Home() {
 
       <div className="ui-design-container">
         <div className="ui-design-top">
-          <h1>UI DESIGN</h1>
+          <div className="ui-header-row">
+            <h1>UI DESIGN</h1>
+            <p className="made-in">MADE IN ADOBE XD</p>
+          </div>
           <div className="ui-design-top-bottom">
             <div>
               <h3>PRODUCT</h3>
@@ -306,32 +333,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      
-
-      <div
-        className="hero-designs-container"
-        style={{
-          background: `url('${process.env.PUBLIC_URL}/hero-layouts-bg.png')`,
-          backgroundRepeat: "repeat",
-        }}
-      >
-        <div className="hero-designs-left">
-          <div className="h1-and-p">
-            <h1>Hero Layouts</h1>
-            <p>
-              These are <span className="bold-text">6 variations</span> of a
-              single design. Which would you choose?
-            </p>{" "}
-          </div>
-          <div>
-            <button className="primary-button">See them up close</button>
-          </div>{" "}
-        </div>
-        <div className="hero-designs-right">
-          <img src="hero-designs-gif.gif" alt="web design gif" />
         </div>
       </div>
 
