@@ -40,8 +40,8 @@ export default function Home() {
             style={{
               background: `url('${process.env.PUBLIC_URL}/what-i-do-frame.png')`,
               backgroundRepeat: "no-repeat",
-              width: "478px",
-              height: "490px",
+              width: "47.8rem",
+              height: "49rem",
             }}
           >
             <h1>What I Do</h1>
@@ -111,7 +111,7 @@ export default function Home() {
               <img
                 src="truly-white-bg-gif.gif"
                 alt="web design mockup"
-                style={{ width: "385px", height: "216.92px" }}
+                style={{ width: "38.5rem", height: "21.692rem" }}
               />
             </a>
             <p>Designed with large type features and a visible grid.</p>
@@ -184,13 +184,13 @@ export default function Home() {
             <div
               className="mobile-gif"
               style={{
-                width: "263px",
-                height: "193px",
+                width: "26.3rem",
+                height: "19.3rem",
                 background: `url('${process.env.PUBLIC_URL}/mobile-sketch-gif.gif')`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                backgroundSize: "112px",
-                border: ".5px solid #41423C",
+                backgroundSize: "11.2rem",
+                border: ".05rem solid #41423C",
                 backgroundColor: "#E0E0E0",
               }}
             ></div>
@@ -412,8 +412,8 @@ export default function Home() {
                 src="eye-drawing-3.png"
                 alt="eye drawing"
                 style={{
-                  width: "274px",
-                  height: "393px",
+                  width: "27.4rem",
+                  height: "39.3rem",
                 }}
               />
               <h2>Analog Drawing.</h2>
@@ -423,8 +423,8 @@ export default function Home() {
                 src="eye-leaves-4.png"
                 alt="eye drawing"
                 style={{
-                  width: "245px",
-                  height: "348px",
+                  width: "24.5rem",
+                  height: "34.8rem",
                 }}
               />
             </div>
@@ -440,8 +440,8 @@ export default function Home() {
               <img
                 src="hands-pink-art-1.png"
                 style={{
-                  width: "305px",
-                  height: "419px",
+                  width: "30.5rem",
+                  height: "41.9rem",
                 }}
               />
             </div>
@@ -449,15 +449,15 @@ export default function Home() {
               <img
                 src="fancy-sketch-bw.png"
                 style={{
-                  width: "275px",
-                  height: "195px",
+                  width: "27.5rem",
+                  height: "19.5rem",
                 }}
               />
               <img
                 src="fancy-sketch-color.png"
                 style={{
-                  width: "275px",
-                  height: "195px",
+                  width: "27.5rem",
+                  height: "19.5rem",
                 }}
               />
             </div>
@@ -497,10 +497,10 @@ export default function Home() {
                 <img
                   src="man-face-gallery-2.png"
                   alt="portrait drawing process"
-                  style={{
-                    width: "52.8rem",
-                    height: "45.8rem",
-                  }}
+                  // style={{
+                  //   width: "52.8rem",
+                  //   height: "45.8rem",
+                  // }}
                 />
               </div>
             </div>

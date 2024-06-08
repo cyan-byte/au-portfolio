@@ -45,7 +45,7 @@ h4 {
 h2,
 h3,
 h4 {
-  letter-spacing: 0.2px;
+  letter-spacing: 0.02rem;
 }
 
 p {
@@ -65,16 +65,16 @@ button {
   background-color: #fefcfd;
   color: #1c1c1c;
   font-size: 1.6rem;
-  padding: 10px 32px;
-  border: #1c1c1c solid 0.5px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem 3.2rem;
+  border: #1c1c1c solid .005rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0rem .8rem 2.4rem;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 button:hover {
   background-color: #ffead3;
-  padding: 10px 64px;
+  padding: 1rem 6.4rem;
   cursor: pointer;
 }
 
@@ -94,17 +94,17 @@ button:hover::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: #1c1c1c 1px solid;
-  gap: 32px;
-  height: 420px;
-  padding-bottom: 72px;
+  border-bottom: #1c1c1c .1rem solid;
+  gap: 3.2rem;
+  height: 42rem;
+  padding-bottom: 7.2rem;
 }
 
 .hero-top {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .welcome {
@@ -140,13 +140,13 @@ button:hover::after {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  padding-bottom: 40px;
+  padding-bottom: 4rem;
 }
 
 .hero-bottom button {
   background-color: #ceffa8;
-  padding: 10px 40px;
-  border: #1c1c1c 1px solid;
+  padding: 1rem 4rem;
+  border: #1c1c1c .1rem solid;
   font-size: 2rem;
   transition: padding 500ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -154,7 +154,7 @@ button:hover::after {
 
 .hero-bottom button:hover {
   background-color: #ffead3;
-  padding: 10px 56px;
+  padding: 1rem 5.6rem;
 }
 
 .junior {
@@ -174,15 +174,15 @@ button:hover::after {
   align-items: center;
   flex-direction: column;
   background-color: #1c1c1c;
-  padding-top: 48px;
-  gap: 72px;
+  padding-top: 4.8rem;
+  gap: 7.2rem;
 }
 
 .what-i-do h1 {
   color: #fefcfd;
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
   font-size: 8.8rem;
-  max-width: 234px;
+  max-width: 23.4rem;
   font-weight: 900;
   text-align: center;
   line-height: 88%;
@@ -192,7 +192,7 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
+  gap: .4rem;
 }
 
 .what-i-do h2 {
@@ -213,15 +213,15 @@ button:hover::after {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #fefcfd;
-  padding: 120px;
-  border-bottom: #170811 0.5px solid;
+  padding: 12rem;
+  border-bottom: #170811 .005rem solid;
   z-index: 2;
 }
 
 .buttons-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 .primary-button {
@@ -239,14 +239,14 @@ button:hover::after {
   flex-direction: column;
   justify-content: end;
   height: 80vh;
-  max-width: 500px;
-  gap: 40px;
+  max-width: 5rem;
+  gap: 4rem;
 }
 
 .wdc-left-bottom {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: .8rem;
 }
 
 .wdc-top {
@@ -266,7 +266,7 @@ button:hover::after {
   flex-direction: column;
   justify-content: end;
   height: 80vh;
-  gap: 8px;
+  gap: .8rem;
 }
 
 /* .web-design-container .made-in {
@@ -286,8 +286,8 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 120px 120px 64px 120px;
-  border-bottom: #170811 0.5px solid;
+  padding: 12rem 12rem 6.4rem 12rem;
+  border-bottom: #170811 .005rem solid;
   background-color: #f6e3dc;
   z-index: 3;
 }
@@ -326,11 +326,11 @@ button:hover::after {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 .card {
-  max-width: 263px;
+  max-width: 26.3rem;
 }
 
 .see-more {
@@ -347,11 +347,11 @@ button:hover::after {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  gap: 64px;
+  gap: 6.4rem;
   background-color: #fefcfd;
-  padding-top: 72px;
-  padding-bottom: 72px;
-  border: #170811 0.5px solid;
+  padding-top: 7.2rem;
+  padding-bottom: 7.2rem;
+  border: #170811 .005rem solid;
 }
 
 .email-design-container h1 {
@@ -363,14 +363,14 @@ button:hover::after {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 .email-mockup-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 1.6rem;
   text-align: center;
 }
 
@@ -443,23 +443,23 @@ button:hover::after {
 .ui-design-container {
   display: flex;
   flex-direction: column;
-  border-bottom: #170811 0.5px solid;
+  border-bottom: #170811 .005rem solid;
 }
 
 .ui-design-top {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-bottom: 40px;
+  padding-bottom: 4rem;
   background-color: #fefcfd;
-  padding: 120px 120px 40px 120px;
+  padding: 12rem 12rem 4rem 12rem;
 }
 
 .ui-design-top h1 {
   font-size: 7.2rem;
   font-weight: 500;
   line-height: 80%;
-  padding-bottom: 48px;
+  padding-bottom: 4.8rem;
 }
 
 .ui-header-row {
@@ -481,18 +481,18 @@ button:hover::after {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 36px 120px 36px 120px;
+  padding: 3.6rem 12rem 3.6rem 12rem;
 }
 
 .ui-bottom-h2-p {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding-top: 40px;
+  gap: 3.2rem;
+  padding-top: 4rem;
 }
 
 .ui-bottom-h2-p h2 {
-  padding-bottom: 8px;
+  padding-bottom: .8rem;
   color: #170811;
 }
 
@@ -503,14 +503,14 @@ button:hover::after {
 .ui-bottom-left {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 .ui-bottom-right {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  max-width: 541px;
+  gap: 4rem;
+  max-width: 54rem;
 }
 
 .bold-text {
@@ -543,7 +543,7 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 4rem;
   width: 50%;
 }
 
@@ -552,7 +552,7 @@ button:hover::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4px;
+  gap: .4rem;
   text-align: center;
 }
 
@@ -565,7 +565,7 @@ button:hover::after {
 }
 
 .hero-designs-left p {
-  max-width: 331px;
+  max-width: 33.1rem;
   text-align: center;
   line-height: 160%;
 }
@@ -574,8 +574,8 @@ button:hover::after {
   display: flex;
   /* flex-wrap: wrap; */
   flex-direction: column;
-  padding: 80px 120px 80px 120px;
-  border-bottom: #170811 0.5px solid;
+  padding: 8rem 12rem 8rem 12rem;
+  border-bottom: #170811 .005rem solid;
   background-color: #fefcfd;
 }
 
@@ -593,14 +593,14 @@ button:hover::after {
 .the-artist-left-content {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 3.2rem;
 }
 
 .the-artist-left-content h1 {
   font-size: 7.2rem;
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times;
   font-weight: 900;
-  max-width: 214px;
+  max-width: 21.4rem;
   line-height: 85%;
 }
 
@@ -614,8 +614,8 @@ button:hover::after {
 .the-artist-right-a {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  max-width: 216px;
+  gap: 3.2rem;
+  max-width: 21.6rem;
 }
 
 .the-artist-right-b {
@@ -633,10 +633,10 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 80px 120px;
+  padding: 8rem 12rem;
   /* height: 80vh; */
   background-color: #fefcfd;
-  border-bottom: #170811 0.5px solid;
+  border-bottom: #170811 .005rem solid;
 }
 
 .digital-illu-content {
@@ -649,7 +649,7 @@ button:hover::after {
 .home-illu-left {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 3.2rem;
 }
 
 .digital-illu-container p {
@@ -661,24 +661,24 @@ button:hover::after {
   font-weight: 900;
   line-height: 85%;
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
-  max-width: 412px;
+  max-width: 41.2rem;
 }
 
 .digital-illu-right-content h1 {
-  padding-bottom: 32px;
+  padding-bottom: 3.2rem;
 }
 
 .digital-illu-right {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .digital-illu-right-imgs {
   display: flex;
   flex-direction: column;
-  gap: 29px;
+  gap: 2.9rem;
 }
 
 /* Portrait Artist Container */
@@ -693,7 +693,7 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1200rem;
 }
 
 .pa-top-bottom {
@@ -713,11 +713,23 @@ button:hover::after {
 }
 
 .pa-left-content {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  max-width: 48.8rem;
+}
+
+.pa-h1-p {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
 
 .pa-h1-p h1 {
-  font-size: 2.4rem;
+  font-size: 7.2rem;
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times;
+  font-weight: 900;
+  line-height: 85%;
 }
 
 .pa-h1-p p {
@@ -754,7 +766,8 @@ button:hover::after {
   align-items: center;
   background-color: #252525;
   height: 112vh;
-  padding-top: 48px;
+  padding-top: 4.8rem;
+  width: 100%;
 }
 
 .who-am-i {
@@ -769,18 +782,24 @@ button:hover::after {
   font-size: 8rem;
   font-weight: 900;
   color: #fefcfd;
-  max-width: 216px;
+  max-width: 21.6rem;
   line-height: 88%;
 }
 
 .about-me-container {
   display: flex;
   flex-wrap: wrap-reverse;
-  height: 100%;
+  height: auto;
   justify-content: center;
   align-items: center;
   background-color: #f6e3dc;
-  border-bottom: #170811 solid 0.5px;
+  border-bottom: #170811 solid .005rem;
+}
+
+.about-me-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .about-me-left {
@@ -788,25 +807,25 @@ button:hover::after {
   flex-direction: column;
   justify-content: space-around;
   height: 100vh;
-  max-width: 508px;
   width: 50%;
+  max-width: 50.8rem;
   background-color: #fefcfd;
-  border-right: #170811 0.5px solid;
-  padding-left: 80px;
-  padding-right: 80px;
+  border-right: #170811 .005rem solid;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .about-paragraphs {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1.6rem;
   line-height: 140%;
 }
 
 .about-me-left h1 {
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times;
   font-weight: 900;
-  max-width: 326px;
+  max-width: 32.6rem;
   font-size: 8.8rem;
   line-height: 85%;
 }
@@ -816,7 +835,7 @@ button:hover::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 4rem;
   width: 50%;
   height: 100vh;
   padding-right: 0;
@@ -826,19 +845,15 @@ button:hover::after {
 .art-and-design-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 120px;
-  height: 100vh;
-}
-
-.ad-left {
-  width: 50%;
+  padding: 12rem;
+  gap: 4rem;
 }
 
 .ad-left h1 {
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
   font-size: 8.8rem;
   font-weight: 900;
-  max-width: 500px;
+  max-width: 5rem;
   line-height: 85%;
 }
 
@@ -847,9 +862,8 @@ button:hover::after {
   flex-direction: column;
   justify-content: start;
   /*^ This one aligned it vertically!  */
-  gap: 24px;
-  width: 50%;
-  max-width: 542px;
+  gap: 2.4rem;
+  max-width: 54.2rem;
 }
 
 .i-know-that-world {
@@ -859,30 +873,29 @@ button:hover::after {
 }
 
 .branding-home-container {
-  margin-left: 120px;
-  max-width: 350px;
-  height: 200px;
+  margin-left: 12rem;
+  max-width: 35rem;
+  height: 20rem;
 }
 
 .thank-you-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 120px;
-  height: 80vh;
+  padding: 12rem;
   background-color: #fefcfd;
-  border-top: #1c1c1c 0.5px solid;
+  border-top: #1c1c1c .005rem solid;
 }
 
 .ty-left {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 4.8rem;
 }
 
 .ty-left h1 {
   font-size: 7.2rem;
-  max-width: 487px;
+  max-width: 48.7rem;
   line-height: 85%;
 }
 
@@ -894,7 +907,7 @@ button:hover::after {
 .ty-right p {
   font-size: 4.8rem;
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
-  max-width: 401px;
+  max-width: 40rem;
   line-height: 85%;
 }
 
@@ -903,16 +916,16 @@ button:hover::after {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 12rem;
+  padding-right: 12rem;
   margin-top: 0;
-  height: 72px;
+  height: 7.2rem;
   background: #f6e3dc;
 }
 
 .nav-links-container {
   display: flex;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .nav .nav-link.active {
@@ -923,7 +936,7 @@ button:hover::after {
   position: relative;
   text-decoration: none;
   color: #333;
-  padding-bottom: 5px; /* Add padding for space below */
+  padding-bottom: .5rem; /* Add padding for space below */
 }
 
 .nav .nav-link::after {
@@ -932,7 +945,7 @@ button:hover::after {
   bottom: 0;
   left: 0;
   width: 0;
-  height: 3px; /* Border height */
+  height: .3rem; /* Border height */
   background-color: #ceffa8; /* Initial border color */
   transition: width 0.3s ease, background-color 0.3s ease; /* Transition width and background-color */
 }
@@ -954,16 +967,16 @@ button:hover::after {
   background-color: #ffa0c2;
   color: #1c1c1c;
   font-size: 1.6rem;
-  padding: 10px 40px;
-  border: #1c1c1c solid 1.5px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem 4rem;
+  border: #1c1c1c solid .15rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0rem .8rem 2.4rem;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .primary-button:hover {
   background-color: #ffead3;
-  padding: 10px 64px;
+  padding: 1rem 6.4rem;
 }
 
 .primary-button:hover::after {
@@ -974,7 +987,7 @@ button:hover::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 ul {
@@ -986,7 +999,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px;
+  padding: 8rem;
 }
 
 .about-text p {
@@ -1003,21 +1016,21 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: .8rem;
   background-color: #fefcfd;
   font-size: 2.4rem;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  height: 44px;
-  border-top: #1c1c1c 1px solid;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  height: 4.4rem;
+  border-top: #1c1c1c .1rem solid;
 
-  border-bottom: #1c1c1c 1px solid;
+  border-bottom: #1c1c1c .1rem solid;
 }
 
 .linkedin-bar button {
   background-color: #e5bfd6;
-  padding: 10px 40px;
-  border: #1c1c1c 1px solid;
+  padding: 1rem 4rem;
+  border: #1c1c1c .1rem solid;
   font-size: 1.6rem;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -1025,7 +1038,7 @@ ul {
 
 .linkedin-bar button:hover {
   background-color: #ffead3;
-  padding: 10px 48px;
+  padding: 1rem 4.8rem;
 }
 
 /* Footer */
@@ -1033,7 +1046,7 @@ ul {
   display: flex;
   justify-content: space-between;
   background-color: #f6e3dc;
-  padding: 64px 120px 64px 80px;
+  padding: 6.4rem 12rem 6.4rem 8rem;
 }
 
 .footer-nav-links {
@@ -1043,12 +1056,12 @@ ul {
 .footer-right {
   display: flex;
   align-items: end;
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 .footer ul {
   display: flex;
-  gap: 8px;
+  gap: .8rem;
   list-style: none;
 }
 
@@ -1058,7 +1071,7 @@ ul {
 
 .social-icons {
   display: flex;
-  gap: 4px;
+  gap: .4rem;
 }
 
 /* Fixed and scrollable containers code */
@@ -1076,7 +1089,7 @@ ul {
 }
 
 .hero {
-  padding: 20px;
+  padding: 2rem;
 }
 
 /* Flex container */
@@ -1108,11 +1121,11 @@ ul {
 .hero,
 .wdc-top,
 .mobile-top {
-  padding: 20px;
+  padding: 2rem;
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 76.8rem) {
   .hero,
   .wdc-left-right,
   .mobile-bottom,
@@ -1142,7 +1155,7 @@ ul {
   }
 
   .card {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
 
   .mobile-gif {
@@ -1159,8 +1172,8 @@ ul {
   }
 }
 
-/* For screens smaller than 768px (tablets and below) */
-@media (max-width: 768px) {
+/* For screens smaller than 76.8rem (tablets and below) */
+@media (max-width: 76.8rem) {
   .hero,
   .wdc-left-right,
   .mobile-bottom,
@@ -1190,7 +1203,7 @@ ul {
   }
 
   .card {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
 
   .mobile-gif {
@@ -1210,19 +1223,23 @@ ul {
   }
 
   .pa-right img {
-    width: 100%;
     height: auto;
-    width: 50%;
+    width: 60%;
     object-fit: cover; /* Maintains aspect ratio */
   }
+
+  .nav {
+padding: 3.2rem;
+  }
+
 }
 
-/* For screens smaller than 480px (smartphones) */
-@media (max-width: 480px) {
+/* For screens smaller than 48rem (smartphones) */
+@media (max-width: 48rem) {
   .hero,
   .wdc-top,
   .mobile-top {
-    padding: 10px;
+    padding: 1rem;
   }
 
   .hero-top {
@@ -1234,6 +1251,6 @@ ul {
   }
 
   .buttons-container a {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
 }

@@ -12,8 +12,8 @@ export default function () {
           style={{
             background: `url('${process.env.PUBLIC_URL}/who-am-i-bg.png')`,
             backgroundRepeat: "no-repeat",
-            width: "480px",
-            height: "478px",
+            width: "48rem",
+            height: "47.8rem",
           }}
         >
           <h1>WHO AM I?</h1>
@@ -22,33 +22,35 @@ export default function () {
       </div>
 
       <div className="about-me-container">
-        <div className="about-me-left">
-          <h1>I'M ALISHA</h1>
-          <div className="about-paragraphs">
-            <p>
-              A <span className="bold-text">digital designer</span> with
-              knowledge of{" "}
-              <span className="bold-text">front-end development</span>. I enjoy
-              the world of design; the principles help me to dive into
-              creativity, but with a structure that just makes sense.
-            </p>{" "}
-            <p>
-              {" "}
-              With interest in design and some development, I completed an
-              intensive software engineering bootcamp where I learned more{" "}
-              <span>HTML</span>, <span className="bold-text">CSS</span>, and
-              some <span className="bold-text">React</span> too.{" "}
-            </p>
-            <p>
-              This has helped me to turn my own{" "}
-              <span className="bold-text">Figma</span> designs into actual code
-              and because it’s all front-end, I get to stay on the creative side
-              of things when going into development.
-            </p>
+        <div className="about-me-content">
+          <div className="about-me-left">
+            <h1>I'M ALISHA</h1>
+            <div className="about-paragraphs">
+              <p>
+                A <span className="bold-text">digital designer</span> with
+                knowledge of{" "}
+                <span className="bold-text">front-end development</span>. I
+                enjoy the world of design; the principles help me to dive into
+                creativity, but with a structure that just makes sense.
+              </p>{" "}
+              <p>
+                {" "}
+                With interest in design and some development, I completed an
+                intensive software engineering bootcamp where I learned more{" "}
+                <span>HTML</span>, <span className="bold-text">CSS</span>, and
+                some <span className="bold-text">React</span> too.{" "}
+              </p>
+              <p>
+                This has helped me to turn my own{" "}
+                <span className="bold-text">Figma</span> designs into actual
+                code and because it’s all front-end, I get to stay on the
+                creative side of things when going into development.
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="about-me-right">
-          <img src="about-me-image.png" alt="designer image" />
+          <div className="about-me-right">
+            <img src="about-me-image.png" alt="designer image" />
+          </div>
         </div>
       </div>
 
