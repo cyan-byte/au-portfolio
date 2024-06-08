@@ -1225,6 +1225,11 @@ ul {
   .digital-illu-img-3 {
     display: none;
   }
+
+.digital-illu-content h1 {
+  font-size: 6.4rem;
+}
+
 }
 
 /* For screens smaller than 48rem (smartphones) */
