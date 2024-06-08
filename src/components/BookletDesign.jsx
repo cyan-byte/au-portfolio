@@ -5,14 +5,18 @@ import Footer from "./Footer";
 export default function BookletDesign() {
   return (
     <div className="booklet-design-container">
-        <Nav/>
+      <Nav />
       <div className="booklet-design-header">
-        <p>booklet</p>
+        <h1>booklet</h1>
         <p>+</p>
-        <p>design</p>
+        <h1>design</h1>
       </div>
       <div className="cover-and-list">
-        <img src="print-design-booklet-1a.png" alt="booklet design cover" />
+        <img
+          className="booklet-cover"
+          src="print-layout/print-design-booklet-a.png"
+          alt="booklet design cover"
+        />
         <ul>
           <li>
             <span className="bold-text">layout</span> + design
@@ -28,70 +32,138 @@ export default function BookletDesign() {
           </li>
         </ul>
       </div>
-      <h1 className="booklet-design-brief-container">DESIGN BRIEF.</h1>
-      <div>
-        <h2>TASK</h2>
-        <p>Design a booklet from this article:</p>
-        <p>
-          https://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/index.html
-        </p>
+      <div className="booklet-design-brief-container">
+        <div className="design-brief-header">
+          <h1>DESIGN BRIEF.</h1>
+        </div>
+        <div className="design-brief-info">
+          <div className="task-container">
+            <h2>TASK</h2>
+            <p>
+              Design a booklet using the following article:{" "}
+              <a href="https://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/index.html">
+                South China Sea
+              </a>
+            </p>
+          </div>
+          <div>
+            <h2>ROLE</h2>
+            <p>Sole Designer</p>
+          </div>
+          <div>
+            <h2>TOOLS</h2>
+            <p>Adobe InDesign </p>
+          </div>{" "}
+        </div>
       </div>
       <div>
-        <h2>ROLE</h2>
-        <p>Sole Designer</p>
+        <div className="booklet-instructions-1">
+          <p>"Take this article with its images and design a booklet."</p>
+          <p>"Oh, and use Adobe Indesign."</p>
+        </div>
+        <div className="response">
+          <p>I'm on it.</p>
+        </div>
+        <div className="imgs-b-d">
+          <img
+            src="print-layout/print-design-booklet-b.png"
+            alt="booklet design"
+            style={{ width: "50%", height: "38.5rem" }}
+          />
+          <img
+            src="print-layout/print-design-booklet-d.png"
+            alt="booklet design"
+            style={{ width: "50%", height: "38.5rem" }}
+          />
+        </div>
+        <div className="booklet-instructions-2">
+          {" "}
+          <p className="type-rules">
+            "& don't forget the rules of typesetting."
+          </p>
+        </div>
+        <div className="response">
+          <p>Absolutely.</p>
+        </div>
+        <div className="imgs-e-g-j">
+          <img
+            src="print-layout/print-design-booklet-e.png"
+            alt="booklet design"
+            style={{ width: "33.3%", height: "32rem" }}
+          />
+          <img
+            src="print-layout/print-design-booklet-g.png"
+            alt="booklet design"
+            style={{ width: "33.3%", height: "32rem" }}
+          />
+          <img
+            src="print-layout/print-design-booklet-j.png"
+            alt="booklet design"
+            style={{ width: "33.3%", height: "32rem" }}
+          />
+        </div>
+        <div className="imgs-k">
+          <img
+            src="print-layout/print-design-booklet-k.png"
+            alt="booklet design"
+            style={{ width: "100%", height: "auto" }}
+          />
+        </div>
+        <div className="imgs-l-m">
+          <img
+            src="print-layout/print-design-booklet-l.png"
+            alt="booklet design"
+            style={{ width: "50%", height: "auto" }}
+          />
+          <img
+            src="print-layout/print-design-booklet-m.png"
+            alt="booklet design"
+            style={{ width: "50%", height: "auto" }}
+          />
+        </div>
+        <div className="box-rows">
+          <div className="box-row">
+            <div>
+              <img src="tick-box.png" alt="tick box" />
+            </div>
+            <div>
+              <p>No more than two hyphena-ted words per para-graph?</p>
+            </div>
+          </div>
+          <div className="box-row">
+            <div>
+              <img src="tick-box.png" alt="tick box" />
+            </div>
+            <div>
+              <p>Widow & orphan check?</p>
+            </div>
+          </div>
+          <div className="box-row">
+            <div>
+              <img src="tick-box.png" alt="tick box" />
+            </div>
+            <div>
+              <p>No rivers? </p>
+            </div>
+          </div>
+        </div>
+        <div className="smile">
+          <p>{":)"} </p>
+        </div>
       </div>
-      <div>
-        <h2>TOOLS</h2>
-        <p>Adobe InDesign </p>
+      <div className="  linkedin-bar">
+        <p>Say hi on: </p>
+        <a
+          href="https://linkedin.com/in/alishaupton"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div>
+            <button>LinkedIn</button>
+          </div>
+        </a>
       </div>
-      <div className="booklet-instructions">
-        <p>"TAKE THIS ARTICLE WITH ITS IMAGES AND DESIGN A BOOKLET"</p>
-        <p>"OH, AND USE ADOBE INDESIGN."</p>
-      </div>
-      <div className="response">I'm on it!</div>
-      <div className="imgs-1-2a">
-        <img src="print-design-booklet-0.png" alt="booklet design" />
-        <img src="print-design-booklet-2a.png" alt="booklet design" />
-      </div>
-      <div>
-        {" "}
-        <p>"& DON'T FORGET THE RULES OF TYPESETTING."</p>
-      </div>
-      <div className="imgs-3-4-5a">
-        <img src="print-design-booklet-3.png" alt="booklet design" />
-        <img src="print-design-booklet-4.png" alt="booklet design" />
-        <img src="print-design-booklet-5a.png" alt="booklet design" />
-      </div>
-      <div className="img-6">
-        <img src="print-design-booklet-6.png" alt="booklet design" />
-      </div>
-      <div className="imgs-7-8">
-        <img src="print-design-booklet-7.png" alt="booklet design" />
-        <img src="print-design-booklet-8.png" alt="booklet design" />
-      </div>
-      <div>
-        <img src="tick-box.png" alt="tick box" />
-        <p>
-          NO MORE THAN TWO HYPHENA-
-          <br />
-          TED WORDS PER PARA-
-          <br />
-          GRAPH?
-        </p>
-      </div>
-      <div>
-        <img src="tick-box.png" alt="tick box" />
-        <p>WIDOW & ORPHAN CHECK?</p>
-      </div>
-      <div>
-        <img src="tick-box.png" alt="tick box" />
-        <p>NO RIVERS? </p>
-      </div>
-      <div className="tick-box-container">
-        <img src="tick-box.png" alt="tick box" />
-        <p>:) </p>
-      </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

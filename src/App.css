@@ -350,7 +350,7 @@ button:hover::after {
   background-color: #fefcfd;
   padding-top: 7.2rem;
   padding-bottom: 7.2rem;
-  border: #170811 0.005rem solid;
+  border-bottom: #170811 0.005rem solid;
 }
 
 .email-design-container h1 {
@@ -1109,6 +1109,165 @@ ul {
   padding: 2rem;
 }
 
+/* Booklet Page */
+.booklet-design-container {
+  background-color: #fff3e5;
+}
+
+.booklet-design-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: #170811 0.05rem solid;
+  padding: 12rem 0rem 12rem 0rem;
+  background-color: #f6e3dc;
+  line-height: 580%;
+}
+
+.booklet-design-header h1,
+.booklet-design-header p {
+  font-size: 12rem;
+}
+
+.cover-and-list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #170811 0.05rem solid;
+}
+
+.cover-and-list ul {
+  text-align: right;
+}
+
+.booklet-cover {
+  width: 40%;
+  object-fit: cover;
+}
+
+.booklet-design-brief-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8.8rem;
+  padding: 12rem;
+}
+
+.booklet-design-brief-container h1 {
+  font-size: 7.2rem;
+}
+
+.design-brief-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-brief-info h2 {
+  padding-bottom: 3.2rem;
+}
+
+.task-container {
+  max-width: 27.3rem;
+}
+
+.task-container a {
+  text-decoration: underline;
+}
+
+.booklet-instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 7.2rem;
+}
+
+.booklet-instructions-1,
+.booklet-instructions-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 7.2rem;
+  padding: 12rem;
+}
+
+.booklet-instructions-1 p,
+.booklet-instructions-2 p {
+  text-align: right;
+  font-size: 2.4rem;
+  max-width: 40rem;
+  background-color: #926579;
+  color: #fff;
+  padding: 3.2rem;
+  border-radius: 1.6rem;
+}
+
+.response p {
+  padding: 3.2rem;
+  font-size: 2.4rem;
+  max-width: 40rem;
+  background-color: #e5bfd6;
+  color: #170811;
+  border-radius: 1.6rem;
+}
+
+.response {
+  padding: 12rem;
+}
+
+.box-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  padding: 12rem;
+}
+
+.box-row {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.box-row p {
+  font-size: 3.2rem;
+  max-width: 48rem;
+  line-height: 95%;
+  text-align: right;
+}
+
+.smile {
+  display: flex;
+  justify-content: start;
+  font-size: 3.2rem;
+  padding: 12rem;
+}
+
+.imgs-b-d,
+.imgs-e-g-j,
+.imgs-l-m {
+  display: flex;
+  gap: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.imgs-b-d img,
+.imgs-l-m img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.imgs-e-g-j img {
+  width: 33.3%;
+}
+
+.imgs-k {
+  padding-bottom: 1.6rem;
+  width: 100%;
+}
+
+.type-rules {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  text-align: left !important;
+}
+
 /* Media Queries */
 @media (max-width: 76.8rem) {
   .hero,
@@ -1165,6 +1324,16 @@ ul {
   .cards {
     flex-direction: column;
     align-items: center;
+  }
+
+  .web-design-container {
+    padding: 1.6rem;
+  }
+
+  h1,
+  h2,
+  h3 p {
+    text-align: center;
   }
 
   .wdc-left-right,
@@ -1226,10 +1395,31 @@ ul {
     display: none;
   }
 
-.digital-illu-content h1 {
-  font-size: 6.4rem;
-}
+  .digital-illu-content h1 {
+    font-size: 6.4rem;
+  }
 
+  .design-brief-info {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .booklet-instructions-1 p,
+  .booklet-instructions-2 p {
+    font-size: 2.4rem;
+  }
+
+  .imgs-b-d img {
+    height: auto !important;
+  }
+
+  .imgs-e-g-j img {
+    height: auto !important;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
 }
 
 /* For screens smaller than 48rem (smartphones) */
