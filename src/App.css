@@ -1,11 +1,11 @@
 .App {
   display: flex;
   flex-direction: column;
+  background-color: #f6e3dc;
 }
 
 html {
   font-size: 62.5%;
-  background-color: #f6e3dc;
 }
 
 body {
@@ -85,6 +85,8 @@ button:hover::after {
 /* .header-hero-container {
   background-image: url("/pink-water.jpg");
 } */
+
+/* Home */
 
 /* Hero */
 .hero {
@@ -209,9 +211,11 @@ button:hover::after {
 .web-design-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   background-color: #fefcfd;
   padding: 120px;
   border-bottom: #170811 0.5px solid;
+  z-index: 2;
 }
 
 .buttons-container {
@@ -247,6 +251,7 @@ button:hover::after {
 
 .wdc-top {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -264,13 +269,13 @@ button:hover::after {
   gap: 8px;
 }
 
-.web-design-container .made-in {
+/* .web-design-container .made-in {
   display: flex;
   flex-direction: column;
   text-align: right;
   font-size: 1.4rem;
   color: #926579;
-}
+} */
 
 .h2-h3-container h3 {
   color: #926579;
@@ -280,11 +285,11 @@ button:hover::after {
 .mobile-ux-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding: 120px 120px 64px 120px;
   border-bottom: #170811 0.5px solid;
-  height: 90vh;
+  background-color: #f6e3dc;
+  z-index: 3;
 }
 
 .mobile-top {
@@ -346,6 +351,7 @@ button:hover::after {
   background-color: #fefcfd;
   padding-top: 72px;
   padding-bottom: 72px;
+  border: #170811 0.5px solid;
 }
 
 .email-design-container h1 {
@@ -368,62 +374,72 @@ button:hover::after {
   text-align: center;
 }
 
-.graphic-design-container {
+/* Booklet Design (Homepage) */
+.booklet-design-home-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 120px;
-  background-color: #252525;
-}
-
-.graphic-design-rows {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 64px;
+  width: 100%;
   background-color: #fefcfd;
 }
 
-.graphic-design-row-1 {
-  display: flex;
-  justify-content: space-between;
-  /* flex-wrap: wrap; */
-  padding: 64px 16px;
+.booklet-design-home-container h1 {
+  font-size: 7.2rem;
+  line-height: 85%;
 }
 
-.graphic-top-left,
-.graphic-top-right {
-  font-size: 12rem;
-  font-weight: 700;
-}
-
-.graphic-top-mid {
+.booklet-role-home {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  background-color: #f6e3dc;
 }
 
-.graphic-plus {
-  font-size: 4.8rem;
+.role-h2-p {
+  padding: 4rem;
 }
 
-.graphic-design-row-2 {
+.booklet-design-top {
   display: flex;
-  justify-content: space-between;
-  gap: 16px;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 12rem 12rem 8.8rem 12rem;
+}
+
+.booklet-imgs-home {
+  display: flex;
   flex-wrap: wrap;
-}
-
-.graphic-design-row-3 {
-  display: flex;
   flex-direction: column;
-  gap: 16px;
+  width: 100%;
+  gap: 1.6rem;
 }
 
-.graphic-design-row-3 h3 {
-  font-weight: 400;
+.booklet-imgs-row-1,
+.booklet-imgs-row-2,
+.booklet-imgs-row-3 {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex: 1 1 calc(33.333% - 1.6rem); */
+  gap: 1.6rem;
+  width: 100%; /* Ensure the rows fill the width of the container */
 }
 
+.booklet-imgs-row-1 div,
+.booklet-imgs-row-2 div,
+.booklet-imgs-row-3 div {
+  flex: 1 1 calc(33.333% - 1.6rem);
+  min-width: 30rem;
+  background-size: cover; /* Cover the divs properly */
+  background-position: center;
+  box-sizing: border-box; /* Include padding and borders in the element's total width and height */
+}
+
+.booklet-imgs-row-1 img,
+.booklet-imgs-row-2 img,
+.booklet-imgs-row-3 img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* UI Design */
 .ui-design-container {
   display: flex;
   flex-direction: column;
@@ -556,10 +572,11 @@ button:hover::after {
 
 .the-artist-container {
   display: flex;
+  /* flex-wrap: wrap; */
   flex-direction: column;
-  height: 100vh;
   padding: 80px 120px 80px 120px;
   border-bottom: #170811 0.5px solid;
+  background-color: #fefcfd;
 }
 
 .the-artist-container .made-in {
@@ -568,6 +585,7 @@ button:hover::after {
 
 .the-artist-content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -591,7 +609,6 @@ button:hover::after {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 50%;
-  height: 90vh;
 }
 
 .the-artist-right-a {
@@ -617,7 +634,7 @@ button:hover::after {
   flex-direction: column;
   justify-content: space-between;
   padding: 80px 120px;
-  height: 80vh;
+  /* height: 80vh; */
   background-color: #fefcfd;
   border-bottom: #170811 0.5px solid;
 }
@@ -625,11 +642,13 @@ button:hover::after {
 .digital-illu-content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   flex-wrap: wrap;
 }
 .home-illu-left {
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
 }
 
@@ -662,55 +681,71 @@ button:hover::after {
   gap: 29px;
 }
 
-.portrait-artist-container {
+/* Portrait Artist Container */
+.portait-artist-container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: #170811 0.5px solid;
-}
-.pa-top {
-  text-align: right;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #fefcfd;
 }
 
 .pa-content {
   display: flex;
   flex-direction: column;
-  padding: 80px 120px;
-  height: 90vh;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.pa-top-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pa-top {
+  text-align: center;
 }
 
 .pa-bottom {
   display: flex;
-  justify-content: space-between;
-}
-
-.pa-left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-}
-
-.pa-h1-p {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.pa-h1-p h1 {
-  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
-  font-size: 8rem;
-  font-weight: 900;
-  line-height: 85%;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .pa-left-content {
-  display: flex;
-  flex-direction: column;
-  gap: 56px;
-  max-width: 420px;
+  flex: 1;
 }
+
+.pa-h1-p h1 {
+  font-size: 2.4rem;
+}
+
+.pa-h1-p p {
+  font-size: 1.6rem;
+}
+
+.primary-button {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.pa-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pa-right img {
+  width: 100%;
+  height: auto;
+  max-width: 52.8rem; /* Ensures image does not exceed a certain width */
+  max-height: 45.8rem; /* Ensures image does not exceed a certain height */
+  object-fit: cover; /* Maintains aspect ratio */
+}
+
+/* Who am I */
 
 .who-am-i-container {
   display: flex;
@@ -831,6 +866,7 @@ button:hover::after {
 
 .thank-you-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 120px;
   height: 80vh;
@@ -903,15 +939,15 @@ button:hover::after {
 
 .nav .nav-link:hover::after {
   background-color: #ffe0b5;
-  width: 100%; /* Expand border to full width on hover */
+  width: 100%;
 }
 
 .nav .nav-link:active::after {
-  background-color: #fb896d; /* Change border color on click */
+  background-color: #fb896d;
 }
 
 .nav .nav-link.active::after {
-  width: 100%; /* Ensure border stays at full width on active links */
+  width: 100%;
 }
 
 .primary-button {
@@ -939,9 +975,11 @@ button:hover::after {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  list-style: none;
 }
 
+ul {
+  list-style: none;
+}
 /* About */
 
 .about-text {
@@ -1023,28 +1061,179 @@ button:hover::after {
   gap: 4px;
 }
 
-/* .under-construction {
+/* Fixed and scrollable containers code */
+.fixed-scroll-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it sits above scrollable content */
+}
+
+.scrollable-content {
+  margin-top: 100vh;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.hero {
+  padding: 20px;
+}
+
+/* Flex container */
+.fixed-scroll-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fb896d;
-  height: 32px;
-  font-size: 1.4rem;
-  font-weight: 500;
-  letter-spacing: 0.2rem;
-  border-bottom: #1c1c1c solid 0.5px;
-} */
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+/* Common styles for all sections */
+.section {
+  flex: 0 0 100vh; /* Each section takes the full viewport height */
+  position: relative; /* Necessary for z-index */
+}
+
+/* Sticky positioning for sections */
+.section {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.section.active {
+  z-index: 3;
+}
+
+/* Additional styling for content */
+.hero,
+.wdc-top,
+.mobile-top {
+  padding: 20px;
+}
 
 /* Media Queries */
-
-@media screen and (max-width: 960px) {
-  .hero {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 40px;
+@media (max-width: 768px) {
+  .hero,
+  .wdc-left-right,
+  .mobile-bottom,
+  .cards {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .hero img {
-    width: 540px !important;
+  .wdc-left-right,
+  .mobile-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wdc-left,
+  .wdc-right,
+  .column-1,
+  .card {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .mobile-gif {
+    width: 100%;
+    height: auto;
+  }
+
+  .made-in {
+    display: none;
+  }
+
+  .mobile-top .made-in {
+    display: none;
+  }
+}
+
+/* For screens smaller than 768px (tablets and below) */
+@media (max-width: 768px) {
+  .hero,
+  .wdc-left-right,
+  .mobile-bottom,
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wdc-left-right,
+  .mobile-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wdc-left,
+  .wdc-right,
+  .column-1,
+  .card {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .mobile-gif {
+    width: 100%;
+    height: auto;
+  }
+
+  .booklet-imgs-row-1,
+  .booklet-imgs-row-2,
+  .booklet-imgs-row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ty-right {
+    display: none;
+  }
+
+  .pa-right img {
+    width: 100%;
+    height: auto;
+    width: 50%;
+    object-fit: cover; /* Maintains aspect ratio */
+  }
+}
+
+/* For screens smaller than 480px (smartphones) */
+@media (max-width: 480px) {
+  .hero,
+  .wdc-top,
+  .mobile-top {
+    padding: 10px;
+  }
+
+  .hero-top {
+    font-size: 1.2em;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+  }
+
+  .buttons-container a {
+    margin-bottom: 10px;
   }
 }

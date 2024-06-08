@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Nav from "./Nav";
 import Footer from "./Footer";
 
@@ -9,11 +10,9 @@ export default function Home() {
     <div className="home-container">
       <div className="header-hero-container">
         <Nav />
-
         <div className="hero">
           <div className="hero-top">
             <p className="welcome">WELCOME TO MY</p>
-
             <div className="portfolio-header">
               <h1>
                 PORT-
@@ -31,13 +30,10 @@ export default function Home() {
               </div>
             </a>
           </div>
-          {/* <div className="hero-bottom">
-            <button className="portfolio-button">Let's see what I do</button>
-          </div> */}
         </div>
       </div>
-      <div className="what-container">
-        {" "}
+
+      <div className="  what-container">
         <div className="what-border">
           <div
             className="what-i-do"
@@ -50,7 +46,6 @@ export default function Home() {
           >
             <h1>What I Do</h1>
             <div className="what-i-do-small-text">
-              {/* <h2>CONTENTS</h2> */}
               <div className="contents-list">
                 <p>
                   Web Design
@@ -168,58 +163,55 @@ export default function Home() {
               </div>
             </div>
           </div>{" "}
-          <div className="cards">
-            <div className="card column-2">
-              <div>
-                <h3>SIGN-UP SCREEN</h3>
-                <h4>CONCEPTUAL</h4>
-              </div>{" "}
-              <img src="mobile-mockup-thumbnail.png" />
-              <div className="card-bottom">
-                <p>
-                  This sign-up screen allows users to search for and sign up for
-                  local volunteering events.
-                </p>
-              </div>
+          <div className="card column-2">
+            <div>
+              <h3>SIGN-UP SCREEN</h3>
+              <h4>CONCEPTUAL</h4>
+            </div>{" "}
+            <img src="mobile-mockup-thumbnail.png" />
+            <div className="card-bottom">
+              <p>
+                This sign-up screen allows users to search for and sign up for
+                local volunteering events.
+              </p>
             </div>
-            <div className="card column-3">
-              <div>
-                <h3>WIREFRAMING</h3>
-                <h4>DETAILED SKETCH</h4>
-              </div>{" "}
-              <div
-                className="mobile-gif"
-                style={{
-                  width: "263px",
-                  height: "193px",
-                  background: `url('${process.env.PUBLIC_URL}/mobile-sketch-gif.gif')`,
-                  backgroundRepeat: "no-repeat",
-                  backgroundPosition: "center",
-                  backgroundSize: "112px",
-                  // paddingTop: "16px",
-                  border: ".5px solid #41423C",
-                  backgroundColor: "#E0E0E0",
-                }}
-              ></div>
-              <div className="card-bottom">
-                <p>
-                  After watching a user interview for insight on what features
-                  to add, I sketched a few designs.
-                </p>
-              </div>
+          </div>
+          <div className="card column-3">
+            <div>
+              <h3>WIREFRAMING</h3>
+              <h4>DETAILED SKETCH</h4>
+            </div>{" "}
+            <div
+              className="mobile-gif"
+              style={{
+                width: "263px",
+                height: "193px",
+                background: `url('${process.env.PUBLIC_URL}/mobile-sketch-gif.gif')`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "112px",
+                border: ".5px solid #41423C",
+                backgroundColor: "#E0E0E0",
+              }}
+            ></div>
+            <div className="card-bottom">
+              <p>
+                After watching a user interview for insight on what features to
+                add, I sketched a few designs.
+              </p>
             </div>
-            <div className="card column-4">
-              <div>
-                <h3>HIGH-FIDELITY</h3>
-                <h4>DESIGNER</h4>
-              </div>{" "}
-              <img src="mobile-app-final-scroll.png" />
-              <div className="card-bottom">
-                <p>
-                  The final scroll of the screen. What would I change? The
-                  hierarchy and non-fixed RSVP.
-                </p>
-              </div>
+          </div>
+          <div className="card column-4">
+            <div>
+              <h3>HIGH-FIDELITY</h3>
+              <h4>DESIGNER</h4>
+            </div>{" "}
+            <img src="mobile-app-final-scroll.png" />
+            <div className="card-bottom">
+              <p>
+                The final scroll of the screen. What would I change? The
+                hierarchy and non-fixed RSVP.
+              </p>
             </div>
           </div>
         </div>
@@ -267,6 +259,7 @@ export default function Home() {
       </div>
 
       <div className="email-design-container">
+        {" "}
         <div className="email-top">
           <h1>EMAIL + DESIGN</h1>
         </div>
@@ -276,8 +269,9 @@ export default function Home() {
             <img src="email-entry.png" alt="email-design" />
           </div>
           <div className="email-mockup-container">
-            <img src="email-first-scroll.png" alt="email-design" />
+            {" "}
             <p>FIRST SCROLL</p>
+            <img src="email-first-scroll.png" alt="email-design" />
           </div>
           <div className="email-mockup-container">
             <p>FINAL SCROLL</p>
@@ -291,92 +285,155 @@ export default function Home() {
         </a>
       </div>
 
-      <div className="graphic-design-container">
-        <div className="graphic-design-rows">
-          <div className="graphic-design-row-1">
-            <div className="graphic-top-left">
-              <p>graphic</p>
+      <div className="booklet-design-home-container">
+        <div className="booklet-design-top">
+          <h1>
+            BOOKLET
+            <br />
+            DESIGN
+          </h1>
+          <Link
+            to="/booklet-design"
+            activeClassName="active"
+            className="nav-link"
+          >
+            <div>
+              <button className="primary-button">See the full layout</button>
             </div>
-            <div className="graphic-top-mid">
-              <div>
-                <p className="graphic-plus">
-                  <span className="bold-text">+</span>
-                </p>
-                <p>
-                  <span className="bold-text">layout</span> + design
-                </p>
-                <p>
-                  <span className="bold-text">book</span> + design
-                </p>
-                <p>
-                  <span className="bold-text">color</span> + theory
-                </p>
-                <p>
-                  <span className="bold-text">type</span>setting
-                </p>
+          </Link>
+        </div>
+        <div className="booklet-imgs-home">
+          <div className="booklet-imgs-row-1">
+            <div
+              style={{
+                background: `url('${process.env.PUBLIC_URL}/print-design-booklet-1.png')`,
+                backgroundRepeat: "no-repeat",
+                width: "45.867rem",
+                height: "35.0rem",
+              }}
+            >
+              {/* <img src="print-design-booklet-1.png" alt="booklet design" /> */}
+            </div>
+            <div
+              className="booklet-role-home"
+              style={{
+                width: "45.867rem",
+                height: "35.0rem",
+              }}
+            >
+              {" "}
+              <div className="role-h2-p">
+                <h2>Role</h2>
+                <p>Designer</p>
               </div>
             </div>
-            <div className="graphic-top-right">
-              <p>design</p>
+            <div
+              style={{
+                background: `url('${process.env.PUBLIC_URL}/print-design-booklet-2.png')`,
+                backgroundRepeat: "no-repeat",
+                width: "45.867rem",
+                height: "35.0rem",
+              }}
+            >
+              {/* <img src="print-design-booklet-2.png" alt="booklet design" /> */}
             </div>
           </div>
-          <div>
-            <div className="graphic-design-row-2">
-              <img src="print-design-booklet-1a.png" />
-              <img src="print-design-booklet-2.png" />
-              <img src="print-design-booklet-3.png" />
-            </div>
-            <div className="graphic-design-row-3">
-              <h3>A FULL BOOKLET DESIGN</h3>
-              <div>
-                <button className="primary-button">See the full layout</button>
-              </div>
-            </div>
+          <div className="booklet-imgs-row-2">
+            <div
+              style={{
+                background: `url('${process.env.PUBLIC_URL}/print-design-booklet-3.png')`,
+                backgroundRepeat: "no-repeat",
+                width: "45.867rem",
+                height: "35.0rem",
+              }}
+            ></div>
+            <div
+              style={{
+                background: `url('${process.env.PUBLIC_URL}/print-design-booklet-4.png')`,
+                backgroundRepeat: "no-repeat",
+                width: "45.867rem",
+                height: "35.0rem",
+              }}
+            ></div>
+            <div
+              style={{
+                background: `url('${process.env.PUBLIC_URL}/print-design-booklet-5.png')`,
+                backgroundRepeat: "no-repeat",
+                width: "45.867rem",
+                height: "35.0rem",
+              }}
+            ></div>
           </div>
+          <div className="booklet-imgs-row-3">
+            <div
+              style={{
+                background: `url('${process.env.PUBLIC_URL}/print-design-booklet-6.png')`,
+                backgroundRepeat: "no-repeat",
+                width: "45.867rem",
+                height: "35.0rem",
+              }}
+            ></div>
+            <div
+              style={{
+                background: `url('${process.env.PUBLIC_URL}/print-design-booklet-7.png')`,
+                backgroundRepeat: "no-repeat",
+                width: "45.867rem",
+                height: "35.0rem",
+              }}
+            ></div>
+            <div
+              style={{
+                background: `url('${process.env.PUBLIC_URL}/print-design-booklet-8.png')`,
+                backgroundRepeat: "no-repeat",
+                width: "45.867rem",
+                height: "35.0rem",
+              }}
+            ></div>
+          </div>{" "}
         </div>
       </div>
 
-      <div>
-        <div className="the-artist-container">
-          <div className="made-in">
-            <p>MADE ON PAPER</p>
-          </div>
-          <div className="the-artist-content">
-            <div className="the-artist-left">
-              <div className="the-artist-left-content">
-                <h1>The Artist.</h1>
-                <div><button className="primary-button">See more</button></div>
+      <div className="the-artist-container">
+        <div className="made-in">
+          <p>MADE ON PAPER</p>
+        </div>
+        <div className="the-artist-content">
+          <div className="the-artist-left">
+            <div className="the-artist-left-content">
+              <h1>The Artist.</h1>
+              <div>
+                <button className="primary-button">See more</button>
               </div>
             </div>
-            <div className="the-artist-right">
-              <div className="the-artist-right-a">
-                <img
-                  src="eye-drawing-3.png"
-                  alt="eye drawing"
-                  style={{
-                    width: "274px",
-                    height: "393px",
-                  }}
-                />
-                <h2>Analog Drawing.</h2>
-              </div>
-              <div className="the-artist-right-b">
-                <img
-                  src="eye-leaves-4.png"
-                  alt="eye drawing"
-                  style={{
-                    width: "245px",
-                    height: "348px",
-                  }}
-                />
-              </div>
+          </div>
+          <div className="the-artist-right">
+            <div className="the-artist-right-a">
+              <img
+                src="eye-drawing-3.png"
+                alt="eye drawing"
+                style={{
+                  width: "274px",
+                  height: "393px",
+                }}
+              />
+              <h2>Analog Drawing.</h2>
+            </div>
+            <div className="the-artist-right-b">
+              <img
+                src="eye-leaves-4.png"
+                alt="eye drawing"
+                style={{
+                  width: "245px",
+                  height: "348px",
+                }}
+              />
             </div>
           </div>{" "}
         </div>
       </div>
 
       <div className="digital-illu-container">
-        <p>MADE IN ADOBE ILLUSTRATOR</p>
+        <p className="made-in">MADE IN ADOBE ILLUSTRATOR</p>
         <div className="digital-illu-content">
           <div className="home-illu-left">
             <div>
@@ -441,8 +498,8 @@ export default function Home() {
                   src="man-face-gallery-2.png"
                   alt="portrait drawing process"
                   style={{
-                    width: "528px",
-                    height: "458px",
+                    width: "52.8rem",
+                    height: "45.8rem",
                   }}
                 />
               </div>
@@ -468,8 +525,7 @@ export default function Home() {
           <p>Thanks for viewing my portfolio.</p>
         </div>
       </div>
-
-      <div className="linkedin-bar">
+      <div className="  linkedin-bar">
         <p>Say hi on: </p>
         <a
           href="https://linkedin.com/in/alishaupton"
