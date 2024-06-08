@@ -437,7 +437,7 @@ export default function Home() {
         <div className="digital-illu-content">
           <div className="home-illu-left">
             <div>
-              <img
+              <img className="digital-illu-img-1"
                 src="hands-pink-art-1.png"
                 style={{
                   width: "30.5rem",
@@ -446,14 +446,14 @@ export default function Home() {
               />
             </div>
             <div className="digital-illu-right-imgs">
-              <img
+              <img className="digital-illu-img-2"
                 src="fancy-sketch-bw.png"
                 style={{
                   width: "27.5rem",
                   height: "19.5rem",
                 }}
               />
-              <img
+              <img className="digital-illu-img-3"
                 src="fancy-sketch-color.png"
                 style={{
                   width: "27.5rem",
