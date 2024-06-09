@@ -4,6 +4,7 @@ import Work from "./routes/Work";
 import About from "./routes/About";
 import Home from "./components/Home";
 import BookletDesign from "./components/BookletDesign";
+import HeroLayouts from "./components/HeroLayouts";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
           <Route path="/booklet-design" element={<BookletDesign />} />
+          <Route path="/hero-layouts" element={<HeroLayouts />} />
         </Routes>
       </div>
     </Router>

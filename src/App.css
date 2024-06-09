@@ -374,14 +374,16 @@ button:hover::after {
 }
 
 /* Booklet Design (Homepage) */
-.booklet-design-home-container {
+.booklet-design-home-container,
+.hero-layouts-container {
   display: flex;
   flex-direction: column;
   width: 100%;
   background-color: #fefcfd;
 }
 
-.booklet-design-home-container h1 {
+.booklet-design-home-container h1,
+.hero-design-top h1 {
   font-size: 7.2rem;
   line-height: 85%;
 }
@@ -403,7 +405,8 @@ button:hover::after {
   padding: 12rem 12rem 8.8rem 12rem;
 }
 
-.booklet-imgs-home {
+.booklet-imgs-home,
+.hero-imgs-rows {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -411,9 +414,25 @@ button:hover::after {
   gap: 1.6rem;
 }
 
+.hero-design-top {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.hero-design-top h1 {
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.hero-imgs-rows img {
+  border: #170811 0.05rem solid;
+}
+
 .booklet-imgs-row-1,
 .booklet-imgs-row-2,
-.booklet-imgs-row-3 {
+.booklet-imgs-row-3,
+.hero-imgs-row-1,
+.hero-imgs-row-2 {
   display: flex;
   flex-wrap: wrap;
   /* flex: 1 1 calc(33.333% - 1.6rem); */
@@ -423,7 +442,9 @@ button:hover::after {
 
 .booklet-imgs-row-1 div,
 .booklet-imgs-row-2 div,
-.booklet-imgs-row-3 div {
+.booklet-imgs-row-3 div,
+.hero-imgs-row-1 div,
+.hero-imgs-row-2 div {
   flex: 1 1 calc(33.333% - 1.6rem);
   min-width: 30rem;
   background-size: cover; /* Cover the divs properly */
@@ -433,9 +454,24 @@ button:hover::after {
 
 .booklet-imgs-row-1 img,
 .booklet-imgs-row-2 img,
-.booklet-imgs-row-3 img {
+.booklet-imgs-row-3 img,
+.hero-imgs-row-1 img,
+.hero-imgs-row-2 img {
   width: 100%; /* Make images responsive */
   height: auto; /* Maintain aspect ratio */
+}
+
+.all-hero-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-hero-images img {
+  border-bottom: #170811 0.05rem solid;
+}
+
+.hero-button-contact {
+  padding: 5.6rem;
 }
 
 /* UI Design */
@@ -532,6 +568,12 @@ button:hover::after {
   flex-wrap: wrap;
   color: #fefcfd;
   height: 112vh;
+}
+
+.hero-design-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
 
 .hero-designs-container button {
@@ -684,7 +726,7 @@ button:hover::after {
 .portait-artist-container {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 12rem;
   background-color: #fefcfd;
 }
 

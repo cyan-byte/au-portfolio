@@ -134,9 +134,15 @@ export default function Home() {
               single design. Which would you choose?
             </p>{" "}
           </div>
-          <div>
-            <button className="primary-button">See them up close</button>
-          </div>{" "}
+          <Link
+            to="/hero-layouts"
+            activeClassName="active"
+            className="nav-link"
+          >
+            <div>
+              <button className="primary-button">See them up close</button>
+            </div>
+          </Link>
         </div>
         <div className="hero-designs-right">
           <img src="hero-designs-gif.gif" alt="web design gif" />
@@ -437,7 +443,8 @@ export default function Home() {
         <div className="digital-illu-content">
           <div className="home-illu-left">
             <div>
-              <img className="digital-illu-img-1"
+              <img
+                className="digital-illu-img-1"
                 src="hands-pink-art-1.png"
                 style={{
                   width: "30.5rem",
@@ -446,14 +453,16 @@ export default function Home() {
               />
             </div>
             <div className="digital-illu-right-imgs">
-              <img className="digital-illu-img-2"
+              <img
+                className="digital-illu-img-2"
                 src="fancy-sketch-bw.png"
                 style={{
                   width: "27.5rem",
                   height: "19.5rem",
                 }}
               />
-              <img className="digital-illu-img-3"
+              <img
+                className="digital-illu-img-3"
                 src="fancy-sketch-color.png"
                 style={{
                   width: "27.5rem",
