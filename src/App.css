@@ -840,7 +840,7 @@ button:hover::after {
 .about-me-content {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
 .about-me-left {
@@ -885,6 +885,7 @@ button:hover::after {
 
 .art-and-design-container {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 12rem;
   gap: 4rem;
@@ -894,7 +895,7 @@ button:hover::after {
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
   font-size: 8.8rem;
   font-weight: 900;
-  max-width: 5rem;
+  max-width: 39.2rem;
   line-height: 85%;
 }
 
@@ -1466,6 +1467,13 @@ ul {
   .card h3,
   .card h4 {
     display: none;
+  }
+
+  .about-me-content {
+    flex-wrap: wrap;
+  }
+  .about-me-left, .about-me-right {
+    width: 100%;
   }
 }
 
