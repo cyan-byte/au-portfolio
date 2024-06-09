@@ -113,10 +113,11 @@ button:hover::after {
   text-align: center;
 }
 
-.hero h1 {
-  font-family: "Elsie Swash Caps", Arial, Helvetica, sans-serif;
+.hero h1,
+.hero-alt h1 {
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
   font-size: 14rem;
-  line-height: 88%;
+  line-height: 85%;
   font-weight: 900;
   color: #170811;
 }
@@ -132,6 +133,7 @@ button:hover::after {
 }
 
 .digital-designer {
+  color:#e5bfd6;
   font-size: 3.2rem;
 }
 
@@ -161,6 +163,23 @@ button:hover::after {
   color: #926579;
 }
 
+/* -------------------------Hero 1 ^^^^^------------------ */
+
+/* ----------------Hero Alternative----------------*/
+.hero-alt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  padding: 2.4rem;
+  border-bottom: #170811 0.05rem solid;
+}
+
+.hero-alt-h1 {
+  color: #e5bfd6 !important;
+}
+
 /* what i do */
 .what-container {
   display: flex;
@@ -187,12 +206,17 @@ button:hover::after {
   text-align: center;
   line-height: 88%;
 }
+.contents-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
 
 .what-i-do-small-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.4rem;
 }
 
 .what-i-do h2 {
@@ -285,6 +309,7 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 16rem;
   padding: 12rem 12rem 6.4rem 12rem;
   background-color: #f6e3dc;
   z-index: 3;
@@ -309,10 +334,23 @@ button:hover::after {
   color: #926579;
 }
 
+.mobile-mockup-columns {
+  display: flex;
+  gap: 3.2rem;
+}
+.column-1,
+.column-2,
+.column-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
 .column-1 {
   display: flex;
   flex-direction: column;
   justify-content: end;
+  gap: 2.4rem;
 }
 
 .mobile-bottom {
@@ -344,7 +382,7 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   padding: 8rem;
-  gap: 3.2rem;
+  gap: 2.4rem;
   border-bottom: #170811 0.005rem solid;
 }
 

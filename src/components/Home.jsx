@@ -10,7 +10,7 @@ export default function Home() {
     <div className="home-container">
       <div className="header-hero-container">
         <Nav />
-        <div className="hero">
+        {/* <div className="hero">
           <div className="hero-top">
             <p className="welcome">WELCOME TO MY</p>
             <div className="portfolio-header">
@@ -30,6 +30,110 @@ export default function Home() {
               </div>
             </a>
           </div>
+        </div> */}
+
+        <div
+          className="hero-alt"
+          style={{
+            background: `url('${process.env.PUBLIC_URL}/hero-layouts-bg.png')`,
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <h1 className="hero-alt-h1">
+            Alisha
+            <br />
+            Upton
+          </h1>
+          <div className="sub-header">
+            <p className="digital-designer">DIGITAL DESIGNER</p>
+            <p className="junior"> & JUNIOR FRONT-END DEVELOPER</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="mobile-ux-container">
+        <div className="mobile-top">
+          <div className="made-in">
+            <p>MADE IN FIGMA</p>
+            <p>2024</p>
+          </div>
+          <h1>MOBILE UI/UX</h1>
+        </div>
+        <div className="mobile-bottom">
+          <div className="column-1">
+            <div className="h2-h3-container">
+              <h2>CLEANUP APP</h2>
+              <h3>SIGN-UP SCREEN</h3>
+            </div>
+            <div className="mobile-button">
+              <div>
+                <button className="primary-button">See the case study</button>
+              </div>
+            </div>
+          </div>
+          <div className="mobile-mockup-columns">
+            <div className="card column-2">
+              <div>
+                <h3>SIGN-UP SCREEN</h3>
+                <h4>CONCEPTUAL</h4>
+              </div>{" "}
+              <img src="mobile-mockup-thumbnail.png" />
+              <div className="card-bottom">
+                <p>
+                  This sign-up screen allows users to search for and sign up for
+                  local volunteering events.
+                </p>
+              </div>
+            </div>
+            <div className="card column-3">
+              <div>
+                <h3>WIREFRAMING</h3>
+                <h4>DETAILED SKETCH</h4>
+              </div>{" "}
+              <div
+                className="mobile-gif"
+                style={{
+                  width: "26.3rem",
+                  height: "19.3rem",
+                  background: `url('${process.env.PUBLIC_URL}/mobile-sketch-gif.gif')`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  backgroundSize: "11.2rem",
+                  border: ".05rem solid #41423C",
+                  backgroundColor: "#E0E0E0",
+                }}
+              ></div>
+              <div className="card-bottom">
+                <p>
+                  After watching a user interview for insight on what features
+                  to add, I sketched a few designs.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* <div className="card column-4">
+            <div>
+              <h3>HIGH-FIDELITY</h3>
+              <h4>DESIGNER</h4>
+            </div>{" "}
+            <img src="mobile-app-final-scroll.png" />
+            <div className="card-bottom">
+              <p>
+                The final scroll of the screen. What would I change? The
+                hierarchy and non-fixed RSVP.
+              </p>
+            </div>
+          </div> */}
+        </div>
+      </div>
+
+      <div className="mobile-screens">
+        <div className="mobile-images">
+          <img src="mobile-screen1.png" alt="mobile screen design" />
+          <img src="mobile-screen2.png" alt="mobile screen design" />
+        </div>
+        <div className="mobile-screens-button">
+          <button className="primary-button">See the case study</button>
         </div>
       </div>
 
@@ -47,6 +151,7 @@ export default function Home() {
             <h1>What I Do</h1>
             <div className="what-i-do-small-text">
               <div className="contents-list">
+                <h3>CONTENTS</h3>
                 <p>
                   Web Design
                   <br />
@@ -146,90 +251,6 @@ export default function Home() {
         </div>
         <div className="hero-designs-right">
           <img src="hero-designs-gif.gif" alt="web design gif" />
-        </div>
-      </div>
-
-      <div className="mobile-ux-container">
-        <div className="mobile-top">
-          <div className="made-in">
-            <p>MADE IN FIGMA</p>
-            <p>2024</p>
-          </div>
-          <h1>MOBILE UI/UX</h1>
-        </div>
-        <div className="mobile-bottom">
-          <div className="column-1">
-            <div className="h2-h3-container">
-              <h2>CLEANUP APP</h2>
-              <h3>SIGN-UP SCREEN</h3>
-            </div>
-            <div className="mobile-button">
-              <div>
-                <button className="primary-button">See the case study</button>
-              </div>
-            </div>
-          </div>
-          <div className="card column-2">
-            <div>
-              <h3>SIGN-UP SCREEN</h3>
-              <h4>CONCEPTUAL</h4>
-            </div>{" "}
-            <img src="mobile-mockup-thumbnail.png" />
-            <div className="card-bottom">
-              <p>
-                This sign-up screen allows users to search for and sign up for
-                local volunteering events.
-              </p>
-            </div>
-          </div>
-          <div className="card column-3">
-            <div>
-              <h3>WIREFRAMING</h3>
-              <h4>DETAILED SKETCH</h4>
-            </div>{" "}
-            <div
-              className="mobile-gif"
-              style={{
-                width: "26.3rem",
-                height: "19.3rem",
-                background: `url('${process.env.PUBLIC_URL}/mobile-sketch-gif.gif')`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
-                backgroundSize: "11.2rem",
-                border: ".05rem solid #41423C",
-                backgroundColor: "#E0E0E0",
-              }}
-            ></div>
-            <div className="card-bottom">
-              <p>
-                After watching a user interview for insight on what features to
-                add, I sketched a few designs.
-              </p>
-            </div>
-          </div>
-          <div className="card column-4">
-            <div>
-              <h3>HIGH-FIDELITY</h3>
-              <h4>DESIGNER</h4>
-            </div>{" "}
-            <img src="mobile-app-final-scroll.png" />
-            <div className="card-bottom">
-              <p>
-                The final scroll of the screen. What would I change? The
-                hierarchy and non-fixed RSVP.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="mobile-screens">
-        <div className="mobile-images">
-          <img src="mobile-screen1.png" alt="mobile screen design" />
-          <img src="mobile-screen2.png" alt="mobile screen design" />
-        </div>
-        <div className="mobile-screens-button">
-          <button className="primary-button">See the case study</button>
         </div>
       </div>
 
