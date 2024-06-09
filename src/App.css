@@ -1420,6 +1420,11 @@ ul {
   .footer {
     flex-direction: column;
   }
+
+  .card h3,
+  .card h4 {
+    display: none;
+  }
 }
 
 /* For screens smaller than 48rem (smartphones) */
