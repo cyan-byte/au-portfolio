@@ -127,7 +127,7 @@ export default function BookletDesign() {
               <img src="tick-box.png" alt="tick box" />
             </div>
             <div>
-              <p>No more than two hyphena-ted words per para-graph?</p>
+              <p>No more than two hyphena-ted words per paragraph?</p>
             </div>
           </div>
           <div className="box-row">

@@ -5,8 +5,8 @@ export default function Nav() {
   return (
     <div className="nav">
       <ul className="logo-container">
-        <li className="logo">
-          <NavLink exact to="/">
+        <li>
+          <NavLink exact to="/" className="logo">
             AU
           </NavLink>
         </li>

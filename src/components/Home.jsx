@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
+import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
 
 export default function Home() {
@@ -36,7 +37,7 @@ export default function Home() {
           className="hero-alt"
           style={{
             background: `url('${process.env.PUBLIC_URL}/hero-layouts-bg.png')`,
-            backgroundRepeat: "no-repeat",
+            backgroundRepeat: "repeat",
           }}
         >
           <h1 className="hero-alt-h1">
@@ -47,6 +48,18 @@ export default function Home() {
           <div className="sub-header">
             <p className="digital-designer">DIGITAL DESIGNER</p>
             <p className="junior"> & JUNIOR FRONT-END DEVELOPER</p>
+          </div>
+          <div className="buttons-container">
+            <a href="mailto:aliau2050@gmail.com" className="nav-link">
+              <div>
+                <button className="primary-button">Contact me</button>
+              </div>
+            </a>{" "}
+            <NavLink to="/about" activeClassName="about-button">
+              <div>
+                <button className="about-button">About me</button>
+              </div>{" "}
+            </NavLink>
           </div>
         </div>
       </div>
@@ -66,9 +79,11 @@ export default function Home() {
               <h3>SIGN-UP SCREEN</h3>
             </div>
             <div className="mobile-button">
-              <div>
-                <button className="primary-button">See the case study</button>
-              </div>
+              <Link to="/mobile-uiux">
+                <div>
+                  <button className="primary-button">See the case study</button>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="mobile-mockup-columns">
@@ -133,7 +148,11 @@ export default function Home() {
           <img src="mobile-screen2.png" alt="mobile screen design" />
         </div>
         <div className="mobile-screens-button">
-          <button className="primary-button">See the case study</button>
+          <Link to="/mobile-uiux">
+            <div>
+              <button className="primary-button">See the case study</button>
+            </div>
+          </Link>{" "}
         </div>
       </div>
 
@@ -239,11 +258,7 @@ export default function Home() {
               single design. Which would you choose?
             </p>{" "}
           </div>
-          <Link
-            to="/hero-layouts"
-            activeClassName="active"
-            className="nav-link"
-          >
+          <Link to="/hero-layouts" className="nav-link">
             <div>
               <button className="primary-button">See all six</button>
             </div>

@@ -7,6 +7,8 @@ export default function () {
     <div className="about-container">
       <Nav />
       <div className="who-am-i-container">
+        {" "}
+        <img src="about-me-lottie.gif" alt="about me animation" />
         <div
           className="who-am-i"
           style={{
@@ -18,7 +20,6 @@ export default function () {
         >
           <h1>WHO AM I?</h1>
         </div>
-        <img src="about-me-lottie.gif" alt="about me animation" />
       </div>
 
       <div className="about-me-container">
