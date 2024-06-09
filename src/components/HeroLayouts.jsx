@@ -10,14 +10,7 @@ export default function HeroLayouts() {
         <div className="hero-design-top">
           <h1>HERO LAYOUTS</h1>
         </div>
-        <div className="all-hero-images">
-          <img src="hero-design1.png" alt="hero design mockup" />
-          <img src="hero-design2.png" alt="hero design mockup" />
-          <img src="hero-design3.png" alt="hero design mockup" />
-          <img src="hero-design4.png" alt="hero design mockup" />
-          <img src="hero-design5.png" alt="hero design mockup" />
-          <img src="hero-design6.png" alt="hero design mockup" />
-        </div>
+
         <div className="hero-imgs-rows">
           <div className="hero-imgs-row-1">
             <div
@@ -102,6 +95,17 @@ export default function HeroLayouts() {
           <button className="primary-button">Contact me</button>
         </div>
       </a>
+      <div className="hero-close-ups">
+        <p>CLOSE-UPS</p>
+      </div>
+      <div className="large-hero-images">
+        <img src="hero-design1.png" alt="hero design mockup" />
+        <img src="hero-design2.png" alt="hero design mockup" />
+        <img src="hero-design3.png" alt="hero design mockup" />
+        <img src="hero-design4.png" alt="hero design mockup" />
+        <img src="hero-design5.png" alt="hero design mockup" />
+        <img src="hero-design6.png" alt="hero design mockup" />
+      </div>
       <div className="  linkedin-bar">
         <p>Say hi on: </p>
         <a

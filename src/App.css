@@ -286,7 +286,6 @@ button:hover::after {
   flex-direction: column;
   justify-content: space-between;
   padding: 12rem 12rem 6.4rem 12rem;
-  border-bottom: #170811 0.005rem solid;
   background-color: #f6e3dc;
   z-index: 3;
 }
@@ -340,6 +339,24 @@ button:hover::after {
   background-color: #e0e0e0;
 }
 
+/* Mobile Screens */
+.mobile-screens {
+  display: flex;
+  flex-direction: column;
+  padding: 8rem;
+  gap: 3.2rem;
+  border-bottom: #170811 0.005rem solid;
+}
+
+.mobile-images,
+.mobile-screens-button {
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+/* Email */
+
 .email-design-container {
   display: flex;
   flex-direction: column;
@@ -373,7 +390,8 @@ button:hover::after {
   text-align: center;
 }
 
-/* Booklet Design (Homepage) */
+/* Booklet Design (Homepage) & Hero Layouts*/
+
 .booklet-design-home-container,
 .hero-layouts-container {
   display: flex;
@@ -421,7 +439,7 @@ button:hover::after {
 }
 .hero-design-top h1 {
   text-align: center;
-  padding-top: 8rem;
+  padding: 8rem;
 }
 
 .hero-imgs-rows img {
@@ -461,16 +479,28 @@ button:hover::after {
   height: auto; /* Maintain aspect ratio */
 }
 
-.all-hero-images {
+.large-hero-images {
   display: flex;
   flex-direction: column;
 }
 
-.all-hero-images img {
-  border-bottom: #170811 0.05rem solid;
+.large-hero-images img {
+  border-top: #170811 0.05rem solid;
+  border-bottom: #170811 0.02rem solid;
+}
+
+.hero-close-ups {
+  display: flex;
+  justify-content: center;
+  padding: 1.6rem;
+  border-top: #170811 0.05rem solid;
+  font-weight: 600;
+  font-size: 2.4rem;
 }
 
 .hero-button-contact {
+  display: flex;
+  justify-content: center;
   padding: 5.6rem;
 }
 
@@ -763,6 +793,7 @@ button:hover::after {
 .pa-h1-p {
   display: flex;
   flex-direction: column;
+  max-width: 30rem;
   gap: 1.6rem;
 }
 
@@ -1472,8 +1503,15 @@ ul {
   .about-me-content {
     flex-wrap: wrap;
   }
-  .about-me-left, .about-me-right {
+  .about-me-left,
+  .about-me-right {
     width: 100%;
+    padding: 6.4rem;
+  }
+
+  .ad-left .ad-right {
+    width: 100%;
+    padding: 1rem;
   }
 }
 

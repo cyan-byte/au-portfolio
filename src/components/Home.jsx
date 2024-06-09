@@ -140,7 +140,7 @@ export default function Home() {
             className="nav-link"
           >
             <div>
-              <button className="primary-button">See them up close</button>
+              <button className="primary-button">See all six</button>
             </div>
           </Link>
         </div>
@@ -168,7 +168,7 @@ export default function Home() {
                 <button className="primary-button">See the case study</button>
               </div>
             </div>
-          </div>{" "}
+          </div>
           <div className="card column-2">
             <div>
               <h3>SIGN-UP SCREEN</h3>
@@ -220,6 +220,16 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="mobile-screens">
+        <div className="mobile-images">
+          <img src="mobile-screen1.png" alt="mobile screen design" />
+          <img src="mobile-screen2.png" alt="mobile screen design" />
+        </div>
+        <div className="mobile-screens-button">
+          <button className="primary-button">See the case study</button>
         </div>
       </div>
 
@@ -484,12 +494,15 @@ export default function Home() {
         <div className="pa-content">
           <div className="pa-top-bottom">
             <div className="pa-top">
-              <p className="made-in">MADE ON PAPER</p>
+              {/* <p className="made-in">MADE ON PAPER</p> */}
             </div>
             <div className="pa-bottom">
               <div className="pa-left-content">
                 <div className="pa-h1-p">
-                  <h1>Portrait Artist</h1>
+                  <h1>
+                    Portrait <br />
+                    Artist
+                  </h1>
                   <p>
                     Here is one that I enjoyed drawing, although it is quite
                     emotional. I followed Ruben Belloso Adorna’s work and wanted
