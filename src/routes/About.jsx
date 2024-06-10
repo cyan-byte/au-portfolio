@@ -98,9 +98,6 @@ export default function () {
             </a>
           </div>
         </div>
-        <div className="ty-right">
-          <p>Thanks for viewing my portfolio.</p>
-        </div>
       </div>
 
       <div className="linkedin-bar">

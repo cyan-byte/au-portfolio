@@ -54,11 +54,11 @@ export default function Home() {
               <div>
                 <button className="primary-button">Contact me</button>
               </div>
-            </a>{" "}
+            </a>
             <NavLink to="/about" activeClassName="about-button">
               <div>
-                <button className="about-button">About me</button>
-              </div>{" "}
+                <button className="about-button">About</button>
+              </div>
             </NavLink>
           </div>
         </div>
@@ -273,7 +273,7 @@ export default function Home() {
         <div className="ui-design-top">
           <div className="ui-header-row">
             <h1>UI DESIGN</h1>
-            <p className="made-in">MADE IN ADOBE XD</p>
+            <p className="made-in">MADE IN ADOBE ILLLUSTRATOR</p>
           </div>
           <div className="ui-design-top-bottom">
             <div>
@@ -350,7 +350,7 @@ export default function Home() {
             className="nav-link"
           >
             <div>
-              <button className="primary-button">See the full layout</button>
+              <button className="primary-button">See the details</button>
             </div>
           </Link>
         </div>
