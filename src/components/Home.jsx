@@ -303,9 +303,9 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div>
+            {/* <div>
               <button className="primary-button">See more details</button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -453,9 +453,9 @@ export default function Home() {
           <div className="the-artist-left">
             <div className="the-artist-left-content">
               <h1>The Artist.</h1>
-              <div>
+              {/* <div>
                 <button className="primary-button">See more</button>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="the-artist-right">
@@ -520,7 +520,7 @@ export default function Home() {
           <div className="digital-illu-right">
             <div className="digital-illu-right-content">
               <h1>Digital Illustrator</h1>
-              <button className="primary-button">See more</button>
+              {/* <button className="primary-button">See more</button> */}
             </div>
           </div>
         </div>
@@ -545,11 +545,11 @@ export default function Home() {
                     to make my own version of his.
                   </p>
                 </div>
-                <div>
+                {/* <div>
                   <button className="primary-button">
                     See this portrait up close
                   </button>
-                </div>
+                </div> */}
               </div>
               <div className="pa-right">
                 <img
