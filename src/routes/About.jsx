@@ -8,7 +8,6 @@ export default function () {
       <Nav />
       <div className="who-am-i-container">
         {" "}
-        <img src="about-me-lottie.gif" alt="about me animation" />
         <div
           className="who-am-i"
           style={{

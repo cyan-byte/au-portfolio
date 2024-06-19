@@ -313,6 +313,8 @@ button:hover::after {
   font-weight: 400;
 }
 
+/* Mobile Section on Home */
+
 .mobile-ux-container {
   display: flex;
   flex-direction: column;
@@ -404,6 +406,274 @@ button:hover::after {
 
 .mobile-images {
   flex-wrap: wrap;
+}
+
+/* Mobile UI UX Page */
+.mobile-page-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 12rem 0rem 12rem;
+  gap: 3.2rem;
+  background-color: #fff;
+  color: #170811;
+}
+
+.mobile-page-container h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.mobile-page-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding-bottom: 6.4rem;
+}
+
+.mobile-hero-h1-p {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-top: 3.2rem;
+}
+.three-mobile-mockups {
+  height: 100vh;
+}
+
+.timeline-role {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: right;
+  gap: 1.6rem;
+}
+
+.timeline,
+.role {
+  gap: 32px;
+}
+
+.timeline-role h2 {
+  font-size: 1.6rem;
+}
+
+.section-bar {
+  border-top: #170811 0.05rem solid;
+  border-bottom: #170811 0.05rem solid;
+  padding: 1.6rem;
+  text-align: center;
+}
+
+.problem-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.problem-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 49.1rem;
+}
+
+.problem-right {
+  display: flex;
+  justify-content: end;
+}
+
+.solution-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5.6rem;
+  height: 100vh;
+}
+
+.solution-top {
+  padding-top: 2.4rem;
+}
+
+.solution-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.solution-bottom ol {
+  max-width: 54.9rem;
+}
+
+.solution-imgs {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.background-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 12rem;
+  gap: 3.2rem;
+  height: 100vh;
+}
+
+.research-methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.research-methods-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  max-width: 56.4rem;
+}
+
+.insights-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 12rem 0 12rem;
+  gap: 4rem;
+  height: 100vh;
+}
+
+.price-tags {
+  font-weight: 700;
+  color: limegreen;
+}
+
+.concepts-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  gap: 4rem;
+  padding: 0 12rem 0 12rem;
+}
+
+.concepts-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.concepts-bottom-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.app-icons {
+  display: flex;
+}
+
+.iterations-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 100vh;
+  padding: 0 12rem 0 12rem;
+}
+
+.iterations-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.final-sketch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wireframes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+  height: 100vh;
+}
+
+.wireframes-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learnings-container-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  gap: 4.8rem;
+}
+
+/* .learnings-left {
+  max-width: 50rem;
+} */
+
+.learnings-right {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.learnings-right-a,
+.learnings-right-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.learning-questions-container {
+  display: flex;
+  gap: 9.6rem;
+}
+
+/* 
+.learning-questions-left {
+} */
+
+.learning-questions-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.future-steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.future-steps-top {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.future-steps-bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4.8rem;
+}
+
+.future-steps-bottom-left,
+.future-steps-bottom-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 34rem;
 }
 
 /* Email */
@@ -891,8 +1161,7 @@ button:hover::after {
   justify-content: center;
   align-items: center;
   background-color: #252525;
-  height: 112vh;
-  padding-top: 4.8rem;
+  padding: 8rem 0 8rem 0;
   width: 100%;
 }
 
@@ -1326,10 +1595,9 @@ ul {
   border-radius: 1.6rem;
 }
 
-.booklet-instructions-2  {
+.booklet-instructions-2 {
   padding-top: 2.4rem;
 }
-
 
 .response p {
   padding: 3.2rem;
