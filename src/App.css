@@ -269,7 +269,7 @@ button:hover::after {
 .wdc-left {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   max-width: 56rem;
   gap: 4rem;
 }
@@ -295,7 +295,7 @@ button:hover::after {
 .wdc-right {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   height: 80vh;
   gap: 0.8rem;
 }
@@ -360,14 +360,14 @@ button:hover::after {
 .column-1 {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 2.4rem;
 }
 
 .mobile-bottom {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .cards {
@@ -443,7 +443,7 @@ button:hover::after {
 .timeline-role {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   text-align: right;
   gap: 1.6rem;
 }
@@ -479,7 +479,7 @@ button:hover::after {
 
 .problem-right {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .solution-container {
@@ -576,7 +576,7 @@ button:hover::after {
 .iterations-container {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   height: 100vh;
   padding: 0 12rem 0 12rem;
 }
@@ -1015,7 +1015,7 @@ button:hover::after {
 
 .the-artist-right-b {
   display: flex;
-  align-self: end;
+  align-self: flex-end;
 }
 
 .the-artist-right h2 {
@@ -1066,7 +1066,7 @@ button:hover::after {
 .digital-illu-right {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 2.4rem;
 }
 
@@ -1274,6 +1274,10 @@ button:hover::after {
   height: 20rem;
 }
 
+.branding-home-container button{
+  margin-top: 2.4rem;
+}
+
 .thank-you-container {
   display: flex;
   flex-wrap: wrap;
@@ -1297,7 +1301,7 @@ button:hover::after {
 
 .ty-right {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .ty-right p {
@@ -1451,7 +1455,7 @@ ul {
 }
 .footer-right {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   gap: 1.6rem;
 }
 
@@ -1580,7 +1584,7 @@ ul {
 .booklet-instructions-2 {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   gap: 7.2rem;
 }
 
@@ -1621,7 +1625,7 @@ ul {
 
 .box-row {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 

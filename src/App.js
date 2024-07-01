@@ -25,6 +25,7 @@ function App() {
           <Route path="/digital-illustrator" element={<DigitalIllustrator />} />
           <Route path="/artist" element={<Artist />} />
           <Route path="/portrait-artist" element={<PortraitArtist />} />
+          <Route path="/artist" element={<Artist />} />
         </Routes>
       </div>
     </Router>

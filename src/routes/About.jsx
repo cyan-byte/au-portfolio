@@ -82,6 +82,11 @@ export default function () {
           <span className="bold-text pink">branding</span>; it is fun to go
           through the process and see each puzzle piece as a whole.
         </p>
+        <a href="brand-identity.pdf" target="_blank">
+          <div>
+            <button className="primary-button">Brand Identity Project</button>
+          </div>
+        </a>
       </div>
 
       <div className="thank-you-container">
