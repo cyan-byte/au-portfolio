@@ -404,7 +404,7 @@ export default function Home() {
               style={{
                 background: `url('${process.env.PUBLIC_URL}/print-design-booklet-1.png')`,
                 backgroundRepeat: "no-repeat",
-                width: "45.867rem",
+                width: "auto",
                 height: "35.0rem",
               }}
             >
@@ -413,7 +413,7 @@ export default function Home() {
             <div
               className="booklet-role-home"
               style={{
-                width: "45.867rem",
+                width: "auto",
                 height: "35.0rem",
               }}
             >
@@ -427,7 +427,7 @@ export default function Home() {
               style={{
                 background: `url('${process.env.PUBLIC_URL}/print-design-booklet-2.png')`,
                 backgroundRepeat: "no-repeat",
-                width: "45.867rem",
+                width: "auto",
                 height: "35.0rem",
               }}
             >
@@ -439,7 +439,7 @@ export default function Home() {
               style={{
                 background: `url('${process.env.PUBLIC_URL}/print-design-booklet-3.png')`,
                 backgroundRepeat: "no-repeat",
-                width: "45.867rem",
+                width: "auto",
                 height: "35.0rem",
               }}
             ></div>
@@ -447,7 +447,7 @@ export default function Home() {
               style={{
                 background: `url('${process.env.PUBLIC_URL}/print-design-booklet-4.png')`,
                 backgroundRepeat: "no-repeat",
-                width: "45.867rem",
+                width: "auto",
                 height: "35.0rem",
               }}
             ></div>
@@ -455,7 +455,7 @@ export default function Home() {
               style={{
                 background: `url('${process.env.PUBLIC_URL}/print-design-booklet-5.png')`,
                 backgroundRepeat: "no-repeat",
-                width: "45.867rem",
+                width: "auto",
                 height: "35.0rem",
               }}
             ></div>
@@ -465,7 +465,7 @@ export default function Home() {
               style={{
                 background: `url('${process.env.PUBLIC_URL}/print-design-booklet-6.png')`,
                 backgroundRepeat: "no-repeat",
-                width: "45.867rem",
+                width: "auto",
                 height: "35.0rem",
               }}
             ></div>
@@ -473,7 +473,7 @@ export default function Home() {
               style={{
                 background: `url('${process.env.PUBLIC_URL}/print-design-booklet-7.png')`,
                 backgroundRepeat: "no-repeat",
-                width: "45.867rem",
+                width: "auto",
                 height: "35.0rem",
               }}
             ></div>
@@ -481,7 +481,7 @@ export default function Home() {
               style={{
                 background: `url('${process.env.PUBLIC_URL}/print-design-booklet-8.png')`,
                 backgroundRepeat: "no-repeat",
-                width: "45.867rem",
+                width: "4auto",
                 height: "35.0rem",
               }}
             ></div>

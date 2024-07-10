@@ -78,9 +78,8 @@ export default function () {
 
       <div className="branding-home-container">
         <p>
-          While working with a design agency owner, I developed an interest in{" "}
-          <span className="bold-text pink">branding</span>; it is fun to go
-          through the process and see each puzzle piece as a whole.
+          Did you see my <span className="bold-text pink">branding</span>;
+          project yet?
         </p>
         <a href="brand-identity.pdf" target="_blank">
           <div>
