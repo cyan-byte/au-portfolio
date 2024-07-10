@@ -65,6 +65,63 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="web-design-container">
+        <div className="wdc-top">
+          <h1>WEB DESIGN</h1>
+          <div className="made-in">
+            <p>
+              MADE IN FIGMA <br />
+              2024
+            </p>
+          </div>
+        </div>
+        <div className="wdc-left-right">
+          <div className="wdc-left">
+            <div className="wdc-left-bottom">
+              <div className="h2-h3-container">
+                <h2>TRULY</h2>
+                <h3>POTTERY SHOP UI</h3>
+              </div>
+              <p>
+                This is a conceptual pottery shop web design that offers
+                handmade artisan pieces. It features a home landing page,
+                artisan/about, product, and cart page.
+              </p>
+            </div>
+            <div className="buttons-container">
+              <a href="mailto:aliau2050@gmail.com" className="nav-link">
+                <div>
+                  <button className="primary-button">Contact me</button>
+                </div>
+              </a>{" "}
+              <a
+                href="https://bit.ly/trulywebdesign"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div>
+                  <button>See the full prototype</button>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="wdc-right">
+            <a
+              href="https://bit.ly/trulywebdesign"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="truly-white-bg-gif.gif"
+                alt="web design mockup"
+                style={{ width: "38.5rem", height: "21.692rem" }}
+              />
+            </a>
+            <p>Designed with large type features and a visible grid.</p>
+          </div>
+        </div>
+      </div>
+
       <div className="branding">
         <div className="branding-h1-p">
           <h1>BRAND IDENTITY</h1>
@@ -226,63 +283,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="web-design-container">
-        <div className="wdc-top">
-          <h1>WEB DESIGN</h1>
-          <div className="made-in">
-            <p>
-              MADE IN FIGMA <br />
-              2024
-            </p>
-          </div>
-        </div>
-        <div className="wdc-left-right">
-          <div className="wdc-left">
-            <div className="wdc-left-bottom">
-              <div className="h2-h3-container">
-                <h2>TRULY</h2>
-                <h3>POTTERY SHOP UI</h3>
-              </div>
-              <p>
-                This is a conceptual pottery shop web design that offers
-                handmade artisan pieces. It features a home landing page,
-                artisan/about, product, and cart page.
-              </p>
-            </div>
-            <div className="buttons-container">
-              <a href="mailto:aliau2050@gmail.com" className="nav-link">
-                <div>
-                  <button className="primary-button">Contact me</button>
-                </div>
-              </a>{" "}
-              <a
-                href="https://bit.ly/trulywebdesign"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div>
-                  <button>See the full prototype</button>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="wdc-right">
-            <a
-              href="https://bit.ly/trulywebdesign"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="truly-white-bg-gif.gif"
-                alt="web design mockup"
-                style={{ width: "38.5rem", height: "21.692rem" }}
-              />
-            </a>
-            <p>Designed with large type features and a visible grid.</p>
           </div>
         </div>
       </div>
