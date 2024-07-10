@@ -1268,13 +1268,47 @@ button:hover::after {
   font-size: 4rem;
 }
 
+/* Branding on Home */
+.branding {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  padding: 12rem;
+}
+
+.branding-h1-p {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.branding h1 {
+  font-size: 7.2rem;
+  font-weight: 500;
+  line-height: 80%;
+  max-width: 80rem;
+}
+
+.branding-imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.branding-imgs-top,
+.branding-imgs-bottom {
+  display: flex;
+  gap: 1.6rem;
+}
+
+/* Branding within About page */
 .branding-home-container {
   margin-left: 12rem;
   max-width: 35rem;
   height: 20rem;
 }
 
-.branding-home-container button{
+.branding-home-container button {
   margin-top: 2.4rem;
 }
 

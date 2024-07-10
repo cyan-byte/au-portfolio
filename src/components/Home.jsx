@@ -65,6 +65,49 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="branding">
+        <div className="branding-h1-p">
+          <h1>BRAND IDENTITY</h1>
+          <p>
+            While working with a design agency owner, I developed an interest in{" "}
+            <span className="bold-text pink">branding</span>; it is fun to go
+            through the process, create each puzzle piece and bring the elements
+            together into a cohesive brand identity.
+          </p>
+        </div>
+        <div className="branding-imgs">
+          <div className="branding-imgs-top">
+            <img
+              src="brand-i-1.png"
+              alt="brand image"
+              style={{ width: "50%", height: "auto" }}
+            />
+            <img
+              src="brand-i-2.png"
+              alt="brand image"
+              style={{ width: "50%", height: "auto" }}
+            />
+          </div>
+          <div className="branding-imgs-bottom">
+            <img
+              src="brand-i-3.png"
+              alt="brand image"
+              style={{ width: "50%", height: "auto" }}
+            />
+            <img
+              src="brand-i-4.png"
+              alt="brand image"
+              style={{ width: "50%", height: "auto" }}
+            />
+          </div>
+        </div>
+        <a href="brand-identity.pdf" target="_blank">
+          <div>
+            <button className="primary-button">Full Brand Identity</button>
+          </div>
+        </a>
+      </div>
+
       <div className="mobile-ux-container">
         <div className="mobile-top">
           <div className="made-in">
