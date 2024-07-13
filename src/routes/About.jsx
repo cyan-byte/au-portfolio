@@ -79,7 +79,7 @@ export default function () {
       <div className="branding-home-container">
         <p>
           Did you get a chance to check out my{" "}
-          <span className="bold-text pink">branding</span>
+          <span className="bold-text pink">branding</span>{" "}
           project yet?
         </p>
         <a href="brand-identity.pdf" target="_blank">

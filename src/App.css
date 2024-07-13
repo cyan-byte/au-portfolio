@@ -260,6 +260,10 @@ button:hover::after {
   background-color: #ffa0c2;
 }
 
+.secondary-button {
+  background: transparent;
+}
+
 .wdc-left-right {
   display: flex;
   justify-content: space-between;
@@ -1272,31 +1276,35 @@ button:hover::after {
 .branding {
   display: flex;
   flex-wrap: wrap;
-  gap: 2.4rem;
+  gap: 12rem;
   padding: 12rem;
-}
-
-.branding-h1-p {
-  display: flex;
-  flex-direction: column;
-  gap: 4.8rem;
 }
 
 .branding h1 {
   font-size: 7.2rem;
   font-weight: 500;
   line-height: 80%;
-  max-width: 80rem;
+  max-width: 64rem;
+}
+
+.branding-p-and-imgs p {
+  max-width: 64rem;
 }
 
 .branding-imgs {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  padding-top: 3.2rem;
 }
 
 .branding-imgs-top,
 .branding-imgs-bottom {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.branding-button-container {
   display: flex;
   gap: 1.6rem;
 }
