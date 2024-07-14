@@ -13,12 +13,12 @@ body {
   font-size: 1.6rem;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   margin: 0;
-  color: #1c1c1c;
+  color: #50322e;
 }
 
 h1 {
   font-weight: 400;
-  color: #170811;
+  color: #50322E;
 }
 
 h1,
@@ -29,7 +29,7 @@ h4 {
 }
 
 h2 {
-  color: #170811;
+  color: #50322E;
   font-weight: 900;
 }
 
@@ -61,16 +61,16 @@ p {
 
 a {
   text-decoration: none;
-  color: #1c1c1c;
+  color: #50322E;
 }
 
 button {
   font-family: "Montserrat";
   background-color: #fefcfd;
-  color: #1c1c1c;
+  color: #50322E;
   font-size: 1.6rem;
   padding: 1rem 3.2rem;
-  border: #1c1c1c solid 0.005rem;
+  border: #50322E solid 0.005rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0rem 0.8rem 2.4rem;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -160,7 +160,7 @@ button:hover::after {
 .hero-bottom button {
   background-color: #ceffa8;
   padding: 1rem 4rem;
-  border: #1c1c1c 0.1rem solid;
+  border: #50322E 0.1rem solid;
   font-size: 2rem;
   transition: padding 500ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -205,7 +205,7 @@ button:hover::after {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #1c1c1c;
+  background-color: #50322E;
   padding-top: 4.8rem;
   gap: 7.2rem;
 }
@@ -251,7 +251,7 @@ button:hover::after {
   flex-wrap: wrap;
   background-color: #fefcfd;
   padding: 12rem;
-  border-bottom: #170811 0.005rem solid;
+  border-bottom: #50322E 0.005rem solid;
   z-index: 2;
 }
 
@@ -267,6 +267,7 @@ button:hover::after {
 
 .secondary-button {
   background: transparent;
+  font-weight: 500;
 }
 
 .wdc-left-right {
@@ -403,7 +404,7 @@ button:hover::after {
   flex-direction: column;
   padding: 8rem;
   gap: 2.4rem;
-  border-bottom: #170811 0.005rem solid;
+  border-bottom: #50322E 0.005rem solid;
 }
 
 .mobile-images,
@@ -424,7 +425,7 @@ button:hover::after {
   padding: 0 12rem 0rem 12rem;
   gap: 3.2rem;
   background-color: #fff;
-  color: #170811;
+  color: #50322E;
 }
 
 .mobile-page-container h1 {
@@ -467,8 +468,8 @@ button:hover::after {
 }
 
 .section-bar {
-  border-top: #170811 0.05rem solid;
-  border-bottom: #170811 0.05rem solid;
+  border-top: #50322E 0.05rem solid;
+  border-bottom: #50322E 0.05rem solid;
   padding: 1.6rem;
   text-align: center;
 }
@@ -697,7 +698,7 @@ button:hover::after {
   background-color: #fefcfd;
   padding-top: 7.2rem;
   padding-bottom: 7.2rem;
-  border-bottom: #170811 0.005rem solid;
+  border-bottom: #50322E 0.005rem solid;
 }
 
 .email-design-container h1 {
@@ -773,7 +774,7 @@ button:hover::after {
 }
 
 .hero-imgs-rows img {
-  border: #170811 0.05rem solid;
+  border: #50322E 0.05rem solid;
 }
 
 .booklet-imgs-row-1,
@@ -815,15 +816,15 @@ button:hover::after {
 }
 
 .large-hero-images img {
-  border-top: #170811 0.05rem solid;
-  border-bottom: #170811 0.02rem solid;
+  border-top: #50322E 0.05rem solid;
+  border-bottom: #50322E 0.02rem solid;
 }
 
 .hero-close-ups {
   display: flex;
   justify-content: center;
   padding: 1.6rem;
-  border-top: #170811 0.05rem solid;
+  border-top: #50322E 0.05rem solid;
   font-weight: 600;
   font-size: 2.4rem;
 }
@@ -838,7 +839,7 @@ button:hover::after {
 .ui-design-container {
   display: flex;
   flex-direction: column;
-  border-bottom: #170811 0.005rem solid;
+  border-bottom: #50322E 0.005rem solid;
 }
 
 .ui-design-top {
@@ -889,11 +890,11 @@ button:hover::after {
 
 .ui-bottom-h2-p h2 {
   padding-bottom: 0.8rem;
-  color: #170811;
+  color: #50322E;
 }
 
 .ui-bottom-h2-p p {
-  color: #252525;
+  color: #50322E;
 }
 
 .ui-bottom-left {
@@ -979,7 +980,7 @@ button:hover::after {
   /* flex-wrap: wrap; */
   flex-direction: column;
   padding: 8rem 12rem 8rem 12rem;
-  border-bottom: #170811 0.005rem solid;
+  border-bottom: #50322E 0.005rem solid;
   background-color: #fefcfd;
 }
 
@@ -1040,7 +1041,7 @@ button:hover::after {
   padding: 8rem 12rem;
   /* height: 80vh; */
   background-color: #fefcfd;
-  border-bottom: #170811 0.005rem solid;
+  border-bottom: #50322E 0.005rem solid;
 }
 
 .digital-illu-content {
@@ -1169,7 +1170,7 @@ button:hover::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #252525;
+  background-color: #50322E;
   padding: 8rem 0 8rem 0;
   width: 100%;
 }
@@ -1197,7 +1198,7 @@ button:hover::after {
   justify-content: center;
   align-items: center;
   background-color: #f6e3dc;
-  border-bottom: #170811 solid 0.005rem;
+  border-bottom: #50322E solid 0.005rem;
 }
 
 .about-me-content {
@@ -1214,7 +1215,7 @@ button:hover::after {
   width: 50%;
   max-width: 50.8rem;
   background-color: #fefcfd;
-  border-right: #170811 0.005rem solid;
+  border-right: #50322E 0.005rem solid;
   padding-left: 8rem;
   padding-right: 8rem;
 }
@@ -1332,7 +1333,7 @@ button:hover::after {
   justify-content: space-between;
   padding: 12rem;
   background-color: #fefcfd;
-  border-top: #1c1c1c 0.005rem solid;
+  border-top: #50322E 0.005rem solid;
 }
 
 .ty-left {
@@ -1412,10 +1413,11 @@ button:hover::after {
 
 .primary-button {
   background-color: #ffa0c2;
-  color: #1c1c1c;
+  color: #50322E;
   font-size: 1.6rem;
+  font-weight: 500;
   padding: 1rem 4rem;
-  border: #1c1c1c solid 0.15rem;
+  border: #50322E solid 0.15rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0rem 0.8rem 2.4rem;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -1469,15 +1471,15 @@ ul {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   height: 4.4rem;
-  border-top: #1c1c1c 0.1rem solid;
+  border-top: #50322E 0.1rem solid;
 
-  border-bottom: #1c1c1c 0.1rem solid;
+  border-bottom: #50322E 0.1rem solid;
 }
 
 .linkedin-bar button {
   background-color: #e5bfd6;
   padding: 1rem 4rem;
-  border: #1c1c1c 0.1rem solid;
+  border: #50322E 0.1rem solid;
   font-size: 1.6rem;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -1562,7 +1564,7 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-bottom: #170811 0.05rem solid;
+  border-bottom: #50322E 0.05rem solid;
   padding: 12rem 0rem 12rem 0rem;
   background-color: #f6e3dc;
   line-height: 580%;
@@ -1576,7 +1578,7 @@ ul {
 .cover-and-list {
   display: flex;
   justify-content: space-between;
-  border-bottom: #170811 0.05rem solid;
+  border-bottom: #50322E 0.05rem solid;
 }
 
 .cover-and-list ul {
@@ -1651,7 +1653,7 @@ ul {
   font-size: 2.4rem;
   max-width: 40rem;
   background-color: #e5bfd6;
-  color: #170811;
+  color: #50322E;
   border-radius: 1.6rem;
 }
 
@@ -1810,7 +1812,7 @@ ul {
   .dot {
     height: 25px;
     width: 25px;
-    background-color: #000000;
+    background-color: #50322E;
     border-radius: 50%;
     /* display: inline-block; */
   }
