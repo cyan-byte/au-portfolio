@@ -9,63 +9,88 @@ export default function Home() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="home-container">
-      <div className="header-hero-container">
-        <Nav />
-        {/* <div className="hero">
-          <div className="hero-top">
-            <p className="welcome">WELCOME TO MY</p>
-            <div className="portfolio-header">
-              <h1>
-                PORT-
-                <br />
-                FOLIO
-              </h1>
+    <div
+      className="home-container"
+      style={{
+        background: `url('${process.env.PUBLIC_URL}/warm-clouds.jpg')`,
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <Nav />
+      <div
+        className="hero"
+        // style={{
+        //   background: `url('${process.env.PUBLIC_URL}/warm-clouds.jpg')`,
+        //   backgroundRepeat: "no-repeat",
+        // }}
+      >
+        {" "}
+        <h1 className="hero-h1">HELLO,</h1>
+        <div className="truly-cropped-container">
+          <span className="dot"></span>
+          <a
+            href="https://bit.ly/trulywebdesign"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="truly-gif"
+              src="truly-gif-cropped.gif"
+              alt="web design mockup"
+              style={{
+                width: "38.5rem",
+                height: "21.692rem",
+                borderRadius: "1.2rem",
+                padding: "2rem",
+                border: "#50322E .1rem solid",
+              }}
+            />
+          </a>
+        </div>
+        <div className="buttons-container">
+          <a href="#web-design" className="nav-link">
+            <div>
+              <button className="primary-button">My Work</button>
             </div>
-            <div className="sub-header">
-              <p className="digital-designer">DIGITAL DESIGNER</p>
-              <p className="junior"> & JUNIOR FRONT-END DEVELOPER</p>
+          </a>
+          <NavLink to="/about" activeClassName="about-button">
+            <div>
+              <button className="secondary-button">About</button>
             </div>
-            <a href="mailto:aliau2050@gmail.com" className="nav-link">
-              <div>
-                <button className="primary-button">Contact me</button>
-              </div>
-            </a>
-          </div>
-        </div> */}
-
-        <div
-          className="hero-alt"
-          style={{
-            background: `url('${process.env.PUBLIC_URL}/hero-layouts-bg.png')`,
-            backgroundRepeat: "repeat",
-          }}
-        >
-          <h1 className="hero-alt-h1">
-            Alisha
-            <br />
-            Upton
-          </h1>
-          <div className="sub-header">
-            <p className="digital-designer">DIGITAL DESIGNER</p>
-            <p className="junior"> & JUNIOR FRONT-END DEVELOPER</p>
-          </div>
-          <div className="buttons-container">
-            <a href="mailto:aliau2050@gmail.com" className="nav-link">
-              <div>
-                <button className="primary-button">Contact me</button>
-              </div>
-            </a>
-            <NavLink to="/about" activeClassName="about-button">
-              <div>
-                <button className="about-button">About</button>
-              </div>
-            </NavLink>
-          </div>
+          </NavLink>
         </div>
       </div>
 
-      <div className="web-design-container">
+      <div className="responsive-hero">
+        <div>
+          <h1>Hi, I'm Alisha,</h1>
+          <p>
+            a Digital Designer with knowledge of front-end development. Design
+            gives me a chance to be creative, but with a structure that just
+            makes sense.
+          </p>
+        </div>
+        <a
+          href="https://bit.ly/trulywebdesign"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="truly-gif2"
+            src="truly-gif-cropped.gif"
+            alt="web design mockup"
+            style={{
+              width: "24rem",
+              height: "auto",
+              borderRadius: "1.2rem",
+              padding: "1rem",
+              border: "#50322E .1rem solid",
+            }}
+          />
+        </a>
+      </div>
+
+      <div className="web-design-container" id="web-design">
         <div className="wdc-top">
           <h1>WEB DESIGN</h1>
           <div className="made-in">

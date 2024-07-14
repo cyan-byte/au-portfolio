@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -53,6 +54,7 @@ p {
 }
 
 .logo {
+  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
   font-size: 2.4rem;
   color: #f6e3dc;
 }
@@ -96,17 +98,18 @@ button:hover::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: #1c1c1c 0.1rem solid;
+  border-bottom: #50322e 0.1rem solid;
   gap: 3.2rem;
   height: 42rem;
   padding-bottom: 7.2rem;
 }
 
-.hero-top {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.4rem;
+.responsive-hero {
+  display: none;
+}
+
+.truly-gif {
+  margin-top: -80rem;
 }
 
 .welcome {
@@ -115,13 +118,14 @@ button:hover::after {
   text-align: center;
 }
 
-.hero h1,
-.hero-alt h1 {
+.hero-h1 {
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
   font-size: 14rem;
   line-height: 85%;
   font-weight: 900;
-  color: #170811;
+  color: #fde7d5;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #50322e;
 }
 
 .sub-header {
@@ -174,18 +178,19 @@ button:hover::after {
 /* -------------------------Hero 1 ^^^^^------------------ */
 
 /* ----------------Hero Alternative----------------*/
-.hero-alt {
+.hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3.2rem;
   padding: 2.4rem;
-  border-bottom: #170811 0.05rem solid;
+  border-bottom: #50322e 0.05rem solid;
 }
 
-.hero-alt-h1 {
+.hero-h1 {
   color: #f6e3dc !important;
+  font-size: 37.8rem;
 }
 
 /* what i do */
@@ -1278,6 +1283,7 @@ button:hover::after {
   flex-wrap: wrap;
   gap: 12rem;
   padding: 12rem;
+  background-color: #fff;
 }
 
 .branding h1 {
@@ -1361,8 +1367,7 @@ button:hover::after {
   padding-left: 12rem;
   padding-right: 12rem;
   margin-top: 0;
-  height: 7.2rem;
-  background: #252525;
+  height: 7.2rem !important;
 }
 
 .nav-links-container {
@@ -1514,10 +1519,6 @@ ul {
 .social-icons {
   display: flex;
   gap: 0.4rem;
-}
-
-.hero {
-  padding: 2rem;
 }
 
 /* Flex container */
@@ -1764,7 +1765,27 @@ ul {
 
 /* For screens smaller than 76.8rem (tablets and below) */
 @media (max-width: 76.8rem) {
-  .hero,
+  .hero {
+    display: none;
+  }
+
+  .responsive-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    max-width: 60rem;
+    height: 72rem;
+    padding: 8rem 8rem;
+    gap: 2.4rem;
+  }
+
+  .responsive-hero h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+  }
+
   .wdc-left-right,
   .mobile-bottom,
   .cards {
@@ -1780,6 +1801,18 @@ ul {
   h2,
   h3 p {
     text-align: center;
+  }
+
+  .hero-h1 h1 {
+    font-size: 5.6rem;
+  }
+
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    /* display: inline-block; */
   }
 
   .wdc-left-right,
@@ -1895,6 +1928,10 @@ ul {
 
 /* For screens smaller than 48rem (smartphones) */
 @media (max-width: 48rem) {
+  .nav {
+    height: 7.2rem;
+  }
+
   .hero,
   .wdc-top,
   .mobile-top {
