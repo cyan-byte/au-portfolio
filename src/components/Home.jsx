@@ -93,9 +93,11 @@ export default function Home() {
             gives me a chance to be creative, but with a structure that makes
             sense.
           </p>
-          <div>
-            <button className="primary-button">About me</button>
-          </div>
+          <NavLink to="/about" activeClassName="about-button">
+            <div>
+              <button className="secondary-button">About me</button>
+            </div>
+          </NavLink>{" "}
         </div>
         <div className="intro-right">
           <div className="intro-squares-container">
@@ -193,7 +195,7 @@ export default function Home() {
                 rel="noreferrer"
               >
                 <div>
-                  <button>See the full prototype</button>
+                  <button>See the prototype</button>
                 </div>
               </a>
             </div>
