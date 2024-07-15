@@ -199,76 +199,68 @@ export default function Home() {
             </div>
           </div>
           <div className="wdc-right">
-            <a
-              href="https://bit.ly/trulywebdesign"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="truly-white-bg-gif.gif"
-                alt="web design mockup"
-                style={{ width: "38.5rem", height: "21.692rem" }}
-              />
-            </a>
+            <div className="truly-cropped-container">
+              <span className="dot"></span>
+              <a
+                href="https://bit.ly/trulywebdesign"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="truly-gif"
+                  src="truly-gif-cropped.gif"
+                  alt="web design mockup"
+                  style={{
+                    width: "38.5rem",
+                    height: "21.692rem",
+                    borderRadius: "1.2rem",
+                    padding: "1.6rem",
+                    border: "#50322E .1rem solid",
+                  }}
+                />
+              </a>
+            </div>
             <p>Designed with large type features and a visible grid.</p>
           </div>
         </div>
       </div>
 
       <div className="branding">
-        <div className="branding-top">
-          <h1>BRAND IDENTITY</h1>
-          <p>MADE IN FIGMA</p>
-        </div>
-        <div className="branding-p-and-imgs">
+        <div
+          className="branding-left"
+          style={{
+            background: `url('${process.env.PUBLIC_URL}/moduvo-moodboard.png')`,
+            backgroundRepeat: "no-repeat",
+            width: "53.5%",
+            height: "72rem",
+          }}
+        ></div>
+
+        <div className="branding-right">
+          <div className="branding-right-top">
+            <h1>BRANDING</h1>
+          </div>
+          <h3>BRAND IDENTITY DESIGN</h3>
           <p>
-            While working with a design agency owner, I developed an interest in{" "}
-            <span className="bold-text pink">branding</span>; it is fun to go
-            through the process, create each puzzle piece and bring the elements
-            together into a cohesive brand identity.
+            I designed a conceptual brand called Moduvo and carefully developed
+            the tone of voice, the fonts, colors, and the rest of the creative
+            direction for the brand. Check out the full brand identity.
           </p>
-          <div className="branding-imgs">
-            <div className="branding-imgs-top">
-              <img
-                src="brand-i-1.png"
-                alt="brand image"
-                style={{ width: "50%", height: "auto" }}
-              />
-              <img
-                src="brand-i-2.png"
-                alt="brand image"
-                style={{ width: "50%", height: "auto" }}
-              />
-            </div>
-            <div className="branding-imgs-bottom">
-              <img
-                src="brand-i-3.png"
-                alt="brand image"
-                style={{ width: "50%", height: "auto" }}
-              />
-              <img
-                src="brand-i-4.png"
-                alt="brand image"
-                style={{ width: "50%", height: "auto" }}
-              />
-            </div>
-            <div className="branding-button-container">
-              <a href="brand-identity.pdf" target="_blank">
+
+          <div className="branding-button-container">
+            <a href="brand-identity.pdf" target="_blank">
+              <div>
+                <button className="primary-button">Full Brand Identity</button>
+              </div>
+            </a>
+            <div>
+              <a href="moduvo-landing-pg.pdf" target="_blank">
                 <div>
-                  <button className="primary-button">
-                    Full Brand Identity
+                  <button className="secondary-button">
+                    Landing Page Design
                   </button>
                 </div>
               </a>
-              <div>
-                <a href="moduvo-landing-pg.pdf" target="_blank">
-                  <div>
-                    <button className="secondary-button">
-                      Landing Page Design
-                    </button>
-                  </div>
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -300,7 +292,7 @@ export default function Home() {
             <div className="card column-2">
               <div>
                 <h3>SIGN-UP SCREEN</h3>
-                <h4>CONCEPTUAL</h4>
+                <p>CONCEPTUAL</p>
               </div>{" "}
               <img src="mobile-mockup-thumbnail.png" />
               <div className="card-bottom">
@@ -313,7 +305,7 @@ export default function Home() {
             <div className="card column-3">
               <div>
                 <h3>WIREFRAMING</h3>
-                <h4>DETAILED SKETCH</h4>
+                <p>DETAILED SKETCH</p>
               </div>{" "}
               <div
                 className="mobile-gif"
@@ -387,8 +379,21 @@ export default function Home() {
             </div>
           </Link>
         </div>
-        <div className="hero-designs-right">
-          <img src="hero-designs-gif.gif" alt="web design gif" />
+        <div
+          style={{
+            width: "27.9rem",
+            height: "auto",
+            borderRadius: "1.2rem",
+            padding: "1.6rem",
+            border: "#50322E .1rem solid",
+          }}
+        >
+          <div
+            className="hero-designs-right"
+            style={{ backgroundColor: "#000000" }}
+          >
+            <img src="hero-designs-gif.gif" alt="web design gif" />
+          </div>
         </div>
       </div>
 

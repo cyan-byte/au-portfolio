@@ -290,7 +290,7 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #fefcfd;
+  background-color: #fde7d5;
   padding: 12rem;
   border-bottom: #50322e 0.005rem solid;
   z-index: 2;
@@ -1286,9 +1286,12 @@ button:hover::after {
 .branding {
   display: flex;
   flex-wrap: wrap;
-  gap: 12rem;
-  padding: 12rem;
   background-color: #fff;
+}
+
+.branding-right {
+  max-width: 40.5%;
+  padding: 5.6rem 0 0 5.6rem;
 }
 
 .branding h1 {
@@ -1296,23 +1299,11 @@ button:hover::after {
   font-weight: 500;
   line-height: 80%;
   max-width: 64rem;
+  margin-bottom: 32rem;
 }
 
-.branding-p-and-imgs p {
-  max-width: 64rem;
-}
-
-.branding-imgs {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  padding-top: 3.2rem;
-}
-
-.branding-imgs-top,
-.branding-imgs-bottom {
-  display: flex;
-  gap: 1.6rem;
+.branding p {
+  padding-bottom: 3.2rem;
 }
 
 .branding-button-container {
@@ -1522,7 +1513,7 @@ ul {
 }
 
 .footer-logo {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
 }
 
 .social-icons {
