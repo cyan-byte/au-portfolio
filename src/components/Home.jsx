@@ -160,6 +160,47 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="branding">
+        <div
+          className="branding-left"
+          style={{
+            background: `url('${process.env.PUBLIC_URL}/moduvo-moodboard.png')`,
+            backgroundRepeat: "no-repeat",
+            width: "53.5%",
+            height: "72rem",
+          }}
+        ></div>
+
+        <div className="branding-right">
+          <div className="branding-right-top">
+            <h1>BRANDING</h1>
+          </div>
+          <h3>BRAND IDENTITY DESIGN</h3>
+          <p>
+            I designed a conceptual brand called Moduvo and carefully developed
+            the tone of voice, the fonts, colors, and the rest of the creative
+            direction for the brand. Check out the full brand identity.
+          </p>
+
+          <div className="branding-button-container">
+            <a href="brand-identity.pdf" target="_blank">
+              <div>
+                <button className="primary-button">Full Brand Identity</button>
+              </div>
+            </a>
+            <div>
+              <a href="moduvo-landing-pg.pdf" target="_blank">
+                <div>
+                  <button className="secondary-button">
+                    Landing Page Design
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="web-design-container" id="web-design">
         <div className="wdc-top">
           <h1>WEB DESIGN</h1>
@@ -223,47 +264,6 @@ export default function Home() {
               </a>
             </div>
             <p>Designed with large type features and a visible grid.</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="branding">
-        <div
-          className="branding-left"
-          style={{
-            background: `url('${process.env.PUBLIC_URL}/moduvo-moodboard.png')`,
-            backgroundRepeat: "no-repeat",
-            width: "53.5%",
-            height: "72rem",
-          }}
-        ></div>
-
-        <div className="branding-right">
-          <div className="branding-right-top">
-            <h1>BRANDING</h1>
-          </div>
-          <h3>BRAND IDENTITY DESIGN</h3>
-          <p>
-            I designed a conceptual brand called Moduvo and carefully developed
-            the tone of voice, the fonts, colors, and the rest of the creative
-            direction for the brand. Check out the full brand identity.
-          </p>
-
-          <div className="branding-button-container">
-            <a href="brand-identity.pdf" target="_blank">
-              <div>
-                <button className="primary-button">Full Brand Identity</button>
-              </div>
-            </a>
-            <div>
-              <a href="moduvo-landing-pg.pdf" target="_blank">
-                <div>
-                  <button className="secondary-button">
-                    Landing Page Design
-                  </button>
-                </div>
-              </a>
-            </div>
           </div>
         </div>
       </div>
