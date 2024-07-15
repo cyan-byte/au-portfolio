@@ -4,7 +4,13 @@ import Footer from "./Footer";
 
 export default function MobileUIUX() {
   return (
-    <div className="mobile-page">
+    <div
+      className="mobile-page"
+      style={{
+        background: `url('${process.env.PUBLIC_URL}/pexels-ian-panelo-7116587.jpg')`,
+        backgroundRepeat: "repeat",
+      }}
+    >
       <Nav />{" "}
       <div
         className="three-mobile-mockups"

@@ -4,7 +4,13 @@ import Footer from "./Footer";
 
 export default function HeroLayouts() {
   return (
-    <div className="hero-layouts-container">
+    <div
+      className="hero-layouts-container"
+      style={{
+        background: `url('${process.env.PUBLIC_URL}/pexels-ian-panelo-7116587.jpg')`,
+        backgroundRepeat: "repeat",
+      }}
+    >
       <Nav />
       <div className="hero-design-content">
         <div className="hero-design-top">
@@ -67,26 +73,12 @@ export default function HeroLayouts() {
             >
               <img src="hero-design5.png" alt="hero design mockup" />
             </div>
-            <div
-            // style={{
-            //   background: `url('${process.env.PUBLIC_URL}/hero-design6.png')`,
-            //   backgroundRepeat: "no-repeat",
-            //   width: "45.867rem",
-            //   height: "35.0rem",
-            // }}
-            >
+            <div>
               <img src="hero-design6.png" alt="hero design mockup" />
             </div>
           </div>
           <div className="hero-imgs-row-3">
-            <div
-            // style={{
-            //   background: `url('${process.env.PUBLIC_URL}/hero-design7.png')`,
-            //   backgroundRepeat: "no-repeat",
-            //   width: "45.867rem",
-            //   height: "35.0rem",
-            // }}
-            ></div>
+            <div></div>
           </div>
         </div>
       </div>

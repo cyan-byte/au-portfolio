@@ -86,7 +86,7 @@ export default function Home() {
 
       <section className="intro" id="intro">
         <div className="intro-left">
-          <h1>I'M ALISHA,</h1>
+          <h1>I'm Alisha,</h1>
           <p>
             a <span className="bold-text">Digital Designer</span> with knowledge
             of <span className="bold-text">front-end development</span>. Design

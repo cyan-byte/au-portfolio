@@ -768,6 +768,10 @@ button:hover::after {
   background-color: #fefcfd;
 }
 
+.hero-layouts-container h1 {
+  color: #fefcfd;
+}
+
 .booklet-design-home-container h1,
 .hero-design-top h1 {
   font-size: 7.2rem;
@@ -864,6 +868,7 @@ button:hover::after {
   border-top: #50322e 0.05rem solid;
   font-weight: 600;
   font-size: 2.4rem;
+  background-color: #fff;
 }
 
 .hero-button-contact {
@@ -1379,7 +1384,7 @@ button:hover::after {
 }
 
 .nav .nav-link {
-  color: #f6e3dc;
+  color: #fff;
   position: relative;
   text-decoration: none;
   padding-bottom: 0.5rem; /* Add padding for space below */
@@ -1557,7 +1562,7 @@ ul {
 }
 
 /* Booklet Page */
-.booklet-design-container {
+.booklet-container2 {
   background-color: #fff3e5;
 }
 
