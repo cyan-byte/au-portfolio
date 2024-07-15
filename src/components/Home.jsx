@@ -504,7 +504,10 @@ export default function Home() {
               }}
             >
               {" "}
-              <div className="role-h2-p">
+              <div
+                className="role-h2-p"
+                style={{ width: "auto", height: "35.rem" }}
+              >
                 <h2>Role</h2>
                 <p>Designer</p>
               </div>

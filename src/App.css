@@ -1008,6 +1008,7 @@ button:hover::after {
   max-width: 33.1rem;
   text-align: center;
   line-height: 160%;
+  color: #50322e;
 }
 
 /* The Artist */
