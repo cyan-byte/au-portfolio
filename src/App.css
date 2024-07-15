@@ -18,7 +18,7 @@ body {
 
 h1 {
   font-weight: 400;
-  color: #50322E;
+  color: #50322e;
 }
 
 h1,
@@ -29,17 +29,17 @@ h4 {
 }
 
 h2 {
-  color: #50322E;
+  color: #50322e;
   font-weight: 900;
 }
 
 h3 {
-  color: #926579;
+  color: #fb896d;
   font-weight: 700;
 }
 
 h4 {
-  color: #926579;
+  color: #fb896d;
   font-weight: 400;
 }
 
@@ -53,6 +53,13 @@ p {
   margin: 0;
 }
 
+/* Center flex*/
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
   font-size: 2.4rem;
@@ -61,16 +68,16 @@ p {
 
 a {
   text-decoration: none;
-  color: #50322E;
+  color: #50322e;
 }
 
 button {
   font-family: "Montserrat";
   background-color: #fefcfd;
-  color: #50322E;
+  color: #50322e;
   font-size: 1.6rem;
   padding: 1rem 3.2rem;
-  border: #50322E solid 0.005rem;
+  border: #50322e solid 0.005rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0rem 0.8rem 2.4rem;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -86,13 +93,6 @@ button:hover::after {
   width: 100%;
 }
 
-/* .header-hero-container {
-  background-image: url("/pink-water.jpg");
-} */
-
-/* Home */
-
-/* Hero */
 .hero {
   display: flex;
   flex-direction: column;
@@ -101,7 +101,51 @@ button:hover::after {
   border-bottom: #50322e 0.1rem solid;
   gap: 3.2rem;
   height: 42rem;
-  padding-bottom: 7.2rem;
+  padding: 8rem;
+  min-height: 88vh;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 0 0 12rem;
+  border-bottom: #50322e 1px solid;
+}
+
+.intro-left {
+  padding: 12rem 12rem 0 0;
+}
+
+.intro-left h1 {
+  font-size: 6.4rem;
+  font-weight: 600;
+}
+
+.intro-left p {
+  max-width: 40rem;
+  padding-bottom: 2rem;
+}
+
+.intro-right {
+  min-width: 50%;
+}
+.intro-squares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 30rem;
+  border-left: #50322e 1px solid;
+  border-bottom: #50322e 1px solid;
+}
+
+.squares1,
+.squares2,
+.squares3,
+.squares4,
+.squares5 {
+  display: flex;
 }
 
 .responsive-hero {
@@ -109,7 +153,7 @@ button:hover::after {
 }
 
 .truly-gif {
-  margin-top: -80rem;
+  margin-top: -20rem;
 }
 
 .welcome {
@@ -160,7 +204,7 @@ button:hover::after {
 .hero-bottom button {
   background-color: #ceffa8;
   padding: 1rem 4rem;
-  border: #50322E 0.1rem solid;
+  border: #50322e 0.1rem solid;
   font-size: 2rem;
   transition: padding 500ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -172,7 +216,7 @@ button:hover::after {
 }
 
 .junior {
-  color: #926579;
+  color: #fb896d;
 }
 
 /* -------------------------Hero 1 ^^^^^------------------ */
@@ -180,17 +224,14 @@ button:hover::after {
 /* ----------------Hero Alternative----------------*/
 .hero {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3.2rem;
-  padding: 2.4rem;
   border-bottom: #50322e 0.05rem solid;
 }
 
 .hero-h1 {
   color: #f6e3dc !important;
-  font-size: 37.8rem;
+  font-size: 34rem;
 }
 
 /* what i do */
@@ -205,7 +246,7 @@ button:hover::after {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #50322E;
+  background-color: #50322e;
   padding-top: 4.8rem;
   gap: 7.2rem;
 }
@@ -251,7 +292,7 @@ button:hover::after {
   flex-wrap: wrap;
   background-color: #fefcfd;
   padding: 12rem;
-  border-bottom: #50322E 0.005rem solid;
+  border-bottom: #50322e 0.005rem solid;
   z-index: 2;
 }
 
@@ -259,10 +300,6 @@ button:hover::after {
   display: flex;
   flex-wrap: wrap;
   gap: 1.6rem;
-}
-
-.primary-button {
-  background-color: #ffa0c2;
 }
 
 .secondary-button {
@@ -315,11 +352,11 @@ button:hover::after {
   flex-direction: column;
   text-align: right;
   font-size: 1.4rem;
-  color: #926579;
+  color: #fb896d;
 } */
 
 .h2-h3-container h3 {
-  color: #926579;
+  color: #fb896d;
   font-weight: 400;
 }
 
@@ -351,7 +388,7 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   font-size: 1.4rem;
-  color: #926579;
+  color: #fb896d;
 }
 
 .mobile-mockup-columns {
@@ -404,7 +441,7 @@ button:hover::after {
   flex-direction: column;
   padding: 8rem;
   gap: 2.4rem;
-  border-bottom: #50322E 0.005rem solid;
+  border-bottom: #50322e 0.005rem solid;
 }
 
 .mobile-images,
@@ -425,7 +462,7 @@ button:hover::after {
   padding: 0 12rem 0rem 12rem;
   gap: 3.2rem;
   background-color: #fff;
-  color: #50322E;
+  color: #50322e;
 }
 
 .mobile-page-container h1 {
@@ -468,8 +505,8 @@ button:hover::after {
 }
 
 .section-bar {
-  border-top: #50322E 0.05rem solid;
-  border-bottom: #50322E 0.05rem solid;
+  border-top: #50322e 0.05rem solid;
+  border-bottom: #50322e 0.05rem solid;
   padding: 1.6rem;
   text-align: center;
 }
@@ -698,7 +735,7 @@ button:hover::after {
   background-color: #fefcfd;
   padding-top: 7.2rem;
   padding-bottom: 7.2rem;
-  border-bottom: #50322E 0.005rem solid;
+  border-bottom: #50322e 0.005rem solid;
 }
 
 .email-design-container h1 {
@@ -774,7 +811,7 @@ button:hover::after {
 }
 
 .hero-imgs-rows img {
-  border: #50322E 0.05rem solid;
+  border: #50322e 0.05rem solid;
 }
 
 .booklet-imgs-row-1,
@@ -816,15 +853,15 @@ button:hover::after {
 }
 
 .large-hero-images img {
-  border-top: #50322E 0.05rem solid;
-  border-bottom: #50322E 0.02rem solid;
+  border-top: #50322e 0.05rem solid;
+  border-bottom: #50322e 0.02rem solid;
 }
 
 .hero-close-ups {
   display: flex;
   justify-content: center;
   padding: 1.6rem;
-  border-top: #50322E 0.05rem solid;
+  border-top: #50322e 0.05rem solid;
   font-weight: 600;
   font-size: 2.4rem;
 }
@@ -839,7 +876,7 @@ button:hover::after {
 .ui-design-container {
   display: flex;
   flex-direction: column;
-  border-bottom: #50322E 0.005rem solid;
+  border-bottom: #50322e 0.005rem solid;
 }
 
 .ui-design-top {
@@ -890,11 +927,11 @@ button:hover::after {
 
 .ui-bottom-h2-p h2 {
   padding-bottom: 0.8rem;
-  color: #50322E;
+  color: #50322e;
 }
 
 .ui-bottom-h2-p p {
-  color: #50322E;
+  color: #50322e;
 }
 
 .ui-bottom-left {
@@ -914,8 +951,8 @@ button:hover::after {
   font-weight: 700;
 }
 
-.pink {
-  color: #e144a2;
+.orange {
+  color: #fb896d;
 }
 
 .art-design {
@@ -980,7 +1017,7 @@ button:hover::after {
   /* flex-wrap: wrap; */
   flex-direction: column;
   padding: 8rem 12rem 8rem 12rem;
-  border-bottom: #50322E 0.005rem solid;
+  border-bottom: #50322e 0.005rem solid;
   background-color: #fefcfd;
 }
 
@@ -1041,7 +1078,7 @@ button:hover::after {
   padding: 8rem 12rem;
   /* height: 80vh; */
   background-color: #fefcfd;
-  border-bottom: #50322E 0.005rem solid;
+  border-bottom: #50322e 0.005rem solid;
 }
 
 .digital-illu-content {
@@ -1142,12 +1179,6 @@ button:hover::after {
   font-size: 1.6rem;
 }
 
-.primary-button {
-  padding: 1rem 2rem;
-  font-size: 1.6rem;
-  cursor: pointer;
-}
-
 .pa-right {
   flex: 1;
   display: flex;
@@ -1163,34 +1194,6 @@ button:hover::after {
   object-fit: cover; /* Maintains aspect ratio */
 }
 
-/* Who am I */
-
-.who-am-i-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #50322E;
-  padding: 8rem 0 8rem 0;
-  width: 100%;
-}
-
-.who-am-i {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.who-am-i h1 {
-  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
-  font-size: 8rem;
-  font-weight: 900;
-  color: #fefcfd;
-  max-width: 21.6rem;
-  line-height: 88%;
-}
-
 .about-me-container {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -1198,7 +1201,7 @@ button:hover::after {
   justify-content: center;
   align-items: center;
   background-color: #f6e3dc;
-  border-bottom: #50322E solid 0.005rem;
+  border-bottom: #50322e solid 0.005rem;
 }
 
 .about-me-content {
@@ -1215,7 +1218,7 @@ button:hover::after {
   width: 50%;
   max-width: 50.8rem;
   background-color: #fefcfd;
-  border-right: #50322E 0.005rem solid;
+  border-right: #50322e 0.005rem solid;
   padding-left: 8rem;
   padding-right: 8rem;
 }
@@ -1253,6 +1256,7 @@ button:hover::after {
   flex-wrap: wrap;
   padding: 12rem;
   gap: 4rem;
+  background-color: #f6e3dc;
 }
 
 .ad-left h1 {
@@ -1333,7 +1337,7 @@ button:hover::after {
   justify-content: space-between;
   padding: 12rem;
   background-color: #fefcfd;
-  border-top: #50322E 0.005rem solid;
+  border-top: #50322e 0.005rem solid;
 }
 
 .ty-left {
@@ -1412,12 +1416,15 @@ button:hover::after {
 }
 
 .primary-button {
-  background-color: #ffa0c2;
-  color: #50322E;
+  background-color: #ceffa8;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #50322e;
   font-size: 1.6rem;
   font-weight: 500;
   padding: 1rem 4rem;
-  border: #50322E solid 0.15rem;
+  border: #50322e solid 0.15rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0rem 0.8rem 2.4rem;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -1471,15 +1478,15 @@ ul {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   height: 4.4rem;
-  border-top: #50322E 0.1rem solid;
+  border-top: #50322e 0.1rem solid;
 
-  border-bottom: #50322E 0.1rem solid;
+  border-bottom: #50322e 0.1rem solid;
 }
 
 .linkedin-bar button {
   background-color: #e5bfd6;
   padding: 1rem 4rem;
-  border: #50322E 0.1rem solid;
+  border: #50322e 0.1rem solid;
   font-size: 1.6rem;
   transition: padding 800ms cubic-bezier(0.645, 0.045, 0.355, 1),
     background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -1564,7 +1571,7 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-bottom: #50322E 0.05rem solid;
+  border-bottom: #50322e 0.05rem solid;
   padding: 12rem 0rem 12rem 0rem;
   background-color: #f6e3dc;
   line-height: 580%;
@@ -1578,7 +1585,7 @@ ul {
 .cover-and-list {
   display: flex;
   justify-content: space-between;
-  border-bottom: #50322E 0.05rem solid;
+  border-bottom: #50322e 0.05rem solid;
 }
 
 .cover-and-list ul {
@@ -1638,7 +1645,7 @@ ul {
   text-align: right;
   font-size: 2.4rem;
   max-width: 40rem;
-  background-color: #926579;
+  background-color: #fb896d;
   color: #fff;
   padding: 3.2rem;
   border-radius: 1.6rem;
@@ -1653,7 +1660,7 @@ ul {
   font-size: 2.4rem;
   max-width: 40rem;
   background-color: #e5bfd6;
-  color: #50322E;
+  color: #50322e;
   border-radius: 1.6rem;
 }
 
@@ -1771,6 +1778,10 @@ ul {
     display: none;
   }
 
+  .intro {
+    display: none;
+  }
+
   .responsive-hero {
     display: flex;
     flex-direction: column;
@@ -1812,7 +1823,7 @@ ul {
   .dot {
     height: 25px;
     width: 25px;
-    background-color: #50322E;
+    background-color: #50322e;
     border-radius: 50%;
     /* display: inline-block; */
   }

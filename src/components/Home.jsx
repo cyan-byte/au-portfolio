@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
 import { NavLink } from "react-router-dom";
@@ -6,24 +5,17 @@ import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
 
 export default function Home() {
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
     <div
       className="home-container"
       style={{
-        background: `url('${process.env.PUBLIC_URL}/warm-clouds.jpg')`,
+        background: `url('${process.env.PUBLIC_URL}/pexels-ian-panelo-7116587.jpg')`,
         backgroundRepeat: "no-repeat",
+        backgroundBlendMode: "luminosity",
       }}
     >
       <Nav />
-      <div
-        className="hero"
-        // style={{
-        //   background: `url('${process.env.PUBLIC_URL}/warm-clouds.jpg')`,
-        //   backgroundRepeat: "no-repeat",
-        // }}
-      >
+      <div className="hero">
         {" "}
         <h1 className="hero-h1">HELLO,</h1>
         <div className="truly-cropped-container">
@@ -41,7 +33,7 @@ export default function Home() {
                 width: "38.5rem",
                 height: "21.692rem",
                 borderRadius: "1.2rem",
-                padding: "2rem",
+                padding: "1.6rem",
                 border: "#50322E .1rem solid",
               }}
             />
@@ -61,6 +53,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ------------------------------------------------------------- */}
       <div className="responsive-hero">
         <div>
           <h1>Hi, I'm Alisha,</h1>
@@ -84,11 +77,86 @@ export default function Home() {
               height: "auto",
               borderRadius: "1.2rem",
               padding: "1rem",
-              border: "#50322E .1rem solid",
+              borderLeft: "#50322E .1rem solid",
             }}
           />
         </a>
       </div>
+      {/* ------------------------------------------------------ */}
+
+      <section className="intro">
+        <div className="intro-left">
+          <h1>I'M ALISHA,</h1>
+          <p>
+            a <span className="bold-text">Digital Designer</span> with knowledge
+            of <span className="bold-text">front-end development</span>. Design
+            gives me a chance to be creative, but with a structure that makes
+            sense.
+          </p>
+          <div>
+            <button className="primary-button">About me</button>
+          </div>
+        </div>
+        <div className="intro-right">
+          <div className="intro-squares-container">
+            <div className="squares1">
+              <div className="intro-squares">Web Design</div>
+              <div
+                className="intro-squares"
+                style={{
+                  background: `url('${process.env.PUBLIC_URL}/moduvo-landing-desktop.png')`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                }}
+              ></div>
+            </div>
+            <div className="squares2">
+              <div
+                className="intro-squares"
+                style={{
+                  background: `url('${process.env.PUBLIC_URL}/moduvo-square.png')`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                }}
+              ></div>
+              <div className="intro-squares">Brand Identity</div>
+            </div>
+            <div className="squares3">
+              <div className="intro-squares">Booklet Design</div>
+              <div
+                className="intro-squares"
+                style={{
+                  background: `url('${process.env.PUBLIC_URL}/booklet-square.png')`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                }}
+              ></div>
+            </div>
+            <div className="squares4">
+              <div
+                className="intro-squares"
+                style={{
+                  background: `url('${process.env.PUBLIC_URL}/mobile-square.png')`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                }}
+              ></div>
+              <div className="intro-squares">App Design</div>
+            </div>
+            <div className="squares5">
+              <div className="intro-squares">UI Design</div>
+              <div
+                className="intro-squares"
+                style={{
+                  background: `url('${process.env.PUBLIC_URL}/ui-square.png')`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div className="web-design-container" id="web-design">
         <div className="wdc-top">
@@ -298,40 +366,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="  what-container">
-        <div className="what-border">
-          <div
-            className="what-i-do"
-            style={{
-              background: `url('${process.env.PUBLIC_URL}/what-i-do-frame.png')`,
-              backgroundRepeat: "no-repeat",
-              width: "47.8rem",
-              height: "49rem",
-            }}
-          >
-            <h1>What I Do</h1>
-            <div className="what-i-do-small-text">
-              <div className="contents-list">
-                <h3>CONTENTS</h3>
-                <p>
-                  Web Design
-                  <br />
-                  Mobile App Design
-                  <br /> Email Design <br />
-                  Graphic Design <br />
-                  Digital Illustration
-                  <br /> Analog Drawing
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div
         className="hero-designs-container"
         style={{
-          background: `url('${process.env.PUBLIC_URL}/hero-layouts-bg.png')`,
+          background: `url('${process.env.PUBLIC_URL}/pexels-ian-panelo-7116587.jpg')`,
           backgroundRepeat: "repeat",
         }}
       >
