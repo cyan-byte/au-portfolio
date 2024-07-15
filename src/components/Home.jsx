@@ -40,7 +40,7 @@ export default function Home() {
           </a>
         </div>
         <div className="buttons-container">
-          <a href="#web-design" className="nav-link">
+          <a href="#intro" className="nav-link">
             <div>
               <button className="primary-button">My Work</button>
             </div>
@@ -84,7 +84,7 @@ export default function Home() {
       </div>
       {/* ------------------------------------------------------ */}
 
-      <section className="intro">
+      <section className="intro" id="intro">
         <div className="intro-left">
           <h1>I'M ALISHA,</h1>
           <p>
@@ -160,7 +160,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="branding">
+      <div className="branding" id="brand-design">
         <div
           className="branding-left"
           style={{
