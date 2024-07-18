@@ -16,7 +16,6 @@ export default function Home() {
     >
       <Nav />
       <div className="hero">
-        {" "}
         <h1 className="hero-h1">HELLO,</h1>
         <div className="truly-cropped-container">
           <span className="dot"></span>

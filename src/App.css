@@ -93,6 +93,11 @@ button:hover::after {
   width: 100%;
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -100,7 +105,7 @@ button:hover::after {
   align-items: center;
   border-bottom: #50322e 0.1rem solid;
   gap: 3.2rem;
-  height: 42rem;
+  /* height: 42rem; */
   padding: 8rem;
   min-height: 88vh;
 }
@@ -153,23 +158,13 @@ button:hover::after {
 }
 
 .truly-gif {
-  margin-top: -20rem;
+  margin-top: -16rem;
 }
 
 .welcome {
   font-size: 1.6rem;
   letter-spacing: 0.5rem;
   text-align: center;
-}
-
-.hero-h1 {
-  font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
-  font-size: 14rem;
-  line-height: 85%;
-  font-weight: 900;
-  color: #fde7d5;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #50322e;
 }
 
 .sub-header {
@@ -221,7 +216,6 @@ button:hover::after {
 
 /* -------------------------Hero 1 ^^^^^------------------ */
 
-/* ----------------Hero Alternative----------------*/
 .hero {
   display: flex;
   justify-content: center;
@@ -230,60 +224,13 @@ button:hover::after {
 }
 
 .hero-h1 {
-  color: #f6e3dc !important;
-  font-size: 34rem;
-}
-
-/* what i do */
-.what-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #252525;
-  height: 100vh;
-}
-.what-i-do {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: #50322e;
-  padding-top: 4.8rem;
-  gap: 7.2rem;
-}
-
-.what-i-do h1 {
-  color: #fefcfd;
   font-family: "Elsie Swash Caps", Georgia, "Times New Roman", Times, serif;
-  font-size: 8.8rem;
-  max-width: 23.4rem;
+  font-size: 32rem;
+  line-height: 85%;
   font-weight: 900;
-  text-align: center;
-  line-height: 88%;
-}
-.contents-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.8rem;
-}
-
-.what-i-do-small-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.what-i-do h2 {
-  color: #ffbe98;
-  font-size: 1.6rem;
-  font-weight: 500;
-}
-
-.what-i-do p {
-  color: #fefcfd;
-  font-size: 1.4rem;
-  text-align: center;
-  line-height: 140%;
+  color: #fde7d5;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #50322e;
 }
 
 .web-design-container {
@@ -343,7 +290,7 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 80vh;
+  min-height: 80vh;
   gap: 0.8rem;
 }
 
@@ -484,7 +431,7 @@ button:hover::after {
   padding-top: 3.2rem;
 }
 .three-mobile-mockups {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .timeline-role {
@@ -515,7 +462,7 @@ button:hover::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .problem-left {
@@ -533,7 +480,7 @@ button:hover::after {
   display: flex;
   flex-direction: column;
   gap: 5.6rem;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .solution-top {
@@ -561,7 +508,7 @@ button:hover::after {
   flex-direction: column;
   padding-top: 12rem;
   gap: 3.2rem;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .research-methods {
@@ -569,7 +516,7 @@ button:hover::after {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .research-methods-left {
@@ -586,7 +533,7 @@ button:hover::after {
   justify-content: center;
   padding: 0 12rem 0 12rem;
   gap: 4rem;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .price-tags {
@@ -598,7 +545,7 @@ button:hover::after {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   gap: 4rem;
   padding: 0 12rem 0 12rem;
@@ -624,7 +571,7 @@ button:hover::after {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  height: 100vh;
+  min-height: 100vh;
   padding: 0 12rem 0 12rem;
 }
 
@@ -639,7 +586,7 @@ button:hover::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .wireframes {
@@ -648,7 +595,7 @@ button:hover::after {
   justify-content: center;
   align-items: center;
   gap: 4.8rem;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .wireframes-top {
@@ -1276,7 +1223,7 @@ button:hover::after {
 .ad-right {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   /*^ This one aligned it vertically!  */
   gap: 2.4rem;
   max-width: 54.2rem;
@@ -1627,7 +1574,7 @@ ul {
 .booklet-instructions {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 7.2rem;
 }
 
@@ -1689,7 +1636,7 @@ ul {
 
 .smile {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   font-size: 3.2rem;
   padding: 12rem;
 }
@@ -1774,7 +1721,7 @@ ul {
 /* For screens smaller than 76.8rem (tablets and below) */
 @media (max-width: 76.8rem) {
   .hero {
-    display: none;
+    /* display: none; */
   }
 
   .intro {
@@ -1813,10 +1760,6 @@ ul {
   h2,
   h3 p {
     text-align: center;
-  }
-
-  .hero-h1 h1 {
-    font-size: 5.6rem;
   }
 
   .dot {
