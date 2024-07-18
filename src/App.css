@@ -229,7 +229,7 @@ button:hover::after {
   line-height: 85%;
   font-weight: 900;
   color: #fde7d5;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #50322e;
 }
 
@@ -1672,9 +1672,13 @@ ul {
 
 /* Media Queries */
 @media (max-width: 76.8rem) {
-.hero {
-  display: none;
-}
+  .hero {
+    display: none;
+  }
+
+  .booklet-design-home-container {
+    display: none;
+  }
 
   .hero,
   .wdc-left-right,
