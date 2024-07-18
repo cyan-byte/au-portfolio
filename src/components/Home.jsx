@@ -39,7 +39,7 @@ export default function Home() {
           </a>
         </div>
         <div className="buttons-container">
-          <a href="#intro" className="nav-link">
+          <a href="#brand-design" className="nav-link">
             <div>
               <button className="primary-button">My Work</button>
             </div>
