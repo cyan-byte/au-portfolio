@@ -1676,6 +1676,10 @@ ul {
     display: none;
   }
 
+  .ui-design-top-bottom {
+    padding: 1.6rem
+  }
+
 
   .hero,
   .wdc-left-right,
