@@ -1672,6 +1672,10 @@ ul {
 
 /* Media Queries */
 @media (max-width: 76.8rem) {
+.hero {
+  display: none;
+}
+
   .hero,
   .wdc-left-right,
   .mobile-bottom,
