@@ -1672,13 +1672,10 @@ ul {
 
 /* Media Queries */
 @media (max-width: 76.8rem) {
-  .hero {
+  .hero,   .booklet-design-home-container, .portait-artist-container, .branding{
     display: none;
   }
 
-  .booklet-design-home-container {
-    display: none;
-  }
 
   .hero,
   .wdc-left-right,
