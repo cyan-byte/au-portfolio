@@ -230,7 +230,7 @@ button:hover::after {
   line-height: 85%;
   font-weight: 900;
   color: #fde7d5;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: #50322e;
 }
 
@@ -1673,7 +1673,7 @@ ul {
 
 /* Media Queries */
 @media (max-width: 76.8rem) {
-  .hero,   .booklet-design-home-container, .portait-artist-container, .branding, .truly-cropped-container2{
+  .hero,   .booklet-design-home-container, .portait-artist-container, .branding, .wdc-right{
     display: none;
   }
 
