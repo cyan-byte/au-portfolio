@@ -241,7 +241,7 @@ export default function Home() {
             </div>
           </div>
           <div className="wdc-right">
-            <div className="truly-cropped-container">
+            <div className="truly-cropped-container2">
               <span className="dot"></span>
               <a
                 href="https://bit.ly/trulywebdesign"

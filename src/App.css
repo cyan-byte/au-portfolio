@@ -161,6 +161,7 @@ button:hover::after {
   margin-top: -16rem;
 }
 
+
 .welcome {
   font-size: 1.6rem;
   letter-spacing: 0.5rem;
@@ -1672,7 +1673,7 @@ ul {
 
 /* Media Queries */
 @media (max-width: 76.8rem) {
-  .hero,   .booklet-design-home-container, .portait-artist-container, .branding{
+  .hero,   .booklet-design-home-container, .portait-artist-container, .branding, .truly-cropped-container2{
     display: none;
   }
 
@@ -1862,6 +1863,7 @@ ul {
 
   .footer {
     flex-direction: column;
+    background-color: #fff;
   }
 
   .card h3,
