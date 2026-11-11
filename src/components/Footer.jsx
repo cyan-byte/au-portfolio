@@ -47,7 +47,7 @@ export default function Footer() {
 
       <div className="footer-right">
         <p>Site designed by Alisha Upton</p>
-        <p>Copyright &copy; 2024</p>
+        <p>Copyright &copy; 2026</p>
       </div>
     </div>
   );
